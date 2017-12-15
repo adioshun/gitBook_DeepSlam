@@ -11,6 +11,8 @@
 
 - [Road-SLAM : Road marking based SLAM with lane-level accuracy](ieeexplore.ieee.org/document/7995958/): 2017, 카이스트
 
+- [The SLAM problem: a survey](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.163.6439&rep=rep1&type=pdf): 2008
+
 ## 3. Article (Post, blog, etc.)
 
 - [Brief Review on Visual SLAM: A Historical Perspective](http://fzheng.me/2016/05/30/slam-review/): 2016
@@ -18,6 +20,10 @@
 - [[SLAM] Graph-based SLAM (Pose graph SLAM)](http://jinyongjeong.github.io/2017/02/26/lec13_Least_square_SLAM/)
 
 - ~~[Lidar를 이용한 SLAM 구현하기](http://blog.naver.com/gunwooyeon/221064360241)~~
+
+- ~~[SLAM your robot or drone with Python and a $150 Lidar](https://www.linkedin.com/pulse/slam-your-robot-drone-python-150-lidar-chris-fotache/)~~: 로봇 청소기의 Lidar이용($149), Python 코드 + 노트북/아두이노 연결 
+    
+    
 
 ## 4. Youtube 
 
