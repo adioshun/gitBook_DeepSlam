@@ -5,6 +5,8 @@
 
 ## 1.  List
 
+- [Trello_SLAM Research Curation Bopard](https://trello.com/b/RPrgrqHx/slam-research-curation-board)
+
 ## 2. Paper
 
 - [무인-시스템의-자율-주행을-위한-영상기반-항법기술-동향](https://goo.gl/iEGZo9): 2015
@@ -12,6 +14,11 @@
 - [Road-SLAM : Road marking based SLAM with lane-level accuracy](ieeexplore.ieee.org/document/7995958/): 2017, 카이스트
 
 - [The SLAM problem: a survey](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.163.6439&rep=rep1&type=pdf): 2008
+
+- [Semantic mapping for mobile robotics tasks: A survey](https://www.sciencedirect.com/science/article/pii/S0921889014003030): 2015
+
+
+
 
 ## 3. Article (Post, blog, etc.)
 
