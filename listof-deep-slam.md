@@ -7,6 +7,8 @@
 
 - [Trello_SLAM Research Curation Bopard](https://trello.com/b/RPrgrqHx/slam-research-curation-board)
 
+- [awesome-SLAM-list](https://github.com/OpenSLAM/awesome-SLAM-list)
+
 ## 2. Paper
 
 - [무인-시스템의-자율-주행을-위한-영상기반-항법기술-동향](https://goo.gl/iEGZo9): 2015
@@ -17,8 +19,13 @@
 
 - [Semantic mapping for mobile robotics tasks: A survey](https://www.sciencedirect.com/science/article/pii/S0921889014003030): 2015
 
+- [A Survey of Visual SLAM Based on Deep Learning](https://www.researchgate.net/publication/320042159_A_Survey_of_Visual_SLAM_Based_on_Deep_Learning): 2017
 
+- [Simultaneous Localization And Mapping: A Survey of Current Trends in Autonomous Driving](https://hal.archives-ouvertes.fr/hal-01615897/file/2017-simultaneous_localization_and_mapping_a_survey_of_current_trends_in_autonomous_driving.pdf):2017
 
+- [Toward Geometric Deep SLAM](https://arxiv.org/abs/1707.07410): ?? 2017, [reddit](https://www.reddit.com/r/MachineLearning/comments/6pm5h3/r_toward_geometric_deep_slam/)
+
+- CNN-SLAM - Real-Time Dense Monocular SLAM With Learned Depth Prediction : [CVPR 2017](https://www.youtube.com/watch?v=fRBVMd5EU9M), [Youtube](CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction)
 
 ## 3. Article (Post, blog, etc.)
 
@@ -30,13 +37,17 @@
 
 - ~~[SLAM your robot or drone with Python and a $150 Lidar](https://www.linkedin.com/pulse/slam-your-robot-drone-python-150-lidar-chris-fotache/)~~: 로봇 청소기의 Lidar이용($149), Python 코드 + 노트북/아두이노 연결 
     
-    
+- [The Future of Real-Time SLAM and Deep Learning vs SLAM](http://www.computervisionblog.com/2016/01/why-slam-matters-future-of-real-time.html): 2016 
+
+- [How can Deep Learning help Robotics and SLAM](https://nicolovaligi.com/deep-learning-robotics-slam.html)
 
 ## 4. Youtube 
 
 ## 5.  Tutorial (Series,Class )
 
 - [3D Object Recognition with Deep Networks Project for the 3D Vision course at ETHZ](https://github.com/tobiagru/Deep-3D-Obj-Recognition)
+
+- [The English version of 14 lectures on visual SLAM.](https://gaoxiang12.github.io/slambook-en/)
 
 ## 6.  Material 
 
