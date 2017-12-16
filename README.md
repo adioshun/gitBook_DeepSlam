@@ -10,7 +10,8 @@
 | 참고 | |
 | 코드 | |
 
-
+- SLAM is prime example of a what is called a "Geometric Method" in Computer Vision.
+    - eg. CMU의 computer vision강의 = Learning-based Methods in Vision + Geometry-Based Methods in Vision 로 나누어짐 
 
 - SLAM algorithms are complementary to ConvNets and Deep Learning: 
     - SLAM focuses on geometric problems 
