@@ -27,6 +27,8 @@
 
 - CNN-SLAM - Real-Time Dense Monocular SLAM With Learned Depth Prediction : [CVPR 2017](https://www.youtube.com/watch?v=fRBVMd5EU9M), [Youtube](CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction)
 
+- Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age : 2016
+
 ## 3. Article (Post, blog, etc.)
 
 - [Brief Review on Visual SLAM: A Historical Perspective](http://fzheng.me/2016/05/30/slam-review/): 2016
