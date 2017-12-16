@@ -53,6 +53,9 @@
 
 ## 6.  Material 
 
+- [The Future of Real-Time SLAM](http://wp.doc.ic.ac.uk/thefutureofslam/programme/), ICCV 2015
+    - [15 Years of Visual SLAM](http://wp.doc.ic.ac.uk/thefutureofslam/wp-content/uploads/sites/93/2015/12/slides_ajd.pdf)
+
 ## 7.  Implementation (Project)
 
 - [SFM-Visual-SLAM](https://github.com/marknabil/SFM-Visual-SLAM)
