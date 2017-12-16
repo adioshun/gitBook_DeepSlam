@@ -12,4 +12,11 @@
 
 
 
+- SLAM algorithms are complementary to ConvNets and Deep Learning: 
+    - SLAM focuses on geometric problems 
+    - Deep Learning is the master of perception (recognition) problems. 
 
+> If you want a robot to go towards your refrigerator without hitting a wall, use SLAM. If you want the robot to identify the items inside your fridge, use ConvNets.
+
+
+- SLAM is a real-time version of Structure from Motion (SfM)
