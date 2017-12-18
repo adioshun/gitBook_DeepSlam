@@ -10,14 +10,26 @@
 | 참고 | |
 | 코드 | |
 
-- SLAM is prime example of a what is called a "Geometric Method" in Computer Vision.
-    - eg. CMU의 computer vision강의 = Learning-based Methods in Vision + Geometry-Based Methods in Vision 로 나누어짐 
-
-- SLAM algorithms are complementary to ConvNets and Deep Learning: 
-    - SLAM focuses on geometric problems 
-    - Deep Learning is the master of perception (recognition) problems. 
-
-> If you want a robot to go towards your refrigerator without hitting a wall, use SLAM. If you want the robot to identify the items inside your fridge, use ConvNets.
 
 
-- SLAM is a real-time version of Structure from Motion (SfM)
+### A majority of SLAM systems share several common components:
+
+- **feature detector** that finds point of interest within the image (features),
+- **feature descriptor** that matches tracks features from one image to the next,
+- **optimization** backend that uses said correspondences to build a geometry of the scene (map) and find the position of the robot,
+- **loop closure detection algorithm** that recognizes previously visited areas and adds constraints to the map.
+    - loop closure has the most potential to be solved with DL techniques.
+    
+> 출처 : [How can Deep Learning help Robotics and SLAM](https://nicolovaligi.com/deep-learning-robotics-slam.html)
+
+
+
+
+## Software 
+
+### Visual SLAM
+
+- ORB-SLAM is arguably the most advanced open-source package for visual SLAM. 
+    - ORB uses another common technique, a **bag of words (BoW)** representation
+
+### LiDAR SLAM 
