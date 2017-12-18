@@ -29,6 +29,8 @@
 
 - Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age : 2016
 
+- [Dense Semantic SLAM](https://www.doc.ic.ac.uk/~rfs09/docs/Salas-Moreno-R-2014-PhD-Thesis.pdf): Moreno's PhD thesis, 2014, Supervised by Prof. Andrew Davison
+
 ## 3. Article (Post, blog, etc.)
 
 - [Brief Review on Visual SLAM: A Historical Perspective](http://fzheng.me/2016/05/30/slam-review/): 2016
@@ -39,9 +41,11 @@
 
 - ~~[SLAM your robot or drone with Python and a $150 Lidar](https://www.linkedin.com/pulse/slam-your-robot-drone-python-150-lidar-chris-fotache/)~~: 로봇 청소기의 Lidar이용($149), Python 코드 + 노트북/아두이노 연결 
     
-- [The Future of Real-Time SLAM and Deep Learning vs SLAM](http://www.computervisionblog.com/2016/01/why-slam-matters-future-of-real-time.html): 2016 
+- [The Future of Real-Time SLAM and Deep Learning vs SLAM](http://www.computervisionblog.com/2016/01/why-slam-matters-future-of-real-time.html): 2016, 30%, 아직은 딥러닝과 SLAM사이에는 갭이 있고 시멘틱 슬램이 하나의 융합 결과 이다. 
 
 - [How can Deep Learning help Robotics and SLAM](https://nicolovaligi.com/deep-learning-robotics-slam.html)
+
+- [One way Google’s cars localize themselves](https://mappingignorance.org/2014/04/07/one-way-googles-cars-localize/)
 
 ## 4. Youtube 
 
@@ -54,7 +58,8 @@
 ## 6.  Material 
 
 - [The Future of Real-Time SLAM](http://wp.doc.ic.ac.uk/thefutureofslam/programme/), ICCV 2015
-    - [15 Years of Visual SLAM](http://wp.doc.ic.ac.uk/thefutureofslam/wp-content/uploads/sites/93/2015/12/slides_ajd.pdf)
+
+- [15 Years of Visual SLAM](https://goo.gl/whxtPq)
 
 ## 7.  Implementation (Project)
 
