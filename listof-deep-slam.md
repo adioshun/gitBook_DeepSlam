@@ -43,7 +43,7 @@
     
 - [The Future of Real-Time SLAM and Deep Learning vs SLAM](http://www.computervisionblog.com/2016/01/why-slam-matters-future-of-real-time.html): 2016, 30%, 아직은 딥러닝과 SLAM사이에는 갭이 있고 시멘틱 슬램이 하나의 융합 결과 이다. 
 
-- [How can Deep Learning help Robotics and SLAM](https://nicolovaligi.com/deep-learning-robotics-slam.html)
+- [How can Deep Learning help Robotics and SLAM](https://nicolovaligi.com/deep-learning-robotics-slam.html) : SLAM + Deeplearning 융합 연구 결과 언급 
 
 - [One way Google’s cars localize themselves](https://mappingignorance.org/2014/04/07/one-way-googles-cars-localize/)
 
