@@ -41,7 +41,7 @@
 
 - ~~[SLAM your robot or drone with Python and a $150 Lidar](https://www.linkedin.com/pulse/slam-your-robot-drone-python-150-lidar-chris-fotache/)~~: 로봇 청소기의 Lidar이용($149), Python 코드 + 노트북/아두이노 연결 
     
-- [The Future of Real-Time SLAM and Deep Learning vs SLAM](http://www.computervisionblog.com/2016/01/why-slam-matters-future-of-real-time.html): 2016, 30%, 아직은 딥러닝과 SLAM사이에는 갭이 있고 시멘틱 슬램이 하나의 융합 결과 이다. 
+- [The Future of Real-Time SLAM and Deep Learning vs SLAM(30%)](http://www.computervisionblog.com/2016/01/why-slam-matters-future-of-real-time.html): 2016,아직은 딥러닝과 SLAM사이에는 갭이 있고 시멘틱 슬램이 하나의 융합 결과 이다. 
 
 - ~~[How can Deep Learning help Robotics and SLAM](https://nicolovaligi.com/deep-learning-robotics-slam.html)~~ : SLAM + Deeplearning 융합 연구 결과 언급 (추후 논문 리뷰시 참고)
 
