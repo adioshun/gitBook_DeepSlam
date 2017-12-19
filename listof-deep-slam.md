@@ -54,7 +54,9 @@
 
 - [SLAM Tutorial](https://www.youtube.com/watch?v=3s3W3EOFBY4): 특강, BrownCS141 Spring 2014, 
 
-- Introduction to Robotics Course :[Lecture 13 - SLAM - Robotic Mapping](https://www.youtube.com/watch?v=xoULHsN3bjQ), [Lecture 15 - SLAM Examples](https://www.youtube.com/watch?v=tevKOba4sUs): 특강
+- Introduction to Robotics Course :~~[Lecture 13 - SLAM - Robotic Mapping](https://www.youtube.com/watch?v=xoULHsN3bjQ)~~, 특강
+
+- Introduction to Robotics Course :[Lecture 15 - SLAM Examples](https://www.youtube.com/watch?v=tevKOba4sUs): 특강, Multi Robot SLAM and Map Merging
 
 - [Claus Brenner](https://www.youtube.com/watch?v=B2qzYCeT9oQ&list=PLpUPoM7Rgzi_7YWn14Va2FODh7LzADBSm&index=1): LiDAR SLAM강의, python코드 제공, 2013
 
