@@ -53,7 +53,7 @@
 
 - [3D Object Recognition with Deep Networks Project for the 3D Vision course at ETHZ](https://github.com/tobiagru/Deep-3D-Obj-Recognition)
 
-- [The English version of 14 lectures on visual SLAM.](https://gaoxiang12.github.io/slambook-en/)
+- [The English version of 14 lectures on visual SLAM.](https://gaoxiang12.github.io/slambook-en/) : 2/14만 완료 
 
 ## 6.  Material 
 
