@@ -11,7 +11,7 @@
 
 ## 2. Paper
 
-- [무인-시스템의-자율-주행을-위한-영상기반-항법기술-동향](https://goo.gl/iEGZo9): 2015
+- ~~[무인-시스템의-자율-주행을-위한-영상기반-항법기술-동향](https://goo.gl/iEGZo9)~~: 비쥬얼 서보잉, 비쥬얼 오도메트리, 영상기반 SLAM, 2015
 
 - [Road-SLAM : Road marking based SLAM with lane-level accuracy](ieeexplore.ieee.org/document/7995958/): 2017, 카이스트
 
