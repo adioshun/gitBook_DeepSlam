@@ -51,7 +51,13 @@
 
 ## 4. Youtube 
 
+- [Introduction to VSLAM Presentation](https://www.youtube.com/watch?v=s0W4kW-ZVAg): 1:28분, 2013
+
+- [Real-Time Visual Localisation and Mapping with a Single Camera](https://www.youtube.com/watch?v=07J-var0wUw): 1:09분, 2016, MS Research
+
 - [Online SLAM - Artificial Intelligence for Robotics](): 8:49초, 2015, Udacity
+    - [Localization Program - Artificial Intelligence for Robotics](https://www.youtube.com/watch?v=9a42_zEeeA0)
+    - [Localization Program Solution - Artificial Intelligence for Robotics](https://www.youtube.com/watch?v=37McU8k7FN8)
 
 - [SLAM Tutorial](https://www.youtube.com/watch?v=3s3W3EOFBY4): 특강, BrownCS141 Spring 2014, 
 
