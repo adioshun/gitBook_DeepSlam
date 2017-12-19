@@ -49,11 +49,27 @@
 
 ## 4. Youtube 
 
+- [[추천] Visual Navigation for Flying Robots](https://www.youtube.com/watch?v=f5khDPUMYmQ&list=PLTBdjV_4f-EKeki5ps2WHqJqyQvxls4ha): [홈페이지](https://vision.in.tum.de/teaching/ss2013/visnav2013)
+
+- [MOOC: Autonomous Navigation for Flying Robots (EdX course)](https://www.youtube.com/watch?v=YT8pnN8lwxA&list=PLTBdjV_4f-EKBCUs1HmMtsnXv4JUoFrzg), [edX](https://www.edx.org/course/autonomous-navigation-flying-robots-tumx-autonavx-0)
+![](https://i.imgur.com/7MJiLFs.png)
+
+- [SLAM Tutorial](https://www.youtube.com/watch?v=3s3W3EOFBY4): 특강, BrownCS141 Spring 2014, 
+
+- Introduction to Robotics Course :[Lecture 13 - SLAM - Robotic Mapping](https://www.youtube.com/watch?v=xoULHsN3bjQ), [Lecture 15 - SLAM Examples](https://www.youtube.com/watch?v=tevKOba4sUs): 특강
+
+- [Claus Brenner](https://www.youtube.com/watch?v=B2qzYCeT9oQ&list=PLpUPoM7Rgzi_7YWn14Va2FODh7LzADBSm&index=1): LiDAR SLAM강의, python코드 제공, 2013
+
+- [Cyrill Stachniss](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_): 강의, 2013
+
 ## 5.  Tutorial (Series,Class )
 
 - [3D Object Recognition with Deep Networks Project for the 3D Vision course at ETHZ](https://github.com/tobiagru/Deep-3D-Obj-Recognition)
 
 - [The English version of 14 lectures on visual SLAM.](https://gaoxiang12.github.io/slambook-en/) : 2/14만 완료 
+
+
+
 
 ## 6.  Material 
 
