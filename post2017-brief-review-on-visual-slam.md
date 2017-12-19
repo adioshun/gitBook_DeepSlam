@@ -19,4 +19,11 @@
 
 - Davision에 위한 Landmart연구로 인하여 비젼이 SLAM과 연계 되었다. `Landmark work of bringing vision into SLAM came from A. Davison’s Mono-SLAM in early 2000s `
 
-- 
+- 모노 슬램은 이미지 feature를 이용하여 랜드마트크를 표현한다. `Mono-SLAM uses image features (local image patches) to represent landmarks in the map,`
+
+ - 반복적으로 연속된 이미지에서 **probability density of the feature depth**를 추출 한다. `iteratively updates the probability density of the feature depth by frame-to-frame matching to recover their 3-D positions and hence initilize feature-based sparse map,`
+ 
+ -  이후 EKF를 사용하여 full state vector를 갱신한다. `and updates the full state vector (robot pose plus feature 3-D locations) within an Extended Kalman Filter (EKF) framework.`
+ 
+ 
+> 데이빗의 연구는 어떻게 보면 기존의 베이지안 필터 기반으 VSLAM과 유사하다. `Davison’s work in some way set the standard framework for traditional Bayesian filtering based visual SLAM implementation.`
