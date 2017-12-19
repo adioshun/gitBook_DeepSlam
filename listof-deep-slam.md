@@ -49,11 +49,6 @@
 
 ## 4. Youtube 
 
-- [[추천] Visual Navigation for Flying Robots](https://www.youtube.com/watch?v=f5khDPUMYmQ&list=PLTBdjV_4f-EKeki5ps2WHqJqyQvxls4ha): [홈페이지](https://vision.in.tum.de/teaching/ss2013/visnav2013)
-![](https://i.imgur.com/JpxzTLq.png)
-
-- [MOOC: Autonomous Navigation for Flying Robots (EdX course)](https://www.youtube.com/watch?v=YT8pnN8lwxA&list=PLTBdjV_4f-EKBCUs1HmMtsnXv4JUoFrzg), [edX](https://www.edx.org/course/autonomous-navigation-flying-robots-tumx-autonavx-0), 파이썬기반, 영문 스크립 제공  
-![](https://i.imgur.com/7MJiLFs.png)
 
 - [SLAM Tutorial](https://www.youtube.com/watch?v=3s3W3EOFBY4): 특강, BrownCS141 Spring 2014, 
 
