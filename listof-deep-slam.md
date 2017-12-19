@@ -51,6 +51,7 @@
 
 ## 4. Youtube 
 
+- [Online SLAM - Artificial Intelligence for Robotics](): 8:49초, 2015, Udacity
 
 - [SLAM Tutorial](https://www.youtube.com/watch?v=3s3W3EOFBY4): 특강, BrownCS141 Spring 2014, 
 
