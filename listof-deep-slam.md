@@ -57,9 +57,11 @@
 
 - [Keyframe-based SLAM for hand-held Augmented Reality](https://www.youtube.com/watch?v=UPLROIlyBWs) : AR, MS Research, 2016
 
+
 - Online SLAM - Artificial Intelligence for Robotics: 8:49초, 2015, Udacity
     - [Localization Program - Artificial Intelligence for Robotics](https://www.youtube.com/watch?v=9a42_zEeeA0)
     - [Localization Program Solution - Artificial Intelligence for Robotics](https://www.youtube.com/watch?v=37McU8k7FN8)
+
 
 - [SLAM Tutorial](https://www.youtube.com/watch?v=3s3W3EOFBY4): 특강, BrownCS141 Spring 2014, 
 
@@ -86,7 +88,7 @@
 
 - [The Future of Real-Time SLAM](http://wp.doc.ic.ac.uk/thefutureofslam/programme/), ICCV 2015
 
-- [15 Years of Visual SLAM](https://goo.gl/whxtPq)
+- [15 Years of Visual SLAM](https://goo.gl/whxtPq): ppt, Andrew Davison, 2015
 
 ## 7.  Implementation (Project)
 
