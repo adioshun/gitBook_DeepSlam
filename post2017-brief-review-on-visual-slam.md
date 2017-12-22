@@ -61,16 +61,32 @@ Figure 1: Mono-SLAM vs PTAM.
  - PTAM(Parallel Tracking and Mapping), Georg Klein and David Murray, 2007
 
 
-- PTAM is also a feature-based SLAM algorithm that tracks and maps many (hundreds of) features to achieve robustness. 
+- PTAM역시 특징 기반 SLAM이다. `PTAM is also a feature-based SLAM algorithm that tracks and maps many (hundreds of) features to achieve robustness. `
 
-- Simultaneously, it runs in real-time by creatively parallelizing the motion estimation and mapping tasks and by relying on efficient keyframe-based Bundle Adjustment (BA) instead of Bayesian filtering for pose and map refinement, which are two main reasons to make PTAM outperform MonoSLAM and the like in both efficiency and precision. 
+- 베이지안 필터 대신에 키프레임 기반 BA를 사용하여 실시간으로 모션 측정 및 지도 생성(Mapping)을 한다. 
+ - Simultaneously, it runs in real-time by creatively parallelizing the motion estimation and mapping tasks and 
+ - by relying on efficient keyframe-based **Bundle Adjustment (BA)** instead of Bayesian filtering for pose and map refinement, 
+ - which are two main reasons to make PTAM outperform MonoSLAM and the like in both efficiency and precision. 
 
-- 설계는 AR을 목적으로 하고 작은 책상 공간크기에서만 동작 하고 Global Map을 관리 하지 않지만 주요 아이디어(parallelizing tracking, mapping and keyframe-based map management)들은 최근 비쥬얼 슬램에 많이 적용 되고 있다.` Although PTAM is designed specifically for AR application and only works well in small desktop space without global map management, its implementation style of parallelizing tracking and mapping and keyframe-based map management is used by most of modern feature based visual SLAM systems (like ORB-SLAM [25]) or VO systems (like SVO [26]).`
- - modern feature based visual SLAM systems (like ORB-SLAM [25]) 
- - VO systems (like SVO [26])
+- PTAM 설계는 AR을 목적으로 하고 작은 책상 공간크기에서만 동작 하고 Global Map을 관리 하지 않지만 주요 아이디어(parallelizing tracking, mapping and keyframe-based map management)들은 최근 비쥬얼 슬램에 많이 적용 되고 있다.
+ - ` Although PTAM is designed specifically for AR application and only works well in small desktop space without global map management, its implementation style of parallelizing tracking and mapping and keyframe-based map management is used by most of modern feature based visual SLAM systems (like ORB-SLAM [25]) or VO systems (like SVO [26]).`
+  - modern feature based visual SLAM systems (like ORB-SLAM [25]) 
+  - VO systems (like SVO [26])
 
 
+- 사실 키프레임 기반 map를 BA를 이용해 refinement하는것은 **Graph SLAM **기술에 속한다. `In fact, keyframe-based map refinement with BA belongs to so-called Graph SLAM techniques,`
+ - 키프레임과 지도 포인트는 그래프이론에서의 노드로 간주되어 측정 에러를 최소화 하기 위한 최적화를 수행 한다. `as keyframes and map points are treated as nodes in a graph and optimized to minimize their measurement errors [27]. `
+ 
+- 그래프 슬램은 EKF 슬램에 비해 그래프상의 sparsity때문에 계산 부하가 적다. 
+Graph SLAM is better than EKF SLAM in the sparsity of the graph and thus computational efficiency. 
 
+
+- 2007년에 그래프 슬램을 위한 정보 필터 기반 방식이 제안 되었다. `Meanwhile in 2007, E. Eade and T. Drummond proposed an information filter based method of graph SLAM [28]. `
+ 
+- 정보필터 방식은 이론적으로는 BA방식과 비슷하다. `Information filter method is essentially similar to BA method in theory,`
+ - 그러나 PTAM은 확실히 창의적인 parallel tracking and mapping기법 때문에 기존 비쥬얼 슬램에 많은 영향을 미쳤다. `but PTAM obviously achieved greater influence in visual SLAM research due to its creative implementation of parallel tracking and mapping.`
+ 
+## 4. Effort towards Large Scale Mapping 
 
 
 
