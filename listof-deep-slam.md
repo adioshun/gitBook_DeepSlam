@@ -35,7 +35,7 @@
 
 ## 3. Article (Post, blog, etc.)
 
-- [Brief Review on Visual SLAM: A Historical Perspective](http://fzheng.me/2016/05/30/slam-review/): 2016
+- ~~[Brief Review on Visual SLAM: A Historical Perspective](http://fzheng.me/2016/05/30/slam-review/)~~:  2016
 
 - [[SLAM] Graph-based SLAM (Pose graph SLAM)](http://jinyongjeong.github.io/2017/02/26/lec13_Least_square_SLAM/)
 
