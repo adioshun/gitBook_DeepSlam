@@ -97,5 +97,66 @@ Graph SLAM is better than EKF SLAM in the sparsity of the graph and thus computa
 
 > Efficient map representation and and refinement is actually a necessary condition for good loop closing.
 
+- 그래프 슬램은 불필요한 정보를 줄여 줌으로 큰 지도작업에 강점을 보인다. `Graph SLAM shows its advantages in large scale mapping, since a graph can be easily sparsified to reduce redundant information. `
+
+### 4.1 Square Root SAM (Smoothing and Mapping) [29], iSAM [30] and iSAM2 [31]
+
+- M. Kaess, F. Dellaert et al.’s works, including Square Root SAM (Smoothing and Mapping) [29], iSAM [30] and iSAM2 [31], contributed a lot in theory for this problem. 
+
+- They investigated the theory and performance of graphical model for** map representation** and **matrix factorization** for valuable elimination and graph sparsification. 
+
+### 4.2 FAB-MAP [32]
+
+- Another famous work is FAB-MAP [32] by M. Cummins and P. Newman, 
+
+- which utilizes **visual bag-of-words** to do image retrieval for **loop closure detection**.
+
+### 4.3 loop closure detection
+
+- The problem of loop closure detection is still far from solved, 
+ - with challenges mainly in place recognition in long-term SLAM [33], 
+ - due to the illumination change, view-point change, dynamic or semi-dynamic objects and many other `pollution’ factors within one scene at different visited moments.
+ 
+
+## 5. Modern State of Art Systems
+
+- 로봇과 컴퓨터 비젼의 연구 결과가 합쳐지고 있다. 
+
+- 이전 연구 결과물을 기반으로 둘을 합치고 있다. `They are built with many former researchers’ work results as foundation, `
+
+- 예를 들어 `for example `
+ - the improved image feature detector and descriptors like ORB [34] provide real-time performance with desktop CPU which SIFT or SURF cannot provide; 
+ - some nonlinear least square optimization libraries like g2o [27] provide utilities to do **bundle adjustment**, etc. 
+ 
+- 특히 아래 두 연구는 커뮤니티에 많은 도움이 되었다.  
+ - ORB-SLAM [25] by R. Mur-Artal et al. and 
+ - LSD-SLAM (Large-Scale Direct Monocular SLAM) [35] by J. Engel et al. 
 
 
+![](https://i.imgur.com/3QDRVWY.png)
+
+```
+Figure 2: State of art visual SLAM systems. 
+- Left: result of LSD-SLAM. 
+- Right: result of ORB-SLAM.
+```
+
+### 5.1 ORB-SLAM 
+
+- ORB-SLAM은 전통적인 특징 기반 시스템이며, PTAM과 유사하다. 하지만 좋은 성능을 보인다. `ORB-SLAM is a more traditional feature based system, and quite similar to PTAM in some way, yet attains much more impressive performance in practice. `
+
+#### A. 장점 `Its main improvement compared to PTAM includes but not limited to: `
+
+
+- 1) 루프결합 제공 : implement 3 parallel threads, namely tracking, mapping, and loop closing to achieve consistent localization and mapping, 
+ - while PTAM does not have loop closing; 
+
+
+- 2) 초기화 방법 제공 : automatic map initialization with a model selection on two paralleling thread calculating Homography and Fundamental ego-motion with RANSAC, 
+ - while PTAM requires manual operation to finish initialization; 
+
+
+- 3) ORB 특징을 이용하여 강건성 제공 : use **ORB feature** detector and descriptor instead of image patches used in PTAM, improving **robustness** of image tracking and feature matching under scale and orientation change; 
+
+
+- 4) multi-scale mapping, including local graph for pose bundle adjustment, co-visibility graph for local bundle adjustment, and essential graph for global bundle adjustment after loop closure detection.
