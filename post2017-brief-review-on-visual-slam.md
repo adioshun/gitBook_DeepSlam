@@ -26,4 +26,19 @@
  -  이후 EKF를 사용하여 full state vector를 갱신한다. `and updates the full state vector (robot pose plus feature 3-D locations) within an Extended Kalman Filter (EKF) framework.`
  
  
-> 데이빗의 연구는 어떻게 보면 기존의 베이지안 필터 기반으 VSLAM과 유사하다. `Davison’s work in some way set the standard framework for traditional Bayesian filtering based visual SLAM implementation.`
+> 데이빗의 연구는 어떻게 보면 기존의 베이지안 필터 기반의 VSLAM과 유사하다. `Davison’s work in some way set the standard framework for traditional Bayesian filtering based visual SLAM implementation.`
+
+### 2.1 2000년대 초반 연구들 
+
+- 가우시안 필터 대신 파티클 필터 사용 하는 방법 `M. Pupilli and A. Calway investigated utilizing particle filter instead of Gaussian filter framework in camera pose tracking and visual SLAM [19] [20]. `
+ - Fast SLAM : 비젼 대신 레이져 사용, 파티클 필터의 대표적 방법 `Although more famous work of particle filter based SLAM is FastSLAM proposed by M. Montemerlo et al. [21], they used laser sensors instead of vision. `
+ 
+ 
+- 비쥬얼 슬램의 Front-end에서 사용되는 **주요 visual odometry 기법** `visual odometry from D. Nister et al. [22], who proposed methodology that sooner became almost ‘golden method’ for feature based VO and SFM, and are still frequently used in front-end of visual SLAM today. `
+
+- Feature 파라미터화의 **주요 기법** : Inverse Depth이용  방법 `Another work that sooner became ‘golden method’ was in feature parameterisations from J. Montiel et al. [23], which used inverse depth instead of depth in feature position filter process.`
+
+
+## 3. PTAM: New Standard for Local Tracking and Mapping
+
+
