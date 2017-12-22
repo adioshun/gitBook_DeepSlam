@@ -58,9 +58,16 @@ Figure 1: Mono-SLAM vs PTAM.
 ```
 
 - 흥미로운 챌리지이지만 이를 해결하기 위한 해결책은 SLAM연구원이 아닌 AR연구원에 의하여 제안 되었다. 
+ - PTAM(Parallel Tracking and Mapping), Georg Klein and David Murray, 2007
 
 
+- PTAM is also a feature-based SLAM algorithm that tracks and maps many (hundreds of) features to achieve robustness. 
 
+- Simultaneously, it runs in real-time by creatively parallelizing the motion estimation and mapping tasks and by relying on efficient keyframe-based Bundle Adjustment (BA) instead of Bayesian filtering for pose and map refinement, which are two main reasons to make PTAM outperform MonoSLAM and the like in both efficiency and precision. 
+
+- 설계는 AR을 목적으로 하고 작은 책상 공간크기에서만 동작 하고 Global Map을 관리 하지 않지만 주요 아이디어(parallelizing tracking, mapping and keyframe-based map management)들은 최근 비쥬얼 슬램에 많이 적용 되고 있다.` Although PTAM is designed specifically for AR application and only works well in small desktop space without global map management, its implementation style of parallelizing tracking and mapping and keyframe-based map management is used by most of modern feature based visual SLAM systems (like ORB-SLAM [25]) or VO systems (like SVO [26]).`
+ - modern feature based visual SLAM systems (like ORB-SLAM [25]) 
+ - VO systems (like SVO [26])
 
 
 
