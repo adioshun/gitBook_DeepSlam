@@ -15,7 +15,9 @@
 
 ## 3. Tutorial (Series, )
 
-
+- Visual Odometry
+    - [Part I: The First 30 Years and Fundamentals](http://rpg.ifi.uzh.ch/docs/VO_Part_I_Scaramuzza.pdf)
+    - [Part II: Matching, Robustness, Optimization, and Applications](http://rpg.ifi.uzh.ch/docs/VO_Part_II_Scaramuzza.pdf)
 
 ## 4. Youtube
 

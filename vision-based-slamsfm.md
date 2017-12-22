@@ -34,6 +34,8 @@
 > - : 카메라를 이용하는 방법을 Visual SLAM이라고 함
 
  
+ 
+ ![](https://i.imgur.com/bki52pZ.png)
 
 
 
