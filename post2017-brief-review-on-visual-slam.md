@@ -160,3 +160,48 @@ Figure 2: State of art visual SLAM systems.
 
 
 - 4) multi-scale mapping, including local graph for pose bundle adjustment, co-visibility graph for local bundle adjustment, and essential graph for global bundle adjustment after loop closure detection.
+
+
+### 5.2 LSD-SLAM
+
+- LSD-SLAM은 PTAM이나 ORB-SLAM과는 다르다. `LSD-SLAM is quite different from PTAM or ORB-SLAM. `
+
+- 이 방식은 **direct methods**분류에 속한다. `It should be classified into so-called direct methods`, 
+ - 즉, 이미지 특징이 아닌 **픽셀**에서 바로 상태 예측을 수행한다. `that is, doing state estimation based on image pixels directly, rather than relying on image features.`
+
+- 트래킹은 performed by se(3) image alignment using a **coarse-to-fine algorithm** with a **robust Huber loss**. 
+
+- 깊이 측정은 다른 스램과 유사하게 **inverse depth parametrization**을 사용한다. `Depth estimation is just like many other SLAM systems, using an inverse depth parametrization with a bundle of relatively small baseline image pairs.`
+
+- 지도 최적화는 일반적으로 사용되는 **graph optimization**를 사용한다. `Map optimization is also executed in commonly used graph optimization, with existing keyframe poses expressed in sim(3) space just like ORB-SLAM does. `
+
+- LSD-SLAM actually recovers a `semi-dense` map, 
+ - since it only estimates depth at pixels solely near image boundaries, 
+ - which may be the main reason for it to be the first direct visual SLAM system that can run in real-time on a CPU. 
+
+- 실 적용상황에서는 dense visual SLAM systems(eg.DTAM)같은 모든 픽셀 단위 계산은 계산 부하가 크므로 GPU를 사용한다. `In practice, processing every pixel over all image sequences is very computationally consuming, which is why many dense visual SLAM systems, like DTAM (Dense Tracking and Mapping) [36] by A. Davison’s group, require a GPU to attain real-time performance.`
+
+
+- 비쥬얼 슬램 기술이 완성되어 감에 따라 상용 제품도 많이 출시 되고 있다: **Google Tango**, **MS Hololens** ` The maturity of visual SLAM can also be reflected from their application in commercial products, among which the Google Tango and Microsoft Hololens attract most interest from the public. It can be predicted that there will be more visual SLAM driven products appear in the near future.`
+
+## 6. What’s Next?
+
+### 6.1 More Semantic Information: From CV to Robotics
+
+- 큰 지도 작성`(large scale mapping)` 부분에서 남은 연구 분야는 공간 인지`(place recognition)` 이다. `As mentioned above, the main challenge in large scale mapping remains in long term visual place recognition. `
+
+- 이 문제는 geometric methods만으로는 어렵다. `This problem is extremely difficult to solve based only on geometric methods, which are what most current visual SLAM systems use. `
+
+- 최근 몇년동안 이미지에 있는 semantic정보를 이용하여 물체를 탐지 하고 공간을 인지 하려는 연구가 진행 되었다. `These several years has seen some effort in utilizing semantic information in image to do object detection for mapping and scene recognition,`
+ - such as **SLAM++ [38]** by R. F. Salas-Moreno et al. 
+
+- 공간 인지의 본질적인 어려움으로 인해 비쥬얼 슬램에 시멘틱 정보를 이용하려는 노력은 계속 될것으로 보인다. `Due to complicated nature of place recognition problem, increasing number of researches on the utilization of visual semantic information in visual SLAM is predictable in recent future. `
+
+- 이미 여러 학회에서 이런 연구가 진행 되고 있다. `In fact, this has already been happening, reflected by the frequent appearance of this topic in CVPR, RSS and ICRA workshops in recent years, as shown in Figure 3.`
+
+- 이전에도 비쥬얼 슬램에 대한 로봇연구는 컴퓨터 비젼의 연구 결과의 도움을 많이 받았다. `Historically, robotic researchers on visual SLAM benefited a lot from research work of computer vision community. `
+
+- 최근 딥러닝에 대한 연구가 인기가 있으니 딥러닝이 로보틱스 스램 연구에 적용될수 있다. `These years, as the booming of deep learning in computer vision field, it is also of high possibility that deep learning style methods will soon take their part in visual SLAM or other research fields in robotics. Let’s see.`
+
+### 6.2 More Sensor Fusion: Towards Robustness for Practical Use
+
