@@ -50,6 +50,7 @@
 
 
 ![](https://i.imgur.com/qUfUaab.png)
+
 ```
 Figure 1: Mono-SLAM vs PTAM. 
 - Left: visualized result of MonoSLAM. 
