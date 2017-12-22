@@ -41,4 +41,32 @@
 
 ## 3. PTAM: New Standard for Local Tracking and Mapping
 
-The problem of traditional EKF based visual SLAM mainly lies in computation effort as the map grows, since computation grows quadratically with the number of landmarks. The implementation of putting all landmarks together with the robot pose in a long state vector and a huge covariance matrix seems not making sense (because not all observed features have direct constraints with each other), and, as the covariance matrix is not sparse, computation resource spent on the iterative calculation of the covariance matrix is huge.
+- 기존 EKF기반 비쥬얼 슬램의 문제점은 지도가 커지면 연산량이 커진다. `The problem of traditional EKF based visual SLAM mainly lies in computation effort as the map grows,` 
+ - 랜드마크의 수에 따라 quadratically으로 연산량이 증가 한다. `since computation grows quadratically with the number of landmarks. `
+
+- 모든 랜드마크를 사용하는 방식으로 구현하게 되는것과 huge covariance matrix를 관리하는것은 어렵다. 
+ -  ` The implementation of putting all landmarks together with the robot pose in a long state vector and a huge covariance matrix seems not making sense (because not all observed features have direct constraints with each other),`
+ - `and, as the covariance matrix is not sparse, computation resource spent on the iterative calculation of the covariance matrix is huge.`
+
+
+![](https://i.imgur.com/qUfUaab.png)
+```
+Figure 1: Mono-SLAM vs PTAM. 
+- Left: visualized result of MonoSLAM. 
+- Middle: visualized result of keyframe-based tracking and mapping with PTAM. 
+- Right: demo of PTAM.
+```
+
+- 흥미로운 챌리지이지만 이를 해결하기 위한 해결책은 SLAM연구원이 아닌 AR연구원에 의하여 제안 되었다. 
+
+
+
+
+
+
+
+
+
+
+
+
