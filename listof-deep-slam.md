@@ -55,7 +55,9 @@
 
 - [Real-Time Visual Localisation and Mapping with a Single Camera](https://www.youtube.com/watch?v=07J-var0wUw): Andrew Davison, Imperial College London, MS Research, 1:09분, 2016,
 
-- [Online SLAM - Artificial Intelligence for Robotics](): 8:49초, 2015, Udacity
+- [Keyframe-based SLAM for hand-held Augmented Reality](https://www.youtube.com/watch?v=UPLROIlyBWs) : AR, MS Research, 2016
+
+- Online SLAM - Artificial Intelligence for Robotics: 8:49초, 2015, Udacity
     - [Localization Program - Artificial Intelligence for Robotics](https://www.youtube.com/watch?v=9a42_zEeeA0)
     - [Localization Program Solution - Artificial Intelligence for Robotics](https://www.youtube.com/watch?v=37McU8k7FN8)
 
