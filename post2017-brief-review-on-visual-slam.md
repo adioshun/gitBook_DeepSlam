@@ -41,4 +41,4 @@
 
 ## 3. PTAM: New Standard for Local Tracking and Mapping
 
-
+The problem of traditional EKF based visual SLAM mainly lies in computation effort as the map grows, since computation grows quadratically with the number of landmarks. The implementation of putting all landmarks together with the robot pose in a long state vector and a huge covariance matrix seems not making sense (because not all observed features have direct constraints with each other), and, as the covariance matrix is not sparse, computation resource spent on the iterative calculation of the covariance matrix is huge.
