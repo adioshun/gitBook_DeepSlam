@@ -27,3 +27,5 @@
 
 
 ## 2. SfM vs. VSLAM
+
+![](https://i.imgur.com/b9bcnZJ.png)
