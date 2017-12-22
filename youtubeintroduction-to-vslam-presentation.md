@@ -26,6 +26,38 @@
     - Object 
 
 
+![](https://i.imgur.com/c7CX3Gy.png)
+
+```
+ROS VSLAM
+```
+
 ## 2. SfM vs. VSLAM
 
 ![](https://i.imgur.com/b9bcnZJ.png)
+
+## 3. Classic Approach : MonoSLAM (EKF-SLAM)
+
+### 3.1 EKF-SLAM:Mono SLAM (Andrew Davision ICCV 2003)
+- Maintains full camera and feature covariance
+- Limited to Gaussian uncertainty 
+- Handheld camera
+- Initialized with known target
+- Extended kalman filter
+    - `Constant velocity` motion model
+    - Image patch features with Active Search
+    - Automatic Map Measurement
+    - Particle Filter for initialization of new feature
+
+> 상세 알고리즘 설명 포함되어 있음, 동영상 참고 
+
+
+
+
+### 3.2 SfM Approach (Nister ICCV 2003)
+- RANSAC
+- Frame-to-Frame motion only 
+
+## 4. Current State-of-the-art (2013) : FastSLAM
+
+![](https://i.imgur.com/ofNYSnB.png)
