@@ -205,3 +205,13 @@ Figure 2: State of art visual SLAM systems.
 
 ### 6.2 More Sensor Fusion: Towards Robustness for Practical Use
 
+- 이와 반대로 비쥬얼 슬램을 위한 geometric methods 역시 완성도가 높아져 가고 있다. 상품에 적용될수로 **강건성**에 대한 이슈가 생길 것이다. `On the other hand, as geometric methods for visual SLAM gradually become mature, the day of its application in civil and industrial environment is approaching (or has approached, in some way, especially in VR/AR), which bring forward the issues of robustness. `
+
+- 앞서 언급한 최근 비쥬얼 슬램 시스템은 모바일 로봇에 적용하기에는 어렵다. `The state of art visual SLAM system mentioned above are far from being truly usable for mobile robot navigation (even if not consider the unrecovered scale problem of monocular vision). `
+
+- 취약한 강건성으로 인한 문제가 발생 할것이다. `The leading limitation lies in their poor robustness. `
+
+- 강건성 문제는 비젼 기반 방식의 본질적 문제점 이다. `Robustness issue is an inherent problem of pure vision-based methods,`
+ - due to the fact that image tracking is easy to fail in many motion modes and many environment structures. 
+
+- 따라서 이미지와 다른 센서 정보를 퓨전 하여 강건성을 높이는 방법이 필요 하다. `Therefore, research work on fusing image with other sensors to achieve robust mobile robot navigation is highly demanded.`
