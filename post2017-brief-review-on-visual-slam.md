@@ -88,8 +88,13 @@ Graph SLAM is better than EKF SLAM in the sparsity of the graph and thus computa
  
 ## 4. Effort towards Large Scale Mapping 
 
+- PTAM은 작은 공간에서는 잘 동작 하지만 큰 공간에서는 개선이 필요 하다. `PTAM achieves considerately satisfactory result in small local space, while the problem of large scale mapping remains to be solved. `
 
+- 큰 공간의 지도 해결 방법은 2가지가 있다. `The solution to large scale map management basically includes two parts:`
+ - 1) efficient map representation and refinement 
+ - 2) and loop closing. 
 
+> Efficient map representation and and refinement is actually a necessary condition for good loop closing.
 
 
 
