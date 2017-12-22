@@ -215,3 +215,85 @@ Figure 2: State of art visual SLAM systems.
  - due to the fact that image tracking is easy to fail in many motion modes and many environment structures. 
 
 - 따라서 이미지와 다른 센서 정보를 퓨전 하여 강건성을 높이는 방법이 필요 하다. `Therefore, research work on fusing image with other sensors to achieve robust mobile robot navigation is highly demanded.`
+
+
+---
+
+## References
+```
+[1] H. Durrant-Whyte and T. Bailey. Simultaneous localization and mapping: part i. Robotics Automation Magazine, IEEE, 13(2):99–110, June 2006.
+
+[2] J. J. Leonard and H. F. Durrant-Whyte. Simultaneous map building and lo- calization for an autonomous mobile robot. In Intelligent Robots and Systems ’91. ’Intelligence for Mechanical Systems, Proceedings IROS ’91. IEEE/RSJ International Workshop on, pages 1442–1447 vol.3, Nov 1991.
+
+[3] J. S. Gutmann and K. Konolige. Incremental mapping of large cyclic envi- ronments. In Computational Intelligence in Robotics and Automation, 1999. CIRA ’99. Proceedings. 1999 IEEE International Symposium on, pages 318– 325, 1999.
+
+[4] S. Thrun, W. Burgard, and D. Fox. A probabilistic approach to concurrent mapping and localization for mobile robots. Autonomous Robots, 5(3-4):253– 271, 1998.
+
+[5] M. W. M. G. Dissanayake, P. Newman, S. Clark, H. F. Durrant-Whyte, and M. Csorba. A solution to the simultaneous localization and map building (slam) problem. IEEE Transactions on Robotics and Automation, 17(3):229– 241, Jun 2001.
+
+[6] S. Thrun, W. Burgard, and D. Fox. Probabilistic robotics. MIT press, 2005.
+
+[7] D. Scaramuzza and F. Fraundorfer. Visual odometry [tutorial]. Robotics & Automation Magazine, IEEE, 18(4):80–92, 2011.
+
+[8] H. P. Moravec. Obstacle avoidance and navigation in the real world by a seeing robot rover. Technical report, DTIC Document, 1980.
+
+[9] S. Lacroix, A. Mallet, R. Chatila, and L. Gallo. Rover self localization in planetary-like environments. In Artificial Intelligence, Robotics and Automa- tion in Space, volume 440, page 433, 1999.
+
+[10] T. Malisiewicz. The Future of Real-Time SLAM and “Deep Learning vs SLAM” . http://www.computervisionblog.com/2016/01/why-slam-matters-future-of-real-time.html, 2016.
+
+[11] A. Fitzgibbon and A. Zisserman. Automatic camera recovery for closed or open image sequences. Computer VisionECCV’98, pages 311–326, 1998.
+
+[12] A. Fitzgibbon, G. Cross, and A. Zisserman. Automatic 3d model construction for turn-table sequences. 3D Structure from Multiple Images of Large-Scale Environments, pages 155–170, 1998.
+
+[13] M. Pollefeys, R. Koch, and L. Van Gool. A simple and efficient rectification method for general motion. In Computer Vision, 1999. The Proceedings of the Seventh IEEE International Conference on, volume 1, pages 496–501. IEEE, 1999.
+
+[14] M. Pollefeys. Self-calibration and metric 3D reconstruction from uncali- brated image sequences. PhD thesis, 1999.
+
+[15] R. Hartley and A. Zisserman. Multiple view geometry in computer vision. Cambridge university press, 2003.
+
+[16] A. J. Davison. Real-time simultaneous localisation and mapping with a single camera. In Computer Vision, 2003. Proceedings. Ninth IEEE International Conference on, pages 1403–1410. IEEE, 2003.
+
+[17] A. J. Davison and D. W. Murray. Simultaneous localization and map-building using active vision. Pattern Analysis and Machine Intelligence, IEEE Trans- actions on, 24(7):865–880, 2002.
+
+[18] A. J. Davison, I. D. Reid, N. D. Molton, and O. Stasse. Monoslam: Real- time single camera slam. Pattern Analysis and Machine Intelligence, IEEE Transactions on, 29(6):1052–1067, 2007.
+
+[19] M. Pupilli and A. Calway. Real-time camera tracking using a particle filter. In BMVC, 2005.
+
+[20] M. Pupilli and A. Calway. Real-time visual slam with resilience to erratic motion. In 2006 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR’06), volume 1, pages 1244–1249, June 2006.
+
+[21] M. Montemerlo, S. Thrun, D. Koller, B. Wegbreit, et al. Fastslam: A fac- tored solution to the simultaneous localization and mapping problem. In AAAI/IAAI, pages 593–598, 2002.
+
+[22] D. Nister, O. Naroditsky, and J. Bergen. Visual odometry. In Computer Vision and Pattern Recognition, 2004. CVPR 2004. Proceedings of the 2004 IEEE Computer Society Conference on, volume 1, pages I–652–I–659 Vol.1, June 2004.
+
+[23] J. Montiel, J. Civera, and A. J. Davison. Unified inverse depth parametrization for monocular slam. analysis, 9:1, 2006.
+
+[24] G. Klein and D. Murray. Parallel tracking and mapping for small ar workspaces. In Mixed and Augmented Reality, 2007. ISMAR 2007. 6th IEEE and ACM International Symposium on, pages 225–234. IEEE, 2007.
+
+[25] R. Mur-Artal, J. M. M. Montiel, and J. D. Tards. Orb-slam: A versa- tile and accurate monocular slam system. IEEE Transactions on Robotics, 31(5):1147–1163, Oct 2015.
+
+[26] C. Forster, M. Pizzoli, and D. Scaramuzza. Svo: Fast semi-direct monocular visual odometry. In Proc. IEEE Intl. Conf. on Robotics and Automation, 2014.
+
+[27] G. Grisetti, H. Strasdat, K. Konolige, and W. Burgard. g2o: A general frame- work for graph optimization. In IEEE International Conference on Robotics and Automation, 2011.
+
+[28] E. Eade and T. Drummond. Monocular slam as a graph of coalesced obser- vations. In 2007 IEEE 11th International Conference on Computer Vision, pages 1–8, Oct 2007.
+
+[29] F. Dellaert and M. Kaess. Square root sam: Simultaneous localization and mapping via square root information smoothing. The International Journal of Robotics Research, 25(12):1181–1203, 2006.
+
+[30] M. Kaess, A. Ranganathan, and F. Dellaert. isam: Incremental smoothing and mapping. Robotics, IEEE Transactions on, 24(6):1365–1378, Dec 2008.
+
+[31] M. Kaess, H. Johannsson, R. Roberts, V. Ila, J. Leonard, and F. Dellaert. isam2: Incremental smoothing and mapping with fluid relinearization and incremental variable reordering. In Robotics and Automation (ICRA), 2011 IEEE International Conference on, pages 3281–3288, May 2011.
+
+[32] M. Cummins and P. Newman. Fab-map: Probabilistic localization and map- ping in the space of appearance. The International Journal of Robotics Re- search, 27(6):647–665, 2008.
+
+[33] S. Lowry, N. Snderhauf, P. Newman, J. J. Leonard, D. Cox, P. Corke, and M. J. Milford. Visual place recognition: A survey. IEEE Transactions on Robotics, 32(1):1–19, Feb 2016.
+
+[34] E. Rublee, V. Rabaud, K. Konolige, and G. Bradski. Orb: An efficient alter- native to sift or surf. In 2011 International Conference on Computer Vision, pages 2564–2571, Nov 2011.
+
+[35] J. Engel, T. Sch ̈ops, and D. Cremers. Lsd-slam: Large-scale direct monocular slam. In Computer Vision–ECCV 2014, pages 834–849. Springer, 2014.
+
+[36] R. A. Newcombe, S. J. Lovegrove, and A. J. Davison. Dtam: Dense tracking and mapping in real-time. In Computer Vision (ICCV), 2011 IEEE Interna- tional Conference on, pages 2320–2327. IEEE, 2011.
+
+[37] Australian centre for robotic vision public. https://roboticvision.atlassian.net/wiki/display/PUB/RVSS2015+Robotic+ Vision+Summer+School+Presentations, 2016
+
+[38] R. F. Salas-Moreno, R. A. Newcombe, H. Strasdat, P. H. J. Kelly, and A. J. Davison. Slam++: Simultaneous localisation and mapping at the level of objects. In Computer Vision and Pattern Recognition (CVPR), 2013 IEEE Conference on, pages 1352–1359, June 2013.
+```
