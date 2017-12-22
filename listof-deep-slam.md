@@ -9,9 +9,13 @@
 
 - [awesome-SLAM-list](https://github.com/OpenSLAM/awesome-SLAM-list)
 
+- [The list of vision-based SLAM / Visual Odometry](https://github.com/tzutalin/awesome-visual-slam)
+
 ## 2. Paper
 
 - ~~[무인-시스템의-자율-주행을-위한-영상기반-항법기술-동향](https://goo.gl/iEGZo9)~~: 비쥬얼 서보잉, 비쥬얼 오도메트리, 영상기반 SLAM, 2015
+
+- [Visual SLAM algorithms: a survey from 2010 to 2016](http://ipsjcva.springeropen.com/articles/10.1186/s41074-017-0027-2)
 
 - [Road-SLAM : Road marking based SLAM with lane-level accuracy](ieeexplore.ieee.org/document/7995958/): 2017, 카이스트
 
@@ -89,6 +93,11 @@
 - [The Future of Real-Time SLAM](http://wp.doc.ic.ac.uk/thefutureofslam/programme/), ICCV 2015
 
 - [15 Years of Visual SLAM](https://goo.gl/whxtPq): ppt, Andrew Davison, 2015
+
+- [SLAM for Dummies](https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2005/projects/1aslam_blas_repo.pdf): pdf, 40page
+
+
+
 
 ## 7.  Implementation (Project)
 
