@@ -55,6 +55,17 @@ SLAM을 위해 필요한 H/W :  a **mobile robot** and a **range measurement dev
 
 #### C. vision
 
+- 과거에는 여러 단점들로 적합하지 않았다. 
+
+- 최근에는 이런 문제를 해결하였으며, stereo카메라를 사용해 Depth측정도 가능하다. 
+
+- 레이져에 비하여 더 풍부한 정보를 제공할수 있다. 
+
+- Vision based range measurement has been successfully used in [8]. 
+
+> 본 문서에서는 laser range finder from SICK [9]를 사용하였다. (오차 5~50mm)
+
+## 5. The SLAM Process 
 
 
 
