@@ -68,4 +68,17 @@ SLAM을 위해 필요한 H/W :  a **mobile robot** and a **range measurement dev
 ## 5. The SLAM Process 
 
 
+- SLAM은 여러 절차로 이루어져 있다. `The SLAM process consists of a number of steps. `
 
+- 이러한 절차의 목적은 환경 정보를 이용하여 로봇의 position을 갱신하는 것이다. `The goal of the process is to use the environment to update the position of the robot. `
+
+- position 정보를 제공한는 로봇의 odometry가 정확하지 않기 때문에 이를 바로 사용하지 않고 레이져 스캐너를 이용하여 보정한다.  `Since the odometry of the robot (which gives the robots position) is often erroneous we cannot rely directly on the odometry. We can use laser scans of the environment to correct the position of the robot. `
+    - This is accomplished by extracting features from the environment and re-observing when the robot moves around. 
+
+
+- EKF (Extended Kalman Filter)가 SLAM의 핵심이다. 
+    - It is responsible for updating where the robot thinks it is based on these features. 
+    - These features are commonly called **landmarks **
+    - The EKF keeps track of an estimate of the uncertainty in the robots position and also the uncertainty in these landmarks it has seen in the environment. 
+
+![](https://i.imgur.com/Wk5AWW8.png)
