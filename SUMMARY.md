@@ -10,6 +10,7 @@
 * [Post\_2016\_The Future of Real-Time SLAM and Deep Learning vs SLAM \(30%\)](post2016-the-future-of-real-time-slam-and-deep-learning-vs-slam.md)
 * [Post\_2016\_Brief Review on Visual SLAM \(100%\)](post2017-brief-review-on-visual-slam.md)
 * [Youtube\_Introduction to VSLAM Presentation](youtubeintroduction-to-vslam-presentation.md)
+* [eBook\_SLAM for Dummies](ebookslam-for-dummies.md)
 
 ## Visual Odometry
 

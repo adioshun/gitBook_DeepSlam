@@ -96,12 +96,22 @@
 
 - [SLAM for Dummies](https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2005/projects/1aslam_blas_repo.pdf): pdf, 40page
 
+- [Simulataneous localization and mapping with the extended Kalman filter](http://www.iri.upc.edu/people/jsola/JoanSola/objectes/curs_SLAM/SLAM2D/SLAM%20course.pdf): pdf(35p)
+
+- [SLAM Algorithm](https://ti.tuwien.ac.at/cps/teaching/courses/networked-embedded-systems/seminar.pdf): ppt28, 2013 
 
 
+- [SLAM Tutorial](http://web.mit.edu/16.412j/www/html/Final%20Projects/SLAM%20for%20Dummies%20presentation.pdf): ppt
 
 ## 7.  Implementation (Project)
 
 - [SFM-Visual-SLAM](https://github.com/marknabil/SFM-Visual-SLAM)
+
+
+
+## 8. Research Group / Conference 
+
+- [OpenSlam](http://openslam.org/)
 
 ---
 #### [Simultaneous localization and mapping](https://github.com/vsooda/awesome-computer-vision/blob/master/README.md#simultaneous-localization-and-mapping)
