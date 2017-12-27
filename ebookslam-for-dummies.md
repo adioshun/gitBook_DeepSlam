@@ -101,6 +101,7 @@ robots new position is updated in the EKF using Odometry update.
 |![](https://i.imgur.com/GvMUtTp.png)|- The robot moves so it now thinks it is here. <br>- The distance moved is given by the robots odometry|
 |![](https://i.imgur.com/s5bpgKa.png)|- The robot once again measures the location of the landmarks using its sensors but finds out they don’t match with where the robot thinks they should be (given the robots location). <br>- Thus the robot is not where it thinks it is. |
 |![](https://i.imgur.com/IEUDxgg.png)|-As the robot believes more its sensors than its odometry it now uses the information gained about where the landmarks actually are to determine where it is (the location the robot originally thought it was at is illustrated by the dashed triangle).|
+|![](https://i.imgur.com/Q54DlDx.png)|-  In actual fact the robot is here. <br>- The sensors are not perfect so the robot will not precisely know where it is. <br>- However this estimate is better than relying on odometry alone. <br>- The dotted triangle represents where it thinks it is; the dashed triangle where odometry told it it was; and the last triangle where it actually is. |
 
 
 
