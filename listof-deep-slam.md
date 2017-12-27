@@ -37,6 +37,8 @@
 
 - [A Survey of Simultaneous Localization and Mapping on Unstructured Lunar Complex Environment](http://aip.scitation.org/doi/pdf/10.1063/1.5005198): 2017
 
+- [Simultaneous Localization and Mapping for Navigation in Realistic Environments](http://www.nada.kth.se/utbildning/forsk.utb/avhandlingar/lic/020220.pdf): Guido Zunino, 2002, 77p
+
 ## 3. Article (Post, blog, etc.)
 
 - ~~[Brief Review on Visual SLAM: A Historical Perspective](http://fzheng.me/2016/05/30/slam-review/)~~:  2016

@@ -159,12 +159,24 @@ robots new position is updated in the EKF using Odometry update.
 
 ```
 [예]
-- 
+- 방에 있는 의자를 랜드마크로 지정하고 시간이 지난후 방에 돌아 왔을때 의자가 있는것을 보고 이전에 본 의자와 지금 본 의자를 associate할수 있다. 만일 시간이 지난후 돌아 왔을때 똑같은 의자가 두개 있다면 우리는 어떤게 내가 보았던것 인지 구분할수가 없다. 최선책은 say that the one to the left must be the one we previously saw to the left, and the one to the right must be the one we previously saw on the right.
+```
+
+- In practice the following problems can arise in data association:
+    - You might not re-observe landmarks every time step.
+    - You might observe something as being a landmark but fail to ever see it again.
+    - You might wrongly associate a landmark to a previously seen landmark. 
+
 
 
 ## 11. THE EKF
 
 
 ## 12. FINAL REMARKS
+
+- the problem of closing the loop
+    - A system such as ATLAS [2] is concerned with this
+    
+- It is also possible to combine this SLAM with an occupation grid
 
 ## 13. REFERENCES
