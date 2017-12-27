@@ -93,3 +93,15 @@ robots new position is updated in the EKF using Odometry update.
 5. Landmarks which have not previously been seen are added to the EKF as new observations so they can be re-observed later. 
 
 > It should be noted that at any point in these steps the EKF will have an estimate of the robots current position. 
+
+
+|||
+|-|-|
+|![](https://i.imgur.com/PlWWAoC.png)|- The robot is represented by the triangle. <br>- The stars represent landmarks. <br>- The robot initially measures using its sensors the location of the landmarks (sensor measurements illustrated with lightning). |
+|![](https://i.imgur.com/GvMUtTp.png)|- The robot moves so it now thinks it is here. <br>- The distance moved is given by the robots odometry|
+|![](https://i.imgur.com/s5bpgKa.png)|- The robot once again measures the location of the landmarks using its sensors but finds out they don’t match with where the robot thinks they should be (given the robots location). <br>- Thus the robot is not where it thinks it is. |
+|![](https://i.imgur.com/IEUDxgg.png)|-As the robot believes more its sensors than its odometry it now uses the information gained about where the landmarks actually are to determine where it is (the location the robot originally thought it was at is illustrated by the dashed triangle).|
+
+
+
+
