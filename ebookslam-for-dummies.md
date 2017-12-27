@@ -109,5 +109,30 @@ robots new position is updated in the EKF using Odometry update.
 
 - 센서의 아웃풋은 다음과 같을것이다. : 2.98, 2.99, 3.00, 3.01, 3.00, 3.49, 3.50, ...., 2.20, 8.17, 2.21 
 
-- 정확한 거리를 측정하지 못할경우에는 아주 큰값을 리턴한다. 본 문서에서는 
+- 정확한 거리를 측정하지 못할경우에는 아주 큰값을 리턴한다. 본 문서에서는 threshold로 8.1을 잡았다. 
+
+> 본 문서에서 사용된 코드는 `Appendix B: SICK LMS 200 interface code. `를 참고 
+
+
+## 7. Odometry Data 
+
+- SLAM의 중요한 요소중 하나는 odometry데이터 이다. `An important aspect of SLAM is the odometry data.`
+
+- odometry데이터의 사용 목적은 바퀴 움직임에 따른 대략적인 위치를 측정하는 것이다. `The goal of the odometry data is to provide an approximate position of the robot as measured by the movement of the wheels of the robot, to serve as the initial guess of where the robot might be in the EKF.`
+
+- 어려운 점은 Laser데이터와 Odmometry데이터의 시간 동기화 이다. `The difficult part about the odometry data and the laser data is to get the timing right.`
+
+## 8. Landmarks 
+
+- 랜드마크는 re-observed가능하고 distinguished한 Feature를 의미한다. `Landmarks are features which can easily be re-observed and distinguished from the environment.`
+
+- 랜드마크는 현재 어디에 있는지 알수 있게 한다. `These are used by the robot to find out where it is (to localize itself). `
+
+- 랜드마크가 가져야 하는 성질 `The key points about suitable landmarks are as follows:`
+    - Landmarks should be easily re-observable.
+    - Individual landmarks should be distinguishable from each other.
+    - Landmarks should be plentiful in the environment.
+    - Landmarks should be stationary. 
+
+
 
