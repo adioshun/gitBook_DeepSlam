@@ -167,9 +167,19 @@ robots new position is updated in the EKF using Odometry update.
     - You might observe something as being a landmark but fail to ever see it again.
     - You might wrongly associate a landmark to a previously seen landmark. 
 
+- 좋은 랜드마크를 지정 하였다면 첫 2개의 문제는 발생 하지 않을것이다. `Landmark should be easy to re-observe landmarks. As such the first two cases above are not acceptable for a landmark. In other words they are bad landmarks.
+
+- 3번째 문제를 위해 정책을 정의 해야 한다. `We will now define a data-association policy that deals with these issues`
+    - 랜드마크를 N번이상 보지 않으면 랜드마크로 지정 하지 않는것이다. `The first rule we set up is that we don’t actually consider a landmark worthwhile to be used in SLAM unless we have seen it N times. `
+    - 이렇게 함으로써 Bad 랜드마크를 사용하는것을 방지할수 있다. 
+    - 이러한 기술은  as you associate a landmark with the nearest landmark in the database. 하기 때문에 ` nearest-neighbor approach `라고 부른다. 
+    
+    
 
 
 ## 11. THE EKF
+
+> 필요시 추후 자세히 살펴 보기 
 
 
 ## 12. FINAL REMARKS
