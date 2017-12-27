@@ -134,5 +134,13 @@ robots new position is updated in the EKF using Odometry update.
     - Landmarks should be plentiful in the environment.
     - Landmarks should be stationary. 
 
+## 9. Landmark Extraction 
+
+## 10. DATA ASSOCIATION
+
+## 11. THE EKF
 
 
+## 12. FINAL REMARKS
+
+## 13. REFERENCES
