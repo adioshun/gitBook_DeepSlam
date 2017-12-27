@@ -96,7 +96,7 @@
 
 - [15 Years of Visual SLAM](https://goo.gl/whxtPq): ppt, Andrew Davison, 2015
 
-- [SLAM for Dummies](https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2005/projects/1aslam_blas_repo.pdf): pdf, 40page
+- ~~[SLAM for Dummies](https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2005/projects/1aslam_blas_repo.pdf)~~: pdf, 40page
 
 - [Simulataneous localization and mapping with the extended Kalman filter](http://www.iri.upc.edu/people/jsola/JoanSola/objectes/curs_SLAM/SLAM2D/SLAM%20course.pdf): pdf(35p)
 
