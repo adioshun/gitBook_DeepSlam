@@ -82,3 +82,14 @@ SLAM을 위해 필요한 H/W :  a **mobile robot** and a **range measurement dev
     - The EKF keeps track of an estimate of the uncertainty in the robots position and also the uncertainty in these landmarks it has seen in the environment. 
 
 ![](https://i.imgur.com/Wk5AWW8.png)
+
+
+
+1. When the odometry changes because the robot moves the uncertainty pertaining to the
+robots new position is updated in the EKF using Odometry update. 
+2. Landmarks are then extracted from the environment from the robots new position. 
+3. The robot then attempts to associate these landmarks to observations of landmarks it previously has seen. 
+4. Re-observed landmarks are then used to update the robots position in the EKF.
+5. Landmarks which have not previously been seen are added to the EKF as new observations so they can be re-observed later. 
+
+> It should be noted that at any point in these steps the EKF will have an estimate of the robots current position. 
