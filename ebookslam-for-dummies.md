@@ -95,7 +95,7 @@ robots new position is updated in the EKF using Odometry update.
 > It should be noted that at any point in these steps the EKF will have an estimate of the robots current position. 
 
 
-|||
+||The diagrams below will try to explain this process in more detail: |
 |-|-|
 |![](https://i.imgur.com/PlWWAoC.png)|- The robot is represented by the triangle. <br>- The stars represent landmarks. <br>- The robot initially measures using its sensors the location of the landmarks (sensor measurements illustrated with lightning). |
 |![](https://i.imgur.com/GvMUtTp.png)|- The robot moves so it now thinks it is here. <br>- The distance moved is given by the robots odometry|
@@ -103,6 +103,11 @@ robots new position is updated in the EKF using Odometry update.
 |![](https://i.imgur.com/IEUDxgg.png)|-As the robot believes more its sensors than its odometry it now uses the information gained about where the landmarks actually are to determine where it is (the location the robot originally thought it was at is illustrated by the dashed triangle).|
 |![](https://i.imgur.com/Q54DlDx.png)|-  In actual fact the robot is here. <br>- The sensors are not perfect so the robot will not precisely know where it is. <br>- However this estimate is better than relying on odometry alone. <br>- The dotted triangle represents where it thinks it is; the dashed triangle where odometry told it it was; and the last triangle where it actually is. |
 
+## 6. Laser Data 
 
+- SLAM의 첫 단계는 레이져를 이용하여 주변 거리를 측정 하는것이다. `The first step in the SLAM process is to obtain data about the surroundings of the robot`
 
+- 센서의 아웃풋은 다음과 같을것이다. : 2.98, 2.99, 3.00, 3.01, 3.00, 3.49, 3.50, ...., 2.20, 8.17, 2.21 
+
+- 정확한 거리를 측정하지 못할경우에는 아주 큰값을 리턴한다. 본 문서에서는 
 
