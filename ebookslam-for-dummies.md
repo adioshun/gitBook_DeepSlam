@@ -136,7 +136,31 @@ robots new position is updated in the EKF using Odometry update.
 
 ## 9. Landmark Extraction 
 
+- 랜드마크 추출에는 센서 종류와 랜드마크에 따라 여러 알고리즘이 사용가능하다. 
+
+- 본 문서에서는 레이져 센서용 추출 알고리즘인 Spikes와 RANSAC에 대하여 살펴 보겠다. `We will present basic landmark extraction algorithms using a laser scanner. They will use two landmark extraction algorithm called Spikes and RANSAC.`
+
+
+### 9.1 Spike landmarks 
+
+> 필요시 추후 자세히 살펴 보기 
+
+### 9.2 RANSAC(Random Sampling Consensus)
+
+> 필요시 추후 자세히 살펴 보기 
+
+
+
 ## 10. DATA ASSOCIATION
+
+- 데이터 ASSOCIATION에서의문제점은 두개의 센서에서 읽은 랜드마크를 matching하는 것이다. `The problem of data association is that of matching observed landmarks from different (laser) scans with each other. `
+
+- We have also referred to this as **re-observing landmarks**. 
+
+```
+[예]
+- 
+
 
 ## 11. THE EKF
 
