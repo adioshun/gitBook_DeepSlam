@@ -66,7 +66,17 @@
     - Indoor operation rules out the use of GPS to bound the localization error; 
     - furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
     
+A thorough historical review of the first 20 years of theSLAM problem is given by Durrant-Whyte and Bailey intwo surveys [7, 69]. 
 
+These mainly cover what we call theclassical age (1986-2004); the classical age saw the introductionof the main probabilistic formulations for SLAM,including approaches based on Extended Kalman Filters, RaoBlackwellisedParticle Filters, and maximum likelihood estimation;moreover, it delineated the basic challenges connected to efficiency and robust data association. 
+
+Two other excellentreferences describing the three main SLAM formulationsof the classical age are the book of Thrun, Burgard, andFox [240] and the chapter of Stachniss et al. [234, Ch. 46].
+
+The subsequent period is what we call the algorithmic-analysisage (2004-2015), and is partially covered by Dissanayake etal. in [64]. 
+
+The algorithmic analysis period saw the studyof fundamental properties of SLAM, including observability,convergence, and consistency. 
+
+In this period, the key role ofsparsity towards efficient SLAM solvers was also understood,and the main open-source SLAM libraries were developed.
 
 
 
