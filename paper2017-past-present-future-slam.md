@@ -102,6 +102,7 @@
 
 
 ![](https://i.imgur.com/H3wV6eR.png)
+
 - SLAM 서베이 논문들을 표 1에 정리 하였다. 최근 서베이 논문들은 특정 aspects이나 SLMA의 sub-fields에 초점을 두고 있었다. ` We review the main SLAM surveys to date in Table I,observing that most recent surveys only cover specific aspects or sub-fields of SLAM. `
 
 
@@ -172,6 +173,7 @@
 - 두번째 대답은 true topology에 관한 것이다. `The second answer regards the true topology of the environment.`
 
 ![](https://i.imgur.com/0KbpSfo.png)
+
 ```
 [Fig. 1: Left:]
 - map built from odometry. 
@@ -256,11 +258,7 @@
 
 - 1) robust performance: 
     - the SLAM system operates with low failure rate for an extended period of time in a broad set of environments; 
-    - the system includes fail-safe mechanisms and has self-tuning capabilities[[1]](#11)
-
-
-
- in that it can adapt theselection of the system parameters to the scenario.
+    - the system includes fail-safe mechanisms and has self-tuning capabilities[[1]](#11) in that it can adapt the selection of the system parameters to the scenario.
 - 2) high-level understanding: the SLAM system goes beyondbasic geometry reconstruction to obtain a high-level understandingof the environment (e.g., high-level geometry, semantics, physics, affordances);
 - 3) resource awareness: the SLAM system is tailored to the available sensing and computational resources, and provides means to adjust the computation load depending on the available resources;
 - 4) task-driven perception: the SLAM system is able to select relevant perceptual information and filter out irrelevant sensor data, in order to support the task the robot has to perform; moreover, the SLAM system produces adaptive map representations, whose complexity may vary depending on the task at hand.
