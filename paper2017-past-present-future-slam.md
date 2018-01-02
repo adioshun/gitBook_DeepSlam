@@ -254,8 +254,21 @@
 
 - robust-perception age는 아래의 요구사항을 가진다. `the robust-perception age, which is characterized by the following key requirements:`
 
+- 1) robust performance: 
+    - the SLAM system operates with low failure rate for an extended period of time in a broad set of environments; 
+    - the system includes fail-safe mechanisms and has self-tuning capabilities[[1]](#11)
 
 
+
+ in that it can adapt theselection of the system parameters to the scenario.
+- 2) high-level understanding: the SLAM system goes beyondbasic geometry reconstruction to obtain a high-level understandingof the environment (e.g., high-level geometry, semantics, physics, affordances);
+- 3) resource awareness: the SLAM system is tailored to the available sensing and computational resources, and provides means to adjust the computation load depending on the available resources;
+- 4) task-driven perception: the SLAM system is able to select relevant perceptual information and filter out irrelevant sensor data, in order to support the task the robot has to perform; moreover, the SLAM system produces adaptive map representations, whose complexity may vary depending on the task at hand.
+
+
+---
+
+<a name="11">[1]</a> The SLAM community has been largely affected by the “curse of manual tuning”, in that satisfactory operation is enabled by expert tuning of the system parameters (e.g., stopping conditions, thresholds for outlier rejection).  <br/>
 
 
 
