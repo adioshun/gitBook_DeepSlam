@@ -256,13 +256,67 @@
 
 - robust-perception age는 아래의 요구사항을 가진다. `the robust-perception age, which is characterized by the following key requirements:`
 
-- 1) robust performance: 
+1. robust performance: 
     - the SLAM system operates with low failure rate for an extended period of time in a broad set of environments; 
     - the system includes fail-safe mechanisms and has self-tuning capabilities[[1]](#11) in that it can adapt the selection of the system parameters to the scenario.
-- 2) high-level understanding: the SLAM system goes beyondbasic geometry reconstruction to obtain a high-level understandingof the environment (e.g., high-level geometry, semantics, physics, affordances);
-- 3) resource awareness: the SLAM system is tailored to the available sensing and computational resources, and provides means to adjust the computation load depending on the available resources;
-- 4) task-driven perception: the SLAM system is able to select relevant perceptual information and filter out irrelevant sensor data, in order to support the task the robot has to perform; moreover, the SLAM system produces adaptive map representations, whose complexity may vary depending on the task at hand.
 
+2. high-level understanding: 
+    - the SLAM system goes beyond basic geometry reconstruction to obtain a high-level understanding of the environment 
+    - (e.g., high-level geometry, **semantics**, physics, affordances);
+
+3. resource awareness: 
+    - the SLAM system is tailored to the available sensing and computational resources, and provides means to adjust the computation load depending on the available resources;
+    
+4. task-driven perception: 
+    - the SLAM system is able to select relevant perceptual information and filter out irrelevant sensor data, 
+    - in order to support the task the robot has to perform; moreover, the SLAM system produces adaptive map representations, whose complexity may vary depending on the task at hand.
+
+### 논문 구성 
+
+Paper organization. 
+
+- Section II : 공식 및 구조 `The paper starts by presenting a standard formulation and architecture for SLAM `
+
+- Section III : 강건성 `tackles robustness in life-long SLAM. `
+
+- Section IV : 확장성 `deals with scalability. `
+
+- Section V : discusses how to represent the geometry of the environment. 
+
+- Section VI : extends the question of the environment representation to the modeling of semantic information. 
+
+- Section VII : 최근 학문적 성과물 오버뷰 `provides an overview of the current accomplishments on the theoretical aspects of SLAM. `
+
+- Section VIII : 문제점 `broadens the discussion and reviews the active SLAM problem in which decision making is used to improve the quality of the SLAM results. `
+
+- Section IX : 최신 트랜드(센서, 딥러닝) `provides an overview of recent trends in SLAM, including the use of unconventional sensors and deep learning. `
+
+- Section X : 정리 `provides final remarks. `
+
+Throughout the paper, we provide many pointers to related work outside the robotics community. 
+
+Despite its unique traits, SLAM is related to problems addressed in computer vision, computer graphics, and control theory, and cross-fertilization among these fields is a necessary condition to enable fast progress.
+
+
+- 비 전문가 독자들은 [7, 69]을 먼저 읽어 보길 권한다. `For the non-expert reader, we recommend to read DurrantWhyte and Bailey’s SLAM tutorials [7, 69] before delving in this position paper. `
+
+```
+[7] T. Bailey and H. F. Durrant-Whyte. Simultaneous Localisation and Mapping (SLAM): Part II. Robotics and Autonomous Systems (RAS), 13(3):108–117, 2006.
+
+[69] H. F. Durrant-Whyte and T. Bailey. Simultaneous Localisation and Mapping (SLAM): Part I. IEEE Robotics and Automation Magazine, 13(2):99–110, 2006.
+```
+
+## II. ANATOMY OF A MODERN SLAM SYSTEM
+
+- The architecture of a SLAM system includes two main components: 
+    - the front-end 
+    - the back-end. 
+
+The front-end abstracts sensor data into models that are amenable forestimation, while the back-end performs inference on theabstracted data produced by the front-end. 
+
+This architectureis summarized in Fig. 2. 
+
+We review both components, startingfrom the back-end.
 
 ---
 
