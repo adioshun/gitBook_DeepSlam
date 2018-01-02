@@ -1,6 +1,6 @@
 |논문명 |Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age |
 | --- | --- |
-| 저자\(소속\) | Cesar Cadena\( ETH Zurich\), L. Carlone(MIT)  |
+| 저자\(소속\) | Cesar Cadena\( ETH Zurich\), L. Carlone(MIT) \) |
 | 학회/년도 | arXiv Jun 2016~Jan 2017, [논문](https://arxiv.org/abs/1606.05830) |
 | Citation ID / 키워드 | |
 | 데이터셋(센서)/모델 | |
@@ -59,3 +59,6 @@
 In such scenarios, SLAM may not be required if localization can be done reliably with respect to the known landmarks.The popularity of the SLAM problem is connected with theemergence of indoor applications of mobile robotics. 
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjExNjgyMzkyN119
+-->
