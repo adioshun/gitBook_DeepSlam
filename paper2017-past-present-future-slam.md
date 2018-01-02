@@ -14,19 +14,17 @@
 
 - We survey the current state of SLAM and consider future directions
 
+
 - We start by presenting what is now the de-facto standard formulation for SLAM. 
 
+
 - 관련연구 : We then review related work, covering a broad set of topics including 
-
-
-----------
-
-
     - robustness and scalability in long-term mapping, 
     - metric and semantic representations for mapping, 
     - theoretical performance guarantees, 
     - active SLAM and exploration, 
     - and other new frontiers. 
+
 
  - 최종 질문 : Do robots need SLAM? and Is SLAM solved?
  
@@ -131,6 +129,29 @@
 
 ```
 
+- 좀더 깊게 들어 가기 전에 아래 두 물음에 대하여 살펴 보자 `Before delving into the paper, we first discuss two questions that often animate discussions during robotics conferences: `
+    - (1) do autonomous robots need SLAM? and 
+    - (2) is SLAM solved as an academic research endeavor? 
+- 이 질문에 대하여서는 후반부에 다시 언급하겠다. `We will revisit these questions at the end of the manuscript.`
+
+####### Q #1 : Do autonomous robots really need SLAM?
+
+
+- 첫번째 질문에 답변하기 위해서는 무엇이 SLAM을 Unique하게 만드는지 이해 해야 한다. `Answering the question “Do autonomous robots really need SLAM?” requires understanding what makes SLAM unique.`
+
+- SLAM aims at building a globally consistent representation of the environment, leveraging both ego-motion measurements and loop closures. 
+
+The keyword here is “loop closure”: if wesacrifice loop closures, SLAM reduces to odometry. 
+
+In earlyapplications, odometry was obtained by integrating wheelencoders. 
+
+The pose estimate obtained from wheel odometryquickly drifts, making the estimate unusable after few meters[128, Ch. 
+
+6]; this was one of the main thrusts behind thedevelopment of SLAM: the observation of external landmarksis useful to reduce the trajectory drift and possibly correctit [185]. 
+
+However, more recent odometry algorithms are basedon visual and inertial information, and have very small drift(< 0.5% of the trajectory length [82]). 
+
+Hence the questionbecomes legitimate: do we really need SLAM? Our answer isthree-fold.
 
 
 
