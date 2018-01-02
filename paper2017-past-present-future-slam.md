@@ -63,8 +63,16 @@
     - 이런 알려진 랜드마크를 이용하여 localization이 가능한 시나리오에서는 SLAM이 꼭 필요 하지 않다. `In such scenarios, SLAM may not be required if localization can be done reliably with respect to the known landmarks.`
 
 - The popularity of the SLAM problem is connected with the emergence of indoor applications of mobile robotics. 
+    - Indoor operation rules out the use of GPS to bound the localization error; 
+    - furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
+    
 
-Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzAwNTQxXX0=
--->
+
+
+
+
+
+
+
+
+
