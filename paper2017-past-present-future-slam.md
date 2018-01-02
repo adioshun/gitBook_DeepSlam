@@ -169,13 +169,30 @@
 
 ##### Q 1.2
 
-The second answer regards the true topology of the environment.A robot performing odometry and neglecting loopclosures interprets the world as an “infinite corridor” (Fig. 1-left) in which the robot keeps exploring new areas indefinitely.A loop closure event informs the robot that this “corridor”keeps intersecting itself (Fig. 
+- 두번째 대답은 true topology에 관한 것이다. `The second answer regards the true topology of the environment.`
 
-1-right). 
+![](https://i.imgur.com/0KbpSfo.png)
+```
+[Fig. 1: Left:]
+- map built from odometry. 
+- The map is homotopic to a long corridor that goes from the starting position A to the final position B. 
+- Points that are close in reality (e.g., B and C) may be arbitrarily far in the odometric map.
 
-The advantage of loopclosure now becomes clear: by finding loop closures, therobot understands the real topology of the environment, andis able to find shortcuts between locations (e.g., point Band C in the map). 
+[Fig. 1: Right:]
+- map build from SLAM. 
+- By leveraging loop closures, SLAM estimates the actual topology of the environment, and “discovers” shortcuts in the map.
+```
 
-Therefore, if getting the right topologyof the environment is one of the merits of SLAM, whynot simply drop the metric information and just do placerecognition? The answer is simple: the metric informationmakes place recognition much simpler and more robust; themetric reconstruction informs the robot about loop closure opportunitiesand allows discarding spurious loop closures [150].Therefore, while SLAM might be redundant in principle (anoracle place recognition module would suffice for topologicalmapping), SLAM offers a natural defense against wrong dataassociation and perceptual aliasing, where similarly lookingscenes, corresponding to distinct locations in the environment,would deceive place recognition. 
+- A robot performing odometry and neglecting loop closures interprets the world as an “infinite corridor” (Fig. 1-left) in which the robot keeps exploring new areas indefinitely.
+
+
+A loop closure event informs the robot that this “corridor”keeps intersecting itself (Fig. 1-right). 
+
+- LC의 장점은 다음과 같다. `The advantage of loopclosure now becomes clear: by finding loop closures,`
+    - 토폴로지를 이해 할수있고 `the robot understands the real topology of the environment, `
+    - 최단 경로를 계산 할수 있다. `and is able to find shortcuts between locations (e.g., point Band C in the map). `
+
+Therefore, if getting the right topology of the environment is one of the merits of SLAM, whynot simply drop the metric information and just do placerecognition? The answer is simple: the metric informationmakes place recognition much simpler and more robust; themetric reconstruction informs the robot about loop closure opportunitiesand allows discarding spurious loop closures [150].Therefore, while SLAM might be redundant in principle (anoracle place recognition module would suffice for topologicalmapping), SLAM offers a natural defense against wrong dataassociation and perceptual aliasing, where similarly lookingscenes, corresponding to distinct locations in the environment,would deceive place recognition. 
 
 In this sense, the SLAM mapprovides a way to predict and validate future measurements:we believe that this mechanism is key to robust operation
 
