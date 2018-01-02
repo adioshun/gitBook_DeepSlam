@@ -129,29 +129,47 @@
 
 ```
 
+### SLAM에 대한 두가지 논의 점 
+
 - 좀더 깊게 들어 가기 전에 아래 두 물음에 대하여 살펴 보자 `Before delving into the paper, we first discuss two questions that often animate discussions during robotics conferences: `
     - (1) do autonomous robots need SLAM? and 
     - (2) is SLAM solved as an academic research endeavor? 
 - 이 질문에 대하여서는 후반부에 다시 언급하겠다. `We will revisit these questions at the end of the manuscript.`
 
-####### Q #1 : Do autonomous robots really need SLAM?
+####  Q 1 : Do autonomous robots really need SLAM?
 
 
 - 첫번째 질문에 답변하기 위해서는 무엇이 SLAM을 Unique하게 만드는지 이해 해야 한다. `Answering the question “Do autonomous robots really need SLAM?” requires understanding what makes SLAM unique.`
 
-- SLAM aims at building a globally consistent representation of the environment, leveraging both ego-motion measurements and loop closures. 
+- 슬램의 목표는 글로벌하고 일관된 representation을 생성 하는것이다. S`LAM aims at building a globally consistent representation of the environment,`
+    - leveraging both ego-motion measurements and loop closures. 
 
-The keyword here is “loop closure”: if wesacrifice loop closures, SLAM reduces to odometry. 
+- 키워드는 loop closure이다. `The keyword here is “loop closure”:`
+    - loop closure를 포기 하면 odometry를 줄일수 있다. `if we sacrifice loop closures, SLAM reduces to odometry. `
 
-In earlyapplications, odometry was obtained by integrating wheelencoders. 
+- 초창기에는 odometry는 바퀴 인코더를 통해서 얻었다. `In early applications, odometry was obtained by integrating wheel encoders. `
 
-The pose estimate obtained from wheel odometryquickly drifts, making the estimate unusable after few meters[128, Ch. 
+- 바퀴 odometry 로 예측한 Pose는 쉽게 drifts되어 몇미터만 이동하여도 쓸모없게 된다. `The pose estimate obtained from wheel odometry quickly drifts, making the estimate unusable after few meters[128, Ch. 6]; `
 
-6]; this was one of the main thrusts behind thedevelopment of SLAM: the observation of external landmarksis useful to reduce the trajectory drift and possibly correctit [185]. 
 
-However, more recent odometry algorithms are basedon visual and inertial information, and have very small drift(< 0.5% of the trajectory length [82]). 
+- 이것이 스램을 개발하는데 문제점이다. `this was one of the main thrusts behind the development of SLAM:` 
+    - 랜드마크를 관찰하는 방법은 이런 trajectory drift를 줄여 주고 보정도 가능하게 한다. `the observation of external landmarks is useful to reduce the trajectory drift and possibly correct it [185]. `
+    - 최근의 odometry 알고리즘은 비쥬얼 기반이며 inertial 정보를 사용하여 매우 작은 에러를 가진다. ` However, more recent odometry algorithms are based on visual and inertial information, and have very small drift(< 0.5% of the trajectory length [82]). `
 
-Hence the questionbecomes legitimate: do we really need SLAM? Our answer isthree-fold.
+따라서, 첫번째 질문은 다음과 같이 3가지로 legitimate된다. ` Hence the question becomes legitimate: do we really need SLAM? Our answer is three-fold.`
+
+##### Q 1.1
+
+- 최근 10년간의 슬램 연구들은 visual-inertial odometry알고리즘을 itself produced해다. `First of all, we observe that the SLAM research done over the last decade has itself produced the visual-inertial odometry algorithms that currently represent the state of the art, e.g., [163, 175];` 
+
+- 이런 관점에서 VIN은 SLAM이다. `in this sense Visual-Inertial Navigation(VIN) is SLAM:`
+    - VIN은 loop closure가 제거된 간소화(Reduced)된 SLAM시스템이다. ` VIN can be considered a reduced SLAM system, in which the loop closure (or place recognition) module is disabled. `
+
+- SLAM은 센서 퓨전에 대한 연구를 이끌어 왔다. `More generally, SLAM has directly led to the study of sensor fusion under more challenging setups (i.e., no GPS, low quality sensors) than previously considered in other literature (e.g., inertial navigation in aerospace engineering).`
+
+- 
+
+
 
 
 
