@@ -215,7 +215,27 @@
 
 - 이 질문은 특정환경/로봇/성능에 따라 다르므로 답변하기 어려운 주제이다. `This question is difficult to answer because SLAM has become such abroad topic that the question is well posed only for a given robot/environment/performance combination. `
 
-- In particular,one can evaluate the maturity of the SLAM problem once the following aspects are specified:
+
+- SLAM기술이 완벽한지 평가 하려면 아래 사항들에 대하여 정의 되어야 한다. `In particular,one can evaluate the maturity of the SLAM problem once the following aspects are specified:`
+    - robot: 
+        - type of motion (e.g., dynamics, maximum speed), 
+        - available sensors (e.g., resolution, sampling rate), 
+        - avail-able computational resources;
+    - environment: 
+        - planar or three-dimensional, 
+        - presence of natural or artificial landmarks, 
+        - amount of dynamic elements, 
+        - amount of symmetry and risk of perceptual aliasing. 
+        - Note that many of these aspects actually depend on the sensor-environment pair: for instance, two rooms may look identical for a 2D laser scanner (perceptual aliasing), while a camera may discern them from appearance cues;
+    - performance requirements: 
+        - desired accuracy in the estimation of the state of the robot, 
+        - accuracy and type of representation of the environment (e.g., landmark-based or dense), 
+        - success rate (percentage of tests in which the accuracy bounds are met), 
+        - estimation latency, 
+        - maximum operation time, 
+        - maximum size of the mapped area
+
+
 
 
 
