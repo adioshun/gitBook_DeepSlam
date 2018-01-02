@@ -183,19 +183,31 @@
 - By leveraging loop closures, SLAM estimates the actual topology of the environment, and “discovers” shortcuts in the map.
 ```
 
-- A robot performing odometry and neglecting loop closures interprets the world as an “infinite corridor” (Fig. 1-left) in which the robot keeps exploring new areas indefinitely.
+- odometry를 수행하며 LC를 무시하면 로봇은 세상을 “infinite corridor”로 간주 하게 된다. `A robot performing odometry and neglecting loop closures interprets the world as an “infinite corridor” (Fig. 1-left) in which the robot keeps exploring new areas indefinitely.`
 
 
-A loop closure event informs the robot that this “corridor”keeps intersecting itself (Fig. 1-right). 
+-LC는 로봇에게 corridor가 겹치는걸 알려 준다. `A loop closure event informs the robot that this “corridor”keeps intersecting itself (Fig. 1-right). `
 
 - LC의 장점은 다음과 같다. `The advantage of loopclosure now becomes clear: by finding loop closures,`
     - 토폴로지를 이해 할수있고 `the robot understands the real topology of the environment, `
     - 최단 경로를 계산 할수 있다. `and is able to find shortcuts between locations (e.g., point Band C in the map). `
 
-Therefore, if getting the right topology of the environment is one of the merits of SLAM, whynot simply drop the metric information and just do placerecognition? The answer is simple: the metric informationmakes place recognition much simpler and more robust; themetric reconstruction informs the robot about loop closure opportunitiesand allows discarding spurious loop closures [150].Therefore, while SLAM might be redundant in principle (anoracle place recognition module would suffice for topologicalmapping), SLAM offers a natural defense against wrong dataassociation and perceptual aliasing, where similarly lookingscenes, corresponding to distinct locations in the environment,would deceive place recognition. 
+- 따라서 정확한 토폴로지를 아는게 SLAM의 장점 이라면 왜 metric를 drop하고 단순히 place recognition만 하지 않는 것인가? `Therefore, if getting the right topology of the environment is one of the merits of SLAM, why not simply drop the metric information and just do place recognition? `
+    - 답변은 간단하다. Metric정보는 place recognition를 쉽게 하도록 도와 주면 강건성이 증가 한다. `The answer is simple: the metric information makes place recognition much simpler and more robust; `
+    - metric reconstruction는 로봇에게 LC가 가능하게 한다. `the metric reconstruction informs the robot about loop closure opportunities and allows discarding spurious loop closures [150].`
 
-In this sense, the SLAM mapprovides a way to predict and validate future measurements:we believe that this mechanism is key to robust operation
+- Therefore, while SLAM might be redundant in principle (an oracle place recognition module would suffice for topological mapping), SLAM offers a natural defense against wrong data association and perceptual aliasing, where similarly looking scenes, corresponding to distinct locations in the environment,would deceive place recognition. 
 
+- In this sense, the SLAM map provides a way to predict and validate future measurements:we believe that this mechanism is key to robust operation
+
+
+##### Q 1.3 
+
+- 세번째 대답은 SLAM은 globally consistent map을 필요로 하는 많은 서비스에 필요로 한다. `The third answer is that SLAM is needed for many applications that, either implicitly or explicitly, do require a globally consistent map. `
+
+- 예를 들어 대부분의 로봇의 목표는 주변을 돌아 다니면서 지도를 사용자에게 전달 하는 것이다. `For instance, in many military and civilian applications, the goal of the robot is to explore an environment and report a map to the human operator, ensuring that full coverage of the environment has been obtained.`
+
+- 또 다른 예로는 구조물에 대한 검사를 하는 롯봇이다. 이 경우에 **globally consistent 3D reconstruction**는 꼭 필요 하다. `Another example is the case in which the robot has to perform structural inspection (of a building, bridge, etc.); also in this case a globally consistent 3D reconstruction is a requirement for successful operation.`
 
 
 
