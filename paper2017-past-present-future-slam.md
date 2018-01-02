@@ -121,7 +121,15 @@
         - to system integration. 
 
 
+- 최근 논문 들은 SLAM에 대한 오버뷰와 연구 방향을 제시 하고 있다. `The present paper gives a broad overview of the current state of SLAM, and offers the perspective of part of the community on the open problems and future directions for the SLAM research. `
 
+- 우리의 주 관심은 **metric**과 **semantic SLAM**이다. 추천할 만한 서베이논문은 [160]이다. `Our main focus is on metric and semantic SLAM, and we refer the reader to the recent survey by Lowry etal. [160],`
+    - 이논문은 비젼 기반 place recognition과 topological SLAM에 대하여 다루고 있다. ` which provides a comprehensive review of vision based place recognition and topological SLAM.`
+    
+```
+[160] S. Lowry, N. Sunderhauf, P. Newman, J. J. Leonard, D. Cox, P. Corke, and M. J. Milford. Visual Place Recognition: A Survey. IEEE Transactions on Robotics (TRO), 32(1):1–19, 2016.
+
+```
 
 
 
