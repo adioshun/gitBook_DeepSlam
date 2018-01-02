@@ -103,6 +103,25 @@
 
 
 
+![](https://i.imgur.com/H3wV6eR.png)
+- SLAM 서베이 논문들을 표 1에 정리 하였다. 최근 서베이 논문들은 특정 aspects이나 SLMA의 sub-fields에 초점을 두고 있었다. ` We review the main SLAM surveys to date in Table I,observing that most recent surveys only cover specific aspects or sub-fields of SLAM. `
+
+
+- 지난 30년간 SLAM이 인기 있었던것은 SLAM이 포함하는 aspects 만 봐도 알수 있다. `The popularity of SLAM in the last 30years is not surprising if one thinks about the manifold aspects that SLAM involves. `
+    - At the lower level (called the front-end in Section II) SLAM naturally intersects other research fields such as 
+        - computer vision and 
+        - signal processing; 
+    - at the higher level (that we later call the back-end), SLAM is an appealing mix of 
+        - geometry, 
+        - graph theory, 
+        - optimization, 
+        - and probabilistic estimation. 
+    - Finally, a SLAM expert has to deal with practical aspects ranging 
+        - from sensor calibration 
+        - to system integration. 
+
+
+
 
 
 
