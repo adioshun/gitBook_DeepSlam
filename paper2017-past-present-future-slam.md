@@ -167,7 +167,17 @@
 
 - SLAM은 센서 퓨전에 대한 연구를 이끌어 왔다. `More generally, SLAM has directly led to the study of sensor fusion under more challenging setups (i.e., no GPS, low quality sensors) than previously considered in other literature (e.g., inertial navigation in aerospace engineering).`
 
-- 
+##### Q 1.2
+
+The second answer regards the true topology of the environment.A robot performing odometry and neglecting loopclosures interprets the world as an “infinite corridor” (Fig. 1-left) in which the robot keeps exploring new areas indefinitely.A loop closure event informs the robot that this “corridor”keeps intersecting itself (Fig. 
+
+1-right). 
+
+The advantage of loopclosure now becomes clear: by finding loop closures, therobot understands the real topology of the environment, andis able to find shortcuts between locations (e.g., point Band C in the map). 
+
+Therefore, if getting the right topologyof the environment is one of the merits of SLAM, whynot simply drop the metric information and just do placerecognition? The answer is simple: the metric informationmakes place recognition much simpler and more robust; themetric reconstruction informs the robot about loop closure opportunitiesand allows discarding spurious loop closures [150].Therefore, while SLAM might be redundant in principle (anoracle place recognition module would suffice for topologicalmapping), SLAM offers a natural defense against wrong dataassociation and perceptual aliasing, where similarly lookingscenes, corresponding to distinct locations in the environment,would deceive place recognition. 
+
+In this sense, the SLAM mapprovides a way to predict and validate future measurements:we believe that this mechanism is key to robust operation
 
 
 
