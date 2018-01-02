@@ -57,26 +57,48 @@
 
 - 따라서 SLMA은 지도가 없어 생성해야 하는 서비스에서도 활용이 가능하다. `Therefore, SLAM finds applications in all scenarios in which a prior map is not available and needs to be built.`
 
+
 - 일부 환경에서는 랜드마크가 미리 정의되어 있다. `In some robotics applications the location of a set of landmarks is known a priori. `
     - 예를 들어 비콘등을 이용하여 위치 정보를 미리 알려 준다. `For instance, a robot operating on a factory floor can be provided with a manually-built map of artificial beacons in the environment. `
     - 또는 실내지만 GPS를 수신할수 있는 환경도 랜드마크가 알려진것으로 볼수 있다. `Another example is the case in which the robot has access to GPS (the GPS satellites can be considered as moving beacons at known locations). `
     - 이런 알려진 랜드마크를 이용하여 localization이 가능한 시나리오에서는 SLAM이 꼭 필요 하지 않다. `In such scenarios, SLAM may not be required if localization can be done reliably with respect to the known landmarks.`
 
+
 - The popularity of the SLAM problem is connected with the emergence of indoor applications of mobile robotics. 
     - Indoor operation rules out the use of GPS to bound the localization error; 
     - furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
     
-A thorough historical review of the first 20 years of theSLAM problem is given by Durrant-Whyte and Bailey intwo surveys [7, 69]. 
+ 
+ ###### [1986-2004 : classical age] 
+      
+- 20년간의 SLAM 문제 연구에 대한 추천 서베이 논문 : [7, 69]`A thorough historical review of the first 20 years of the SLAM problem is given by Durrant-Whyte and Bailey in two surveys [7, 69]. `
 
-These mainly cover what we call theclassical age (1986-2004); the classical age saw the introductionof the main probabilistic formulations for SLAM,including approaches based on Extended Kalman Filters, RaoBlackwellisedParticle Filters, and maximum likelihood estimation;moreover, it delineated the basic challenges connected to efficiency and robust data association. 
 
-Two other excellentreferences describing the three main SLAM formulationsof the classical age are the book of Thrun, Burgard, andFox [240] and the chapter of Stachniss et al. [234, Ch. 46].
+- [7, 69]의 주요 내용은 classical age(1986-2004)에 대한 내용이다. `These mainly cover what we call the classical age (1986-2004); `
+    - the classical age saw the introduction of the main probabilistic formulations for SLAM,
+    - including approaches based on 
+        - Extended Kalman Filters, 
+        - RaoBlackwellised Particle Filters, 
+        - and maximum likelihood estimation;
+    - moreover, it delineated the basic challenges connected to efficiency and robust data association. 
 
-The subsequent period is what we call the algorithmic-analysisage (2004-2015), and is partially covered by Dissanayake etal. in [64]. 
 
-The algorithmic analysis period saw the studyof fundamental properties of SLAM, including observability,convergence, and consistency. 
+- classical age의 연구의 참고 문헌 들 `Two other excellent references describing the three main SLAM formulations of the classical age are` 
+    - the book of Thrun, Burgard, andFox [240] and 
+    - the chapter of Stachniss et al. [234, Ch. 46].
 
-In this period, the key role ofsparsity towards efficient SLAM solvers was also understood,and the main open-source SLAM libraries were developed.
+###### [2004-2015 : algorithmic-analysis age] 
+
+- 이후의 연구는 algorithmic-analysis age (2004-2015)라고 불리우고 [64]에 잘 설명되어 있다. `The subsequent period is what we call the algorithmic-analysis age (2004-2015), and is partially covered by Dissanayake etal. in [64]. `
+    - The algorithmic analysis period saw the study of fundamental properties of SLAM, 
+    - including 
+        - observability,
+        - convergence, and 
+        - consistency. 
+    - In this period, 
+        - the key role of sparsity towards efficient SLAM solvers was also understood,
+        - and the main open-source SLAM libraries were developed.
+
 
 
 
