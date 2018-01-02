@@ -17,6 +17,11 @@
 - We start by presenting what is now the de-facto standard formulation for SLAM. 
 
 - 관련연구 : We then review related work, covering a broad set of topics including 
+
+
+----------
+
+
     - robustness and scalability in long-term mapping, 
     - metric and semantic representations for mapping, 
     - theoretical performance guarantees, 
@@ -60,5 +65,5 @@ In such scenarios, SLAM may not be required if localization can be done reliably
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjgyMzkyN119
+eyJoaXN0b3J5IjpbMTczMzAwNTQxXX0=
 -->
