@@ -209,7 +209,13 @@
 
 - 또 다른 예로는 구조물에 대한 검사를 하는 롯봇이다. 이 경우에 **globally consistent 3D reconstruction**는 꼭 필요 하다. `Another example is the case in which the robot has to perform structural inspection (of a building, bridge, etc.); also in this case a globally consistent 3D reconstruction is a requirement for successful operation.`
 
+#### Q 2 : is SLAM solved?
 
+- 이 질문은 로보틱스 커뮤니티에서 자주 회자 되는 질문이다. `This question of “is SLAM solved?” is often asked within the robotics community, c.f. [87]. `
+
+- 이 질문은 특정환경/로봇/성능에 따라 다르므로 답변하기 어려운 주제이다. `This question is difficult to answer because SLAM has become such abroad topic that the question is well posed only for a given robot/environment/performance combination. `
+
+- In particular,one can evaluate the maturity of the SLAM problem once the following aspects are specified:
 
 
 
