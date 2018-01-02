@@ -312,11 +312,29 @@ Despite its unique traits, SLAM is related to problems addressed in computer vis
     - the front-end 
     - the back-end. 
 
-The front-end abstracts sensor data into models that are amenable forestimation, while the back-end performs inference on theabstracted data produced by the front-end. 
+![](https://i.imgur.com/ZX089mc.png)
+```
+[Fig. 2: Front-end and back-end in a typical SLAM system.]
+-  The back-end can provide feedback to the front-end for loop closure detection and verification.
+```
 
-This architectureis summarized in Fig. 2. 
+- **The front-end** abstracts sensor data into models that are amenable for estimation, 
 
-We review both components, startingfrom the back-end.
+- **The back-end** performs inference on the abstracted data produced by the front-end. 
+
+### 2.1 Maximum a posteriori (MAP) estimation and the SLAM back-end.
+
+
+
+### 2.2 Sensor-dependent SLAM front-end
+
+
+
+## III. LONG-TERM AUTONOMY I: ROBUSTNESS
+
+
+## IV. LONG-TERM AUTONOMY II: SCALABILITY
+
 
 ---
 
