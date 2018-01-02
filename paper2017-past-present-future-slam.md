@@ -235,6 +235,27 @@
         - maximum operation time, 
         - maximum size of the mapped area
 
+- 예를 들어 아래 상황에 대한 SLAM은 Mature하다고 볼수 있다. 
+    - `For instance, mapping a 2D indoor environment with a robot equipped with wheel encoders and a laser scanner,with sufficient accuracy (< 10cm) and sufficient robustness(say, low failure rate), can be considered largely solved (an example of industrial system performing SLAM is the Kuka Navigation Solution [145]). `
+    - 비슷한 비젼 기반 SLMA역시 Mature한 연구 결과이다. `Similarly, vision-based SLAM with slowly-moving robots (e.g., Mars rovers [166], domesticrobots [114]), and visual-inertial odometry [94] can be considered mature research fields.`
+  
+      
+- 하지만 다른 상황에 대한 SLAM은 Mature하다고 볼수 없다. `On the other hand,`
+    - other robot/environment/performance combinations still deserve a large amount of fundamental research. 
+
+
+- 오늘날 SLAM알고리즘들은 로봇의 모션이나 환경이 challenging 하면 좋은 성과를 보이지 않는다. `Current SLAM algorithms can be easily induced to fail when either the motion of the robot or the environment are too challenging (e.g., fast robot dynamics, highly dynamic environments); `
+    - similarly, SLAM algorithms are often unable to face strict performance requirements, 
+        - e.g., high rate estimation for fast closed-loop control. 
+
+###### [2016- : the robust-perception age] 
+
+- 본 논문에서는 SLAM연구가 새로운 전기를 맞이 하고 있다고 본다. `In this paper, we argue that we are entering in a third era for SLAM,` 
+
+- robust-perception age는 아래의 요구사항을 가진다. `the robust-perception age, which is characterized by the following key requirements:`
+
+
+
 
 
 
