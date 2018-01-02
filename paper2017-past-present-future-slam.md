@@ -60,8 +60,9 @@
 - 일부 환경에서는 랜드마크가 미리 정의되어 있다. `In some robotics applications the location of a set of landmarks is known a priori. `
     - 예를 들어 비콘등을 이용하여 위치 정보를 미리 알려 준다. `For instance, a robot operating on a factory floor can be provided with a manually-built map of artificial beacons in the environment. `
     - 또는 실내지만 GPS를 수신할수 있는 환경도 랜드마크가 알려진것으로 볼수 있다. `Another example is the case in which the robot has access to GPS (the GPS satellites can be considered as moving beacons at known locations). `
-    
-In such scenarios, SLAM may not be required if localization can be done reliably with respect to the known landmarks.The popularity of the SLAM problem is connected with theemergence of indoor applications of mobile robotics. 
+    - 이런 알려진 랜드마크를 이용하여 localization이 가능한 시나리오에서는 SLAM이 꼭 필요 하지 않다. `In such scenarios, SLAM may not be required if localization can be done reliably with respect to the known landmarks.`
+
+- The popularity of the SLAM problem is connected with the emergence of indoor applications of mobile robotics. 
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
