@@ -386,7 +386,7 @@ $$
 
 - 본 장에서는 **metric representations**에 대하여 넓은 관점`(로보틱스, 컴퓨터 비젼, CAD, 컴퓨터 그래픽)`에서 살펴 보겠다.  `In this section we review metric representations, taking a broad perspective across robotics,computer vision, computer aided design (CAD), and computer graphics. `
 
-- 사용된 분류는 Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more recent work.
+- 사용된 분류는  [80, 209, 221]를 기반으로 한다. Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more recent work.
 ---
 
 <a name="11">[1]</a> The SLAM community has been largely affected by the “curse of manual tuning”, in that satisfactory operation is enabled by expert tuning of the system parameters (e.g., stopping conditions, thresholds for outlier rejection).  <br/>
@@ -396,5 +396,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODg1NTYyMDddfQ==
+eyJoaXN0b3J5IjpbLTE5MjM4NDM0MzNdfQ==
 -->
