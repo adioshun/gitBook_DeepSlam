@@ -330,10 +330,11 @@ Despite its unique traits, SLAM is related to problems addressed in computer vis
 
 - SLAM의 공식들은 [161], [101]을 기반을 두고 있다. `The current de-facto standard formulation of SLAM has its origins in the seminal paper of Lu and Milios [161], followed by the work of Gutmann and Konolige [101].`
 
+- 위 내용을 기반으로 개선된 방식[63, 81, 100, 125, 192, 241]들이 제안 되었다. `Since then, numerous approaches have improved the efficiency and robustness of the optimization underlying the problem[63, 81, 100, 125, 192, 241]. `
 
-Since then, numerous approaches have improved the efficiencyand robustness of the optimization underlying the problem[63, 81, 100, 125, 192, 241]. 
+All these approaches formulate SLAM as a maximum a posteriori estimation problem, and often use the formalism of factor graphs [143] to reason about the interdependence among variables.
 
-All these approaches formulateSLAM as a maximum a posteriori estimation problem, andoften use the formalism of factor graphs [143] to reason aboutthe interdependence among variables.Assume that we want to estimate an unknown variable X ; asmentioned before, in SLAM the variable X typically includesthe trajectory of the robot (as a discrete set of poses) andthe position of landmarks in the environment. 
+Assume that we want to estimate an unknown variable X ; as mentioned before, in SLAM the variable X typically includes the trajectory of the robot (as a discrete set of poses) and the position of landmarks in the environment. 
 
 We are givena set of measurements Z = {zk : k = 1, . 
 
@@ -362,5 +363,5 @@ We are givena set of measurements Z = {zk : k = 1, .
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODMxNjYwMV19
+eyJoaXN0b3J5IjpbMTY1NzU5MTc4OV19
 -->
