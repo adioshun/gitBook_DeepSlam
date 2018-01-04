@@ -382,9 +382,9 @@ $$
 	- 이 워킹 그룹은  which recently released a standard for 2D maps in robotics [113]; the standard defines the two main metric representations for planar environments(plus topological maps) in order to facilitate data exchange, benchmarking, and technology transfer.
 
 
-- 3D geometry 모델링 문제는 좀더 예민하고, 3D geometry를 효율적으로 모델링 하는가에 대한 문제는 아직 The question of 3D geometry modeling is more delicate, and the understanding of how to efficiently model 3D geometry during mapping is in its infancy. 
+- 3D geometry 모델링 문제는 좀더 예민하고, Mappling중에 3D geometry를 효율적으로 모델링 하는가에 대한 문제는 아직 초보적인 수준이다. `The question of 3D geometry modeling is more delicate, and the understanding of how to efficiently model 3D geometry during mapping is in its infancy. `
 
-In this section we review metricrepresentations, taking a broad perspective across robotics,computer vision, computer aided design (CAD), and computergraphics. 
+- 본 장에서는 **metric representations**에 대하여 살펴 보겠다.  In this section we review metric representations, taking a broad perspective across robotics,computer vision, computer aided design (CAD), and computer graphics. 
 
 Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more recent work.
 ---
@@ -396,5 +396,5 @@ Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTYzOTc5OV19
+eyJoaXN0b3J5IjpbMjExOTU2NzUyOV19
 -->
