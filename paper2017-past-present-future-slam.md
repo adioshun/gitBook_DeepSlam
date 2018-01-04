@@ -334,7 +334,7 @@ Despite its unique traits, SLAM is related to problems addressed in computer vis
 
 - 위 모든 방식들은 SLAM을 **MAP**문제로 보고 있다. 일부는 ** factor graphs [143] ** 를 사용한다. `All these approaches formulate SLAM as a maximum a posteriori estimation problem, and often use the formalism of factor graphs [143] to reason about the interdependence among variables.`
 
-- 변수 X를 측정한다고 가정해 봅시다. SLAM에서 변수 X는 일반적으로 trajectory of the robot이나 랜드마크의 위치 입니다.  `Assume that we want to estimate an unknown variable X ; as mentioned before, in SLAM the variable X typically includes the trajectory of the robot (as a discrete set of poses) and the position of landmarks in the environment. `
+- 변수 X를 측정한다고 가정해 봅시다. SLAM에서 변수 X는 일반적으로 trajectory of the robot`(discrete set of poses)`이나 랜드마크의 위치 입니다.  `Assume that we want to estimate an unknown variable X ; as mentioned before, in SLAM the variable X typically includes the trajectory of the robot (as a discrete set of poses) and the position of landmarks in the environment. `
 
 We are givena set of measurements Z = {zk : k = 1, . 
 
@@ -363,5 +363,5 @@ We are givena set of measurements Z = {zk : k = 1, .
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3NDAxNjM3XX0=
+eyJoaXN0b3J5IjpbOTYyMzA5OTk4XX0=
 -->
