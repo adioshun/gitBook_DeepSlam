@@ -341,7 +341,7 @@ Despite its unique traits, SLAM is related to problems addressed in computer vis
 	- $$h_k(·)$$ is a known function (the measurement or observation model), 
 	- $$ \epsilon_k$$ is random measurement noise.
 
-- In MAP estimation, we estimate X by computing the assignment of variables $$X\star $$
+- In MAP estimation, we estimate $$X by computing the assignment of variables $$X\star $$
 ?
 that attains the maximum of the
 posterior p(X |Z) (the belief over X given the measurements):
@@ -365,5 +365,5 @@ posterior p(X |Z) (the belief over X given the measurements):
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxNzAyOTA1XX0=
+eyJoaXN0b3J5IjpbLTE3Mjk5NzQ0NzFdfQ==
 -->
