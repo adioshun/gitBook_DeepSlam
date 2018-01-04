@@ -348,6 +348,7 @@ x\star = argmax_x p(X \mid Z) = argmax x P(Z \mid x)p(x)
 $$
 
 
+
 ### 2.2 Sensor-dependent SLAM front-end
 
 
@@ -367,5 +368,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTY4NjMyXX0=
+eyJoaXN0b3J5IjpbMTQ1NjE3OTIyNl19
 -->
