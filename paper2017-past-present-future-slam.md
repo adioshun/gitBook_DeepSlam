@@ -359,7 +359,18 @@ $$
 
 ## IV. LONG-TERM AUTONOMY II: SCALABILITY
 
+## V. REPRESENTATION I: METRIC MAP MODELS
 
+- This section discusses how to model geometry in SLAM. More formally, a metric representation (or metric map) is a symbolic structure that encodes the geometry of the environment.
+- We claim that understanding how to choose asuitable metric representation for SLAM (and extending theset or representations currently used in robotics) will impactmany research areas, including long-term navigation, physicalinteraction with the environment, and human-robot interaction.Geometric modeling appears much simpler in the 2D case,with only two predominant paradigms: landmark-based mapsand occupancy grid maps. 
+
+The former models the environmentas a sparse set of landmarks, the latter discretizes the environmentin cells and assigns a probability of occupation to eachcell. 
+
+The problem of standardization of these representationsin the 2D case has been tackled by the IEEE RAS MapData Representation Working Group, which recently releaseda standard for 2D maps in robotics [113]; the standard definesthe two main metric representations for planar environments(plus topological maps) in order to facilitate data exchange,benchmarking, and technology transfer.The question of 3D geometry modeling is more delicate, andthe understanding of how to efficiently model 3D geometry during mapping is in its infancy. 
+
+In this section we review metricrepresentations, taking a broad perspective across robotics,computer vision, computer aided design (CAD), and computergraphics. 
+
+Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more recent work.
 ---
 
 <a name="11">[1]</a> The SLAM community has been largely affected by the “curse of manual tuning”, in that satisfactory operation is enabled by expert tuning of the system parameters (e.g., stopping conditions, thresholds for outlier rejection).  <br/>
@@ -369,5 +380,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3MDgzMzE0XX0=
+eyJoaXN0b3J5IjpbMTY2NTM1NTM4NF19
 -->
