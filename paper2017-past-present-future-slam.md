@@ -344,7 +344,7 @@ Despite its unique traits, SLAM is related to problems addressed in computer vis
 - In MAP estimation, we estimate $$X$$ by computing the assignment of variables $$X\star $$ that attains the maximum of the posterior $$p (X \mid Z)$$  (the belief over $$X$$ given the measurements):
 
 $$
-x\star = argmax_x p(X \mid Z) = argmax x P(Z \mid x
+x\star = argmax_x p(X \mid Z) = argmax x P(Z \mid x)p
 $$
 
 
@@ -367,5 +367,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQzMDE4OTRdfQ==
+eyJoaXN0b3J5IjpbLTIzMDUwMDI1NV19
 -->
