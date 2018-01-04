@@ -368,9 +368,11 @@ $$
 - 알맞은 metric representation를 선택 하는것은 중요 하다. `We claim that understanding how to choose a suitable metric representation for SLAM (and extending the set or representations currently used in robotics) will impact many research areas, `
 	- including long-term navigation, physical interaction with the environment, and human-robot interaction.
 
-- Geometric modeling appears much simpler in the 2D case,with only two predominant paradigms: landmark-based maps and occupancy grid maps. 
+- Geometric modeling appears much simpler in the 2D case, with only two predominant paradigms: 
+	- landmark-based maps and 
+	- occupancy grid maps. 
 
-The former models the environmentas a sparse set of landmarks, the latter discretizes the environmentin cells and assigns a probability of occupation to eachcell. 
+- The former models the environment as a sparse set of landmarks, the latter discretizes the environment in cells and assigns a probability of occupation to each cell. 
 
 The problem of standardization of these representationsin the 2D case has been tackled by the IEEE RAS MapData Representation Working Group, which recently releaseda standard for 2D maps in robotics [113]; the standard definesthe two main metric representations for planar environments(plus topological maps) in order to facilitate data exchange,benchmarking, and technology transfer.
 
@@ -397,5 +399,5 @@ Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTMxNzgwN119
+eyJoaXN0b3J5IjpbLTEzMDQwMDg4MTRdfQ==
 -->
