@@ -402,7 +402,10 @@ $$
 ### 5.4 High-level object-based representations.
 
 
+### 5.5 Open Problems. 
 
+
+## VI. REPRESENTATION II: SEMANTIC MAP MODELS
 
 
 
@@ -422,5 +425,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQxMjQ4NDJdfQ==
+eyJoaXN0b3J5IjpbLTk0ODg0OTkyN119
 -->
