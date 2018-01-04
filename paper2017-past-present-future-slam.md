@@ -336,7 +336,7 @@ Despite its unique traits, SLAM is related to problems addressed in computer vis
 
 - 변수 X를 측정한다고 가정해 봅시다. SLAM에서 변수 X는 일반적으로 trajectory of the robot`(discrete set of poses)`이나 랜드마크의 위치 입니다.  `Assume that we want to estimate an unknown variable X ; as mentioned before, in SLAM the variable X typically includes the trajectory of the robot (as a discrete set of poses) and the position of landmarks in the environment. `
 
-We are givena set of measurements $$Z = \{z_k : k = 1, ...,m\} $$ such that each measurement can be expressed as a function of X , i.e.$$,zk = hk(Xk)+k$$, where $$Xk \in X$$ is a subset of the variables,hk(·) is a known function (the measurement or observationmodel), and k is random measurement noise.
+We are givena set of measurements $$Z = \{z_k : k = 1, ...,m\} $$ such that each measurement can be expressed as a function of X , i.e.$$z_k = h_k(X_k)+\ep_k$$, where $$X_k \subseteq X$$ is a subset of the variables,hk(·) is a known function (the measurement or observationmodel), and k is random measurement noise.
 
 ### 2.2 Sensor-dependent SLAM front-end
 
@@ -357,5 +357,5 @@ We are givena set of measurements $$Z = \{z_k : k = 1, ...,m\} $$ such that each
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzMwMjQwMF19
+eyJoaXN0b3J5IjpbMTE3NDcwODQ3NF19
 -->
