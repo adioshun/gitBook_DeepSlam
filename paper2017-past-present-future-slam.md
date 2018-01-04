@@ -361,16 +361,31 @@ $$
 
 ## V. REPRESENTATION I: METRIC MAP MODELS
 
-- This section discusses how to model geometry in SLAM. More formally, a metric representation (or metric map) is a symbolic structure that encodes the geometry of the environment.
+- 본장에서는 geometry 를 어떻게 SLAM에 모델링 하는지 알아 보겠다. `This section discusses how to model geometry in SLAM.`
+
+- More formally, a metric representation (or metric map) is a symbolic structure that encodes the geometry of the environment.
 
 - We claim that understanding how to choose a suitable metric representation for SLAM (and extending the set or representations currently used in robotics) will impact many research areas, including long-term navigation, physical interaction with the environment, and human-robot interaction.
 
 
-Geometric modeling appears much simpler in the 2D case,with only two predominant paradigms: landmark-based mapsand occupancy grid maps. 
+
+
+Geometric modeling appears much simpler in the 2D case,with only two predominant paradigms: landmark-based maps and occupancy grid maps. 
 
 The former models the environmentas a sparse set of landmarks, the latter discretizes the environmentin cells and assigns a probability of occupation to eachcell. 
 
-The problem of standardization of these representationsin the 2D case has been tackled by the IEEE RAS MapData Representation Working Group, which recently releaseda standard for 2D maps in robotics [113]; the standard definesthe two main metric representations for planar environments(plus topological maps) in order to facilitate data exchange,benchmarking, and technology transfer.The question of 3D geometry modeling is more delicate, andthe understanding of how to efficiently model 3D geometry during mapping is in its infancy. 
+The problem of standardization of these representationsin the 2D case has been tackled by the IEEE RAS MapData Representation Working Group, which recently releaseda standard for 2D maps in robotics [113]; the standard definesthe two main metric representations for planar environments(plus topological maps) in order to facilitate data exchange,benchmarking, and technology transfer.
+
+
+
+
+
+
+
+
+
+
+The question of 3D geometry modeling is more delicate, andthe understanding of how to efficiently model 3D geometry during mapping is in its infancy. 
 
 In this section we review metricrepresentations, taking a broad perspective across robotics,computer vision, computer aided design (CAD), and computergraphics. 
 
@@ -384,5 +399,5 @@ Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4NjI3NDgyXX0=
+eyJoaXN0b3J5IjpbLTE0MDkyMDkyNzVdfQ==
 -->
