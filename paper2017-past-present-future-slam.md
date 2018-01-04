@@ -384,9 +384,9 @@ $$
 
 - 3D geometry 모델링 문제는 좀더 예민하고, Mappling중에 3D geometry를 효율적으로 모델링 하는가에 대한 문제는 아직 초보적인 수준이다. `The question of 3D geometry modeling is more delicate, and the understanding of how to efficiently model 3D geometry during mapping is in its infancy. `
 
-- 본 장에서는 **metric representations**에 대하여 살펴 보겠다.  In this section we review metric representations, taking a broad perspective across robotics,computer vision, computer aided design (CAD), and computer graphics. 
+- 본 장에서는 **metric representations**에 대하여 넓은 관점`(로보틱스, 컴퓨터 비젼, CAD, 컴퓨터 그래픽)`에서 살펴 보겠다.  `In this section we review metric representations, taking a broad perspective across robotics,computer vision, computer aided design (CAD), and computer graphics. `
 
-Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more recent work.
+- Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more recent work.
 ---
 
 <a name="11">[1]</a> The SLAM community has been largely affected by the “curse of manual tuning”, in that satisfactory operation is enabled by expert tuning of the system parameters (e.g., stopping conditions, thresholds for outlier rejection).  <br/>
@@ -396,5 +396,5 @@ Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTU2NzUyOV19
+eyJoaXN0b3J5IjpbMTAyNzI2NjA2Nl19
 -->
