@@ -362,6 +362,7 @@ $$
 ## V. REPRESENTATION I: METRIC MAP MODELS
 
 - This section discusses how to model geometry in SLAM. More formally, a metric representation (or metric map) is a symbolic structure that encodes the geometry of the environment.
+
 - We claim that understanding how to choose asuitable metric representation for SLAM (and extending theset or representations currently used in robotics) will impactmany research areas, including long-term navigation, physicalinteraction with the environment, and human-robot interaction.Geometric modeling appears much simpler in the 2D case,with only two predominant paradigms: landmark-based mapsand occupancy grid maps. 
 
 The former models the environmentas a sparse set of landmarks, the latter discretizes the environmentin cells and assigns a probability of occupation to eachcell. 
@@ -380,5 +381,5 @@ Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTM1NTM4NF19
+eyJoaXN0b3J5IjpbMjgzNTQ0MjAyXX0=
 -->
