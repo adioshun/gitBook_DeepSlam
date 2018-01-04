@@ -346,6 +346,7 @@ Despite its unique traits, SLAM is related to problems addressed in computer vis
 $$
 x\star = argmax_x p(X \mid Z) = argmax x P(Z \mid x)p(x) 
 $$
+- where the equality follows from the Bayes theorem.
 
 
 
@@ -368,5 +369,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjE3OTIyNl19
+eyJoaXN0b3J5IjpbNDg3MDgzMzE0XX0=
 -->
