@@ -363,7 +363,7 @@ $$
 
 - 본장에서는 geometry 를 어떻게 SLAM에 모델링 하는지 알아 보겠다. `This section discusses how to model geometry in SLAM.`
 
-- metric representation (= metric map)`는 More formally, a metric representation (or metric map) is a symbolic structure that encodes the geometry of the environment.
+- metric representation `(= metric map)`는 More formally, a metric representation (or metric map) is a symbolic structure that encodes the geometry of the environment.
 
 - We claim that understanding how to choose a suitable metric representation for SLAM (and extending the set or representations currently used in robotics) will impact many research areas, including long-term navigation, physical interaction with the environment, and human-robot interaction.
 
@@ -399,5 +399,5 @@ Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0Mzk1MjA2XX0=
+eyJoaXN0b3J5IjpbLTE1NzU1NTU4MzJdfQ==
 -->
