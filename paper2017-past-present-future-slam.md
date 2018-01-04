@@ -378,8 +378,8 @@ $$
 
 - 두번째는 : the latter discretizes the environment in cells and assigns a probability of occupation to each cell. 
 
-- 2D상에서 이러한 representations 표준화에 걸림돌은  The problem of standardization of these representations in the 2D case has been tackled by the IEEE RAS Map Data Representation Working Group, 
-	- - which recently released a standard for 2D maps in robotics [113]; the standard defines the two main metric representations for planar environments(plus topological maps) in order to facilitate data exchange, benchmarking, and technology transfer.
+- 2D상에서 이러한 representations 표준화에 걸림돌은 `IEEE RAS Map Data Representation`워킹 그룹이다. ` The problem of standardization of these representations in the 2D case has been tackled by the IEEE RAS Map Data Representation Working Group, `
+	- 이 워킹 그룹은  which recently released a standard for 2D maps in robotics [113]; the standard defines the two main metric representations for planar environments(plus topological maps) in order to facilitate data exchange, benchmarking, and technology transfer.
 
 
 
@@ -404,5 +404,5 @@ Our taxonomy draws inspiration from [80, 209, 221],and includes pointers to more
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTkxOTg4OF19
+eyJoaXN0b3J5IjpbNjkxODMzOTM2XX0=
 -->
