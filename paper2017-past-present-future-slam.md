@@ -324,7 +324,20 @@ Despite its unique traits, SLAM is related to problems addressed in computer vis
 
 ### 2.1 Maximum a posteriori (MAP) estimation and the SLAM back-end.
 
+- SLAM의 공식들은 [161], [101]을 기반을 두고 있다. `The current de-facto standard formulation of SLAM has its origins in the seminal paper of Lu and Milios [161], followed by the work of Gutmann and Konolige [101].`
 
+
+Since then, numerous approaches have improved the efficiencyand robustness of the optimization underlying the problem[63, 81, 100, 125, 192, 241]. 
+
+All these approaches formulateSLAM as a maximum a posteriori estimation problem, andoften use the formalism of factor graphs [143] to reason aboutthe interdependence among variables.Assume that we want to estimate an unknown variable X ; asmentioned before, in SLAM the variable X typically includesthe trajectory of the robot (as a discrete set of poses) andthe position of landmarks in the environment. 
+
+We are givena set of measurements Z = {zk : k = 1, . 
+
+. 
+
+. 
+
+, m} such thateach measurement can be expressed as a function of X , i.e.,zk = hk(Xk)+k, where Xk ⊆ X is a subset of the variables,hk(·) is a known function (the measurement or observationmodel), and k is random measurement noise.
 
 ### 2.2 Sensor-dependent SLAM front-end
 
