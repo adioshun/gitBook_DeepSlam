@@ -471,9 +471,14 @@ $$
 
 - 이와 비슷한 연구는 [148]이다. 이 방식은 RGB-D를 이용하여 3D 지도를 만들고 물체 분류`(object classification)`를 적용 하였다(오프라인). `Similarly, Lai et al. [148] build a 3D map from RGB-D sequences to then carry out an offline object classification. `
 
-- 온라인 시멘틱 방식은 [206]에서 제안 되었다. 이 방식은 레이다와 카메라 센서값을 기반으로 3개의 Reasoning 계층을 사용한다. An online semantic mapping system was later proposed by Pronobis et al. [206], who combine three layers of reasoning (sensory, categorical, and place) to build a semantic map of the environment using laser and camera sensors.
 
-More recently, Cadena et al. [26] use motion estimation, and interconnect a coarse semantic segmentation with different object detectors to outperform the individual systems. 
+- 온라인 시멘틱 방식은 [206]에서 제안 되었다. 이 방식은 레이다와 카메라 센서값을 기반으로 3개의 Reasoning 계층을 이용하여 시멘틱 맵을 생성한다. `An online semantic mapping system was later proposed by Pronobis et al. [206], who combine three layers of reasoning (sensory, categorical, and place) to build a semantic map of the environment using laser and camera sensors.`
+	- sensory
+	- categorical
+	- place
+	
+	
+- 최근 연구는 [26]이다. More recently, Cadena et al. [26] use motion estimation, and interconnect a coarse semantic segmentation with different object detectors to outperform the individual systems. 
 
 Pillaiand Leonard [201] use a monocular SLAM system to boostthe performance in the task of object recognition in videos.
 
@@ -509,5 +514,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzE0NzcxNF19
+eyJoaXN0b3J5IjpbLTE5MzU5NDAyODRdfQ==
 -->
