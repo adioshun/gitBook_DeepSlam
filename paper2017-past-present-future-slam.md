@@ -455,8 +455,8 @@ $$
 - Organization of semantic concepts: 
 	- The semantic concepts are not exclusive. 
 	- Even more, a single entity can have an unlimited number of properties or concepts. 
-	- A chair can be “movable” and “sittable”; a dinner table can be“movable” and “unsittable”. 
-	- While the chair and the table are pieces of furniture, they share the movable property but with different usability. 
+		- A chair can be “movable” and “sittable”; a dinner table can be“movable” and “unsittable”. 
+		- While the chair and the table are pieces of furniture, they share the movable property but with different usability. 
 	- Flat or hierarchical organizations, sharing or not some properties, have to be designed to handle this multiplicity of concepts.
 
 
@@ -469,5 +469,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTE4MjQ2Nl19
+eyJoaXN0b3J5IjpbMTI0MDI0MDg1MF19
 -->
