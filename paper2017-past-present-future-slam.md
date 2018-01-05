@@ -423,6 +423,9 @@ $$
 	 - Pronobis and Jensfelt [206] label different rooms, 
 	 - while Pillaiand Leonard [201] segment several known objects in the map.
 
+```
+[206] A. Pronobis and P. Jensfelt. Large-scale semantic mapping and reasoning with heterogeneous modalities. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), pages 3515–3522. IEEE, 2012.
+```
 - With the exception of few approaches, semantic parsing atthe basic level was formulated as a classification problem,where simple mapping between the sensory data and semanticconcepts has been considered.
 
 
@@ -442,5 +445,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3ODg2OTAxXX0=
+eyJoaXN0b3J5IjpbMTAxMDI5NDkxM119
 -->
