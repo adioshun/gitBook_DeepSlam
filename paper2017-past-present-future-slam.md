@@ -478,7 +478,7 @@ $$
 	- place
 	
 	
-- 최근 연구는 [26]이다. 이 방식은 모션 예측`(motion estimation)`을 이용하였으며 희박한 시멘틱 세그멘티이션을 서로 다른 물체 탐지 방법에 적용하여 좋은 성능을 봉More recently, Cadena et al. [26] use motion estimation, and interconnect a coarse semantic segmentation with different object detectors to outperform the individual systems. 
+- 최근 연구는 [26]이다. 이 방식은 모션 예측`(motion estimation)`을 이용하였으며 희박한 시멘틱 세그멘티이션을 서로 다른 물체 탐지 방법에 적용하여 좋은 성능을 보였다. More recently, Cadena et al. [26] use motion estimation, and interconnect a coarse semantic segmentation with different object detectors to outperform the individual systems. 
 
 Pillaiand Leonard [201] use a monocular SLAM system to boostthe performance in the task of object recognition in videos.
 
@@ -514,5 +514,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyODUwMDQ2XX0=
+eyJoaXN0b3J5IjpbMTAxNjAzMzAyM119
 -->
