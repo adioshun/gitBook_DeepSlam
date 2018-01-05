@@ -484,7 +484,7 @@ $$
 
 #### B. Semantics helps SLAM
 
-Soon after the first semantic mapscame out, another trend started by taking advantage of knownsemantic classes or objects. 
+- 시멘틱 맵이후에 시멘틱 정보`()`를 이용하는 연구가 진행 되었다. Soon after the first semantic maps came out, another trend started by taking advantage of known semantic classes or objects. 
 
 The idea is that if we canrecognize objects or other elements in a map then we canuse our prior knowledge about their geometry to improve theestimation of that map. 
 
@@ -514,5 +514,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyNTM1MjU2XX0=
+eyJoaXN0b3J5IjpbNDEyNDcwMTM2XX0=
 -->
