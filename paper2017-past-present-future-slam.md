@@ -442,11 +442,11 @@ $$
 
 ### 6.2 Semantic SLAM: Structure and detail of concepts. 
 
-The unlimited number of, and relationships among, concepts for humans opens a more philosophical and task-driven decision about the level and organization of the semantic concepts. 
+- The unlimited number of(, and relationships among,) concepts for humans opens a more philosophical and task-driven decision about the level and organization of the semantic concepts. 
 
-The detail and organization depend on the context of what, and where, the robot is supposed to perform a task, and they impact the complexity of the problem at different stages. 
+- The detail and organization depend on the context of what, and where, the robot is supposed to perform a task, and they impact the complexity of the problem at different stages. 
 
-A semantic representation is built by defining the following aspects:
+- A semantic representation is built by defining the following aspects:
 
 
 
@@ -460,5 +460,5 @@ A semantic representation is built by defining the following aspects:
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MjY4NTA2XX0=
+eyJoaXN0b3J5IjpbNTkxMTkwNDEwXX0=
 -->
