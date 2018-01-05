@@ -452,15 +452,12 @@ $$
 	- For a given robotic task,e.g. “going from room A to room B”, coarse categories(rooms, corridor, doors) would suffice for a successful performance, 
 	- while for other tasks, e.g. “pick up a tea cup”,finer categories (table, tea cup, glass) are needed.
 
-• Organization of semantic concepts: The semantic conceptsare not exclusive. 
-
-Even more, a single entity can havean unlimited number of properties or concepts. 
-
-A chaircan be “movable” and “sittable”; a dinner table can be“movable” and “unsittable”. 
-
-While the chair and the tableare pieces of furniture, they share the movable property butwith different usability. 
-
-Flat or hierarchical organizations,sharing or not some properties, have to be designed to handlethis multiplicity of concepts.
+- Organization of semantic concepts: 
+	- The semantic concepts are not exclusive. 
+	- Even more, a single entity can have an unlimited number of properties or concepts. 
+	- A chair can be “movable” and “sittable”; a dinner table can be“movable” and “unsittable”. 
+	- While the chair and the table are pieces of furniture, they share the movable property but with different usability. 
+	- Flat or hierarchical organizations, sharing or not some properties, have to be designed to handle this multiplicity of concepts.
 
 
 ---
@@ -472,5 +469,5 @@ Flat or hierarchical organizations,sharing or not some properties, have to be de
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTY3NzMyNl19
+eyJoaXN0b3J5IjpbMTMxMTE4MjQ2Nl19
 -->
