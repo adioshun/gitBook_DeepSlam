@@ -434,11 +434,11 @@ $$
 
 - 토폴로지 맵핑은 원래 시맨틱 맨틱과는 다르다는 것을 알아야 한다. `We note that topological mapping is radically different from semantic mapping. `
 
-- 첫번째는 이전에 본 장소에 대한 인식이 필요한 반면, 두번째는 시멘틱 레벨에 따른 공간 분류에  While the former requires recognizing a previously seen place (disregarding whether that place is a kitchen, a corridor, etc.), the latter is interested in classifying the place according to semantic labels.
+- 첫번째는 이전에 본 장소에 대한 인식이 필요한 반면, 두번째는 시멘틱 레벨에 따른 공간 분류에 관심을 둔다. ` While the former requires recognizing a previously seen place (disregarding whether that place is a kitchen, a corridor, etc.), the latter is interested in classifying the place according to semantic labels.`
 
-A comprehensive survey on vision-based topological SLAM is presented in Lowry et al. [160], and some of its challenges are discussed in Section III. 
+- 이와 관련된 비젼 기반 토폴로지 SLAM 서베이 논문은 [160]을 참고 하기 바란다. 이 방식의 챌리지들은 3장에 설명되어 있다. `A comprehensive survey on vision-based topological SLAM is presented in Lowry et al. [160], and some of its challenges are discussed in Section III. `
 
-In the rest of this section we focus on semantic mapping.
+- 다음장에서는 시맨틱 맵핑에 대하여 In the rest of this section we focus on semantic mapping.
 
 
 
@@ -455,5 +455,5 @@ In the rest of this section we focus on semantic mapping.
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxNjY2NjA4XX0=
+eyJoaXN0b3J5IjpbODIzNzM4NzM5XX0=
 -->
