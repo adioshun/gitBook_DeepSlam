@@ -465,7 +465,7 @@ $$
 
 #### A. SLAM helps Semantics
 
-- 처음에는 시멘틱 맵핑을 The first robotic researchers working on semantic mapping started by the straightforward approach of segmenting the metric map built by a classical SLAM system into semantic concepts. 
+- 처음에는 시멘틱 맵핑을 직서The first robotic researchers working on semantic mapping started by the straightforward approach of segmenting the metric map built by a classical SLAM system into semantic concepts. 
 
 - An early work was that of Mozos et al. [176], which builds a geometric map using a 2D laser scan and then fuses the classified semantic places from each robot pose through an associative Markov network in an offline manner. 
 
@@ -507,5 +507,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTU4NTI1OF19
+eyJoaXN0b3J5IjpbMTQ5NDU4MDA0N119
 -->
