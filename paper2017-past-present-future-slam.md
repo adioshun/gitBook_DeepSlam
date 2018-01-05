@@ -499,7 +499,7 @@ $$
 
 - 컴퓨터 비젼과 로보틱스에 능통한 연구원들은 두 학문을 합쳐서 monocular SLAM와 맵 세그멘테이션을 수행 할수 있을것이라고 생각 하였다. `Researchers with expertise in both computer vision and robotics realized that they could perform monocular SLAM and map segmentation within a joint formulation. `
 
-The online system of Flint etal. [79] presents a model that leverages the Manhattan worldassumption to segment the map in the main planes in indoorscenes. Bao et al. [9] propose one of the first approaches tojointly estimate camera parameters, scene points and objectlabels using both geometric and semantic attributes in thescene. 
+- The online system of Flint etal. [79] presents a model that leverages the Manhattan worldassumption to segment the map in the main planes in indoorscenes. Bao et al. [9] propose one of the first approaches tojointly estimate camera parameters, scene points and objectlabels using both geometric and semantic attributes in thescene. 
 
 In their work, the authors demonstrate the improvedobject recognition performance and robustness, at the cost of arun-time of 20 minutes per image-pair, and the limited numberof object categories makes the approach impractical for on line robot operation. 
 
@@ -517,5 +517,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDg3OTgwMjVdfQ==
+eyJoaXN0b3J5IjpbODY4OTcxNjUyXX0=
 -->
