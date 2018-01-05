@@ -471,7 +471,7 @@ $$
 
 - Similarly, Lai et al. [148] build a 3D map from RGB-D sequences to then carry out an offline object classification. 
 
-- An online semantic mapping system was later proposed by Pronobis et al. [206], who combine three layers of reasoning (sensory, categorical, and place) to build a semantic map of the environment using laser and camera sensors.More recently, Cadena et al. [26] use motion estimation, and interconnect a coarse semantic segmentation with differentobject detectors to outperform the individual systems. 
+- An online semantic mapping system was later proposed by Pronobis et al. [206], who combine three layers of reasoning (sensory, categorical, and place) to build a semantic map of the environment using laser and camera sensors.More recently, Cadena et al. [26] use motion estimation, and interconnect a coarse semantic segmentation with different object detectors to outperform the individual systems. 
 
 Pillaiand Leonard [201] use a monocular SLAM system to boostthe performance in the task of object recognition in videos.
 
@@ -507,5 +507,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTg4NzIxN119
+eyJoaXN0b3J5IjpbNjA5MTkwNDYxXX0=
 -->
