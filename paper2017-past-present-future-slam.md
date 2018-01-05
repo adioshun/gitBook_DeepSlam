@@ -497,7 +497,7 @@ $$
 
 #### C. Joint SLAM and Semantics inference
 
-- 컴퓨터 비젼과 롭Researchers with expertise in both computer vision and robotics realized that they could perform monocular SLAM and map segmentation within a joint formulation. 
+- 컴퓨터 비젼과 로보킷Researchers with expertise in both computer vision and robotics realized that they could perform monocular SLAM and map segmentation within a joint formulation. 
 
 The online system of Flint etal. [79] presents a model that leverages the Manhattan worldassumption to segment the map in the main planes in indoorscenes. Bao et al. [9] propose one of the first approaches tojointly estimate camera parameters, scene points and objectlabels using both geometric and semantic attributes in thescene. 
 
@@ -517,5 +517,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDQwNTgwMV19
+eyJoaXN0b3J5IjpbLTExNjU1NjE2MzddfQ==
 -->
