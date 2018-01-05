@@ -420,7 +420,8 @@ $$
 - These observations have led to different approaches for semantic mapping which vary in the numbers and types of semantic concepts and means of associating them with different parts of the environments. 
 
  - As an example, 
-	 - Pronobis and Jensfelt [206] label different rooms, while Pillaiand Leonard [201] segment several known objects in the map.With the exception of few approaches, semantic parsing atthe basic level was formulated as a classification problem,where simple mapping between the sensory data and semanticconcepts has been considered.
+	 - Pronobis and Jensfelt [206] label different rooms, 
+	 - while Pillaiand Leonard [201] segment several known objects in the map.With the exception of few approaches, semantic parsing atthe basic level was formulated as a classification problem,where simple mapping between the sensory data and semanticconcepts has been considered.
 
 
 
@@ -439,5 +440,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDQ5MTAwN119
+eyJoaXN0b3J5IjpbLTE0NTc4Mzc0MjhdfQ==
 -->
