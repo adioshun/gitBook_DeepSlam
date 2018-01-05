@@ -459,15 +459,23 @@ $$
 		- While the chair and the table are pieces of furniture, they share the movable property but with different usability. 
 	- Flat or hierarchical organizations, sharing or not some properties, have to be designed to handle this multiplicity of concepts.
 
-Brief Survey. 
+### 6.3 Brief Survey. 
 
-There are three main ways to attack semanticmapping, and assign semantic concepts to data.SLAM helps Semantics: The first robotic researchers workingon semantic mapping started by the straightforward approachof segmenting the metric map built by a classicalSLAM system into semantic concepts. 
+- There are three main ways to attack semantic mapping, and assign semantic concepts to data.
+
+#### A. SLAM helps Semantics
+
+The first robotic researchers working on semantic mapping started by the straightforward approachof segmenting the metric map built by a classicalSLAM system into semantic concepts. 
 
 An early work was thatof Mozos et al. [176], which builds a geometric map using a 2D laser scan and then fuses the classified semantic placesfrom each robot pose through an associative Markov networkin an offline manner. Similarly, Lai et al. [148] build a 3Dmap from RGB-D sequences to then carry out an offline objectclassification. 
 
 An online semantic mapping system was laterproposed by Pronobis et al. [206], who combine three layers ofreasoning (sensory, categorical, and place) to build a semanticmap of the environment using laser and camera sensors.More recently, Cadena et al. [26] use motion estimation, andinterconnect a coarse semantic segmentation with differentobject detectors to outperform the individual systems. 
 
-Pillaiand Leonard [201] use a monocular SLAM system to boostthe performance in the task of object recognition in videos.Semantics helps SLAM: Soon after the first semantic mapscame out, another trend started by taking advantage of knownsemantic classes or objects. 
+Pillaiand Leonard [201] use a monocular SLAM system to boostthe performance in the task of object recognition in videos.
+
+#### B. Semantics helps SLAM
+
+Soon after the first semantic mapscame out, another trend started by taking advantage of knownsemantic classes or objects. 
 
 The idea is that if we canrecognize objects or other elements in a map then we canuse our prior knowledge about their geometry to improve theestimation of that map. 
 
@@ -493,5 +501,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ2MjI3NjBdfQ==
+eyJoaXN0b3J5IjpbLTIwNTMyMTU1MDRdfQ==
 -->
