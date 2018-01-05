@@ -407,6 +407,13 @@ $$
 
 ## VI. REPRESENTATION II: SEMANTIC MAP MODELS
 
+Semantic mapping consists in associating semantic conceptsto geometric entities in a robot’s surroundings. 
+
+Recently, the limitations of purely geometric maps have been recognized andthis has spawned a significant and ongoing body of work insemantic mapping of environments, in order to enhance robot’sautonomy and robustness, facilitate more complex tasks (e.g.avoid muddy-road while driving), move from path-planningto task-planning, and enable advanced human-robot interaction[9, 26, 217]. 
+
+These observations have led to differentapproaches for semantic mapping which vary in the numbersand types of semantic concepts and means of associatingthem with different parts of the environments. 
+
+As an example,Pronobis and Jensfelt [206] label different rooms, while Pillaiand Leonard [201] segment several known objects in the map.With the exception of few approaches, semantic parsing atthe basic level was formulated as a classification problem,where simple mapping between the sensory data and semanticconcepts has been considered.
 
 
 
@@ -425,5 +432,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODg0OTkyN119
+eyJoaXN0b3J5IjpbLTM2OTYyMTAxNl19
 -->
