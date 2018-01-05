@@ -440,8 +440,13 @@ $$
 
 - 다음장에서는 시맨틱 맵핑에 대하여 초점을 맞추겠다. `In the rest of this section we focus on semantic mapping.`
 
+### 6.2 Semantic SLAM: Structure and detail of concepts. 
 
+The unlimited number of, and relationships among, concepts for humans opens a more philosophical and task-driven decisionabout the level and organization of the semantic concepts. 
 
+Thedetail and organization depend on the context of what, andwhere, the robot is supposed to perform a task, and they impactthe complexity of the problem at different stages. 
+
+A semanticrepresentation is built by defining the following aspects:
 
 
 
@@ -455,5 +460,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzE1NjM5XX0=
+eyJoaXN0b3J5IjpbLTE4MjIyNDc4NjJdfQ==
 -->
