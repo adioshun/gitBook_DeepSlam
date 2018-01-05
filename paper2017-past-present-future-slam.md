@@ -467,7 +467,7 @@ $$
 
 - 처음에는 시멘틱 맵핑을 직설적인 접근법으로 수행 하였다. 즉, 고전적인 SLAM방식으로 생성된 Metric Map에 segmenting(??의미 부여를) 하였다. `The first robotic researchers working on semantic mapping started by the straightforward approach of segmenting the metric map built by a classical SLAM system into semantic concepts. `
 
-- An early work was that of Mozos et al. [176], which builds a geometric map using a 2D laser scan and then fuses the classified semantic places from each robot pose through an associative Markov network in an offline manner. 
+- 초창기 연구는 [176]이다. 이 방식은 2D 레이저 스캐너를 이용하여 geometric map 을 생성하고 식별된 An early work was that of Mozos et al. [176], which builds a geometric map using a 2D laser scan and then fuses the classified semantic places from each robot pose through an associative Markov network in an offline manner. 
 
 - Similarly, Lai et al. [148] build a 3D map from RGB-D sequences to then carry out an offline object classification. 
 
@@ -507,5 +507,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTU2MDkzMF19
+eyJoaXN0b3J5IjpbMTg0MzAwODAwXX0=
 -->
