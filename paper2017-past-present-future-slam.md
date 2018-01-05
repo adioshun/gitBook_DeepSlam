@@ -482,6 +482,8 @@ In their work, the authors demonstrate the improvedobject recognition performanc
 In the same line, Hane ¨ et al. [102] solvea more specialized class-dependent optimization problem inoutdoors scenarios. Although still offline, Kundu et al. [147]reduce the complexity of the problem by a late fusion of thesemantic segmentation and the metric map, a similar idea wasproposed earlier by Sengupta et al. [219] using stereo cameras.It should be noted that [147] and [219] focus only on themapping part and they do not refine the early computed posesin this late stage. 
 
 Recently, a promising online system wasproposed by Vineet et al. [251] using stereo cameras and adense map representation.
+
+
 ---
 
 <a name="11">[1]</a> The SLAM community has been largely affected by the “curse of manual tuning”, in that satisfactory operation is enabled by expert tuning of the system parameters (e.g., stopping conditions, thresholds for outlier rejection).  <br/>
@@ -491,5 +493,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODE2MTE5ODBdfQ==
+eyJoaXN0b3J5IjpbLTE2NDQ2MjI3NjBdfQ==
 -->
