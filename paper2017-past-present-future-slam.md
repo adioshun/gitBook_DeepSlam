@@ -409,7 +409,7 @@ $$
 
 - Semantic mapping consists in associating semantic concepts to geometric entities in a robot’s surroundings. 
 
-- Recently, the limitations of purely geometric maps have been recognized and this has spawned a significant and ongoing body of work in semantic mapping of environments, in order to enhance robot’s autonomy and robustness, facilitate more complex tasks (e.g.avoid muddy-road while driving), move from path-planning to task-planning, and enable advanced human-robot interaction[9, 26, 217]. 
+- 최근 geometric maps만 사용하는것으 Recently, the limitations of purely geometric maps have been recognized and this has spawned a significant and ongoing body of work in semantic mapping of environments, in order to enhance robot’s autonomy and robustness, facilitate more complex tasks (e.g.avoid muddy-road while driving), move from path-planning to task-planning, and enable advanced human-robot interaction[9, 26, 217]. 
 
 These observations have led to differentapproaches for semantic mapping which vary in the numbersand types of semantic concepts and means of associatingthem with different parts of the environments. 
 
@@ -432,5 +432,5 @@ As an example,Pronobis and Jensfelt [206] label different rooms, while Pillaiand
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzEzMjE1NF19
+eyJoaXN0b3J5IjpbMjEyNzAzOTA2Ml19
 -->
