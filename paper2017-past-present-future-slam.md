@@ -493,11 +493,11 @@ $$
 	- and by Civera et al. [50] with a monocular SLAM with sparse features, 
 	- and by Dame et al. [56] witha dense map representation. 
 
-Taking advantage of RGB-D sensors, Salas-Moreno et al. [217] propose a SLAM systembased on the detection of known objects in the environment.
+- [217]에서는 RGB-D센서의 장점을 이용하여 물체 탐지 기반 SLAM을 제안 하였다. `Taking advantage of RGB-D sensors, Salas-Moreno et al. [217] propose a SLAM system based on the detection of known objects in the environment.`
 
 #### C. Joint SLAM and Semantics inference
 
-Researchers withexpertise in both computer vision and robotics realized thatthey could perform monocular SLAM and map segmentationwithin a joint formulation. 
+- Researchers with expertise in both computer vision and robotics realized that they could perform monocular SLAM and map segmentation within a joint formulation. 
 
 The online system of Flint etal. [79] presents a model that leverages the Manhattan worldassumption to segment the map in the main planes in indoorscenes. Bao et al. [9] propose one of the first approaches tojointly estimate camera parameters, scene points and objectlabels using both geometric and semantic attributes in thescene. 
 
@@ -517,5 +517,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjAzNjgzMV19
+eyJoaXN0b3J5IjpbMTUyMDk5NTI4MF19
 -->
