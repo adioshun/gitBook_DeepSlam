@@ -465,7 +465,7 @@ $$
 
 #### A. SLAM helps Semantics
 
-The first robotic researchers working on semantic mapping started by the straightforward approachof segmenting the metric map built by a classicalSLAM system into semantic concepts. 
+- The first robotic researchers working on semantic mapping started by the straightforward approach of segmenting the metric map built by a classical SLAM system into semantic concepts. 
 
 An early work was thatof Mozos et al. [176], which builds a geometric map using a 2D laser scan and then fuses the classified semantic placesfrom each robot pose through an associative Markov networkin an offline manner. Similarly, Lai et al. [148] build a 3Dmap from RGB-D sequences to then carry out an offline objectclassification. 
 
@@ -481,7 +481,11 @@ The idea is that if we canrecognize objects or other elements in a map then we c
 
 First attempts were done in small scaleby Castle et al. [44] and by Civera et al. [50] with a monocularSLAM with sparse features, and by Dame et al. [56] witha dense map representation. 
 
-Taking advantage of RGB-Dsensors, Salas-Moreno et al. [217] propose a SLAM systembased on the detection of known objects in the environment.Joint SLAM and Semantics inference: Researchers withexpertise in both computer vision and robotics realized thatthey could perform monocular SLAM and map segmentationwithin a joint formulation. 
+Taking advantage of RGB-Dsensors, Salas-Moreno et al. [217] propose a SLAM systembased on the detection of known objects in the environment.
+
+#### C. Joint SLAM and Semantics inference
+
+Researchers withexpertise in both computer vision and robotics realized thatthey could perform monocular SLAM and map segmentationwithin a joint formulation. 
 
 The online system of Flint etal. [79] presents a model that leverages the Manhattan worldassumption to segment the map in the main planes in indoorscenes. Bao et al. [9] propose one of the first approaches tojointly estimate camera parameters, scene points and objectlabels using both geometric and semantic attributes in thescene. 
 
@@ -501,5 +505,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTMyMTU1MDRdfQ==
+eyJoaXN0b3J5IjpbOTk3MzQzMTgyXX0=
 -->
