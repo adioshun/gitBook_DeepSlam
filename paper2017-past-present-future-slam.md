@@ -432,9 +432,9 @@ $$
 
 - 토폴로지 맵핑은 metric정보를 잃어 버리고 오직 공간인식`(place recognition)`을 이용하여 그래프를 생성한다. 그래프의 각 노드는 식별가능한 Place이고 그래프의 엣지는 place간의 접근도이다.  `As mentioned in Section I, topological mapping drops the metric information and only leverages place recognition to build a graph in which the nodes represent distinguishable “places”, while edges denote reachability among places. `
 
-We note that topological mappingis radically different from semantic mapping. 
+- 토폴로지 맵핑은 원래 시맨틱 맨틱과는 다르다는 것을 알아야 한다. `We note that topological mapping is radically different from semantic mapping. `
 
-While the formerrequires recognizing a previously seen place (disregardingwhether that place is a kitchen, a corridor, etc.), the latter isinterested in classifying the place according to semantic labels.A comprehensive survey on vision-based topological SLAMis presented in Lowry et al. [160], and some of its challengesare discussed in Section III. 
+While the former requires recognizing a previously seen place (disregardingwhether that place is a kitchen, a corridor, etc.), the latter isinterested in classifying the place according to semantic labels.A comprehensive survey on vision-based topological SLAMis presented in Lowry et al. [160], and some of its challengesare discussed in Section III. 
 
 In the rest of this section we focuson semantic mapping.
 
@@ -453,5 +453,5 @@ In the rest of this section we focuson semantic mapping.
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzEwMTA0Ml19
+eyJoaXN0b3J5IjpbLTcxMDk1ODYyMl19
 -->
