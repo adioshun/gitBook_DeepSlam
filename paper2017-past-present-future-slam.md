@@ -486,9 +486,9 @@ $$
 
 - 시멘틱 맵이후에 시멘틱 정보`(semantic classes/objects)`를 이용하는 연구가 진행 되었다. Soon after the first semantic maps came out, another trend started by taking advantage of known semantic classes or objects. 
 
-- The idea is that if we can recognize objects or other elements in a map then we can use our prior knowledge about their geometry to improve theestimation of that map. 
+- 기본 아이디어는 지도의 물체를 인지 할수 있게 된다면 이를 이용하여 지도 예측`(estimation of that map)`의 정확도를 높이는 것이다. `The idea is that if we can recognize objects or other elements in a map then we can use our prior knowledge about their geometry to improve the estimation of that map. `
 
-First attempts were done in small scaleby Castle et al. [44] and by Civera et al. [50] with a monocularSLAM with sparse features, and by Dame et al. [56] witha dense map representation. 
+- 이와 관련된 첫 연구는 [44]에서 진행 되었다. First attempts were done in small scaleby Castle et al. [44] and by Civera et al. [50] with a monocularSLAM with sparse features, and by Dame et al. [56] witha dense map representation. 
 
 Taking advantage of RGB-Dsensors, Salas-Moreno et al. [217] propose a SLAM systembased on the detection of known objects in the environment.
 
@@ -514,5 +514,5 @@ Recently, a promising online system wasproposed by Vineet et al. [251] using ste
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTMyMjc1NF19
+eyJoaXN0b3J5IjpbLTEzMjkxNTYxNF19
 -->
