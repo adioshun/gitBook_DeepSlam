@@ -428,7 +428,15 @@ $$
 ```
 - With the exception of few approaches, semantic parsing at the basic level was formulated as a classification problem,where simple mapping between the sensory data and semantic concepts has been considered.
 
+### 6.1 Semantic vs. topological SLAM. 
 
+As mentioned in SectionI, topological mapping drops the metric information andonly leverages place recognition to build a graph in which thenodes represent distinguishable “places”, while edges denotereachability among places. 
+
+We note that topological mappingis radically different from semantic mapping. 
+
+While the formerrequires recognizing a previously seen place (disregardingwhether that place is a kitchen, a corridor, etc.), the latter isinterested in classifying the place according to semantic labels.A comprehensive survey on vision-based topological SLAMis presented in Lowry et al. [160], and some of its challengesare discussed in Section III. 
+
+In the rest of this section we focuson semantic mapping.
 
 
 
@@ -445,5 +453,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxOTQ1MzQ5XX0=
+eyJoaXN0b3J5IjpbLTIyOTA2ODEwM119
 -->
