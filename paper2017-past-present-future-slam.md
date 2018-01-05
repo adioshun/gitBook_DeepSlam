@@ -438,7 +438,7 @@ $$
 
 - 이와 관련된 비젼 기반 토폴로지 SLAM 서베이 논문은 [160]을 참고 하기 바란다. 이 방식의 챌리지들은 3장에 설명되어 있다. `A comprehensive survey on vision-based topological SLAM is presented in Lowry et al. [160], and some of its challenges are discussed in Section III. `
 
-- 다음장에서는 시맨틱 맵핑에 대하여 In the rest of this section we focus on semantic mapping.
+- 다음장에서는 시맨틱 맵핑에 대하여 초점을 맞추겠다. `In the rest of this section we focus on semantic mapping.`
 
 
 
@@ -455,5 +455,5 @@ $$
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzNzM4NzM5XX0=
+eyJoaXN0b3J5IjpbLTU2NzE1NjM5XX0=
 -->
