@@ -430,7 +430,7 @@ $$
 
 ### 6.1 Semantic vs. topological SLAM. 
 
-- As mentioned in Section I, topological mapping drops the metric information and only leverages place recognition to build a graph in which the nodes represent distinguishable “places”, while edges denote reachability among places. 
+- 토폴로지 맵핑은 metric정보를 잃어 버리고 오직 공간인식을 이용하여 그래프를 생성한다. 그래프의 각 노드As mentioned in Section I, topological mapping drops the metric information and only leverages place recognition to build a graph in which the nodes represent distinguishable “places”, while edges denote reachability among places. 
 
 We note that topological mappingis radically different from semantic mapping. 
 
@@ -453,5 +453,5 @@ In the rest of this section we focuson semantic mapping.
 
 Indoor operation rules out the use of GPS to bound the localization error; furthermore, SLAM provides an appealing alternative to user-built maps, showing that robot operation is possible in the absence of an ad hoc localization infrastructure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTI1MTU3NF19
+eyJoaXN0b3J5IjpbMTc4MDMyNTEwN119
 -->
