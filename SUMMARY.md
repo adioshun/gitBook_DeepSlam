@@ -13,7 +13,6 @@
 * [eBook\_SLAM for Dummies](ebookslam-for-dummies.md)
 * [Paper\_2016\_Visual Place Recognition\_A Survey](paper2016-visual-place-recognition-a-survey.md)
 
-
 ## Visual Odometry
 
 * [List\_of\_VO](listof-vo.md)
@@ -21,5 +20,5 @@
 
 ## SLAM S/W
 
-* gmapping
+* [gmapping](slam-sw/gmapping.md)
 
