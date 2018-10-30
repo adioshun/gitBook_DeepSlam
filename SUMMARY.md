@@ -22,4 +22,5 @@
 ## SLAM S/W
 
 * [gmapping](slam-sw/gmapping.md)
+* [Loam\_Laser\_Odometry\_and\_Mapping](slam-sw/loamlaser-odometry-and-mapping.md)
 
