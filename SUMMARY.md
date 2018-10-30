@@ -3,6 +3,7 @@
 ## SLAM
 
 * [Introduction](README.md)
+  * [map](map.md)
 * [List\_of\_Deep\_SLAM](listof-deep-slam.md)
 * [Vision-based SLAM\_SfM](vision-based-slamsfm.md)
 * [Paper\_2017\_Past\_Present\_Future\_SLAM](paper2017-past-present-future-slam.md)
