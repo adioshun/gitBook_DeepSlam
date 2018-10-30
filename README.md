@@ -34,3 +34,11 @@
     - ORB uses another common technique, a **bag of words (BoW)** representation
 
 ### LiDAR SLAM 
+
+
+
+--- 
+
+## Map 
+
+- Occupancy Grid Map(OGM): 2차원 격자 지도, 일반적으로 많이 사용 

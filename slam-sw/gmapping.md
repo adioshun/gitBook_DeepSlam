@@ -15,3 +15,12 @@
 
 
 https://github.com/ROBOTIS-GIT/bags/blob/master/TB3_WAFFLE_SLAM.bag
+
+
+
+--- 
+
+# ubuntu 18.4
+
+- [Source code installation method for ROS melodic version map_server, gmapping, etc. in Ubuntu18.04 environment](https://blog.csdn.net/wsc820508/article/details/81561304)
+
