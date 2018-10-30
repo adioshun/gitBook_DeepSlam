@@ -6,6 +6,12 @@
 - 최적 경로를 계산하고 주행 하는 기능 : A*알고리즘, 포텐셜 필드, 파티클 필드, RRT
 
 
+## SLAM 관련 ROS 패키지 
+
+- gmapping
+- cartographer
+- rtabmap 
+
 
 ### A majority of SLAM systems share several common components:
 
