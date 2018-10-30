@@ -41,6 +41,8 @@
 - tf(tf/tfMessage) : 자세(위치+방향)정보 
 - map(nav_msgs/OccupancyGrid)
 
+
+
 ---
 
 ## 3. Map 처리 과정 
@@ -68,6 +70,6 @@
 
 ### 3.5 map_saver
 - *.pgm / *.yaml 파일 생성 
-
+- 추후 map_server 노드에 위해서 topic형태로 퍼블리쉬된다. 
 
 
