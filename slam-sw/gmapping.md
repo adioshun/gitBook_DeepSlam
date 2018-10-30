@@ -2,6 +2,8 @@
 
 여러 SLAM알고리즘 정리 
 
+![](https://openslam-org.github.io/openslam-logo.png)
+
 ---
 # Gmapping
 
