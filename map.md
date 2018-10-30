@@ -30,6 +30,8 @@
 
 ### 1.2 ooo
 
+---
+
 ## 2. Map 생성 방법 
 
 
@@ -38,6 +40,8 @@
 - Scan(sensor_msgs/LaserScan) : 거리값
 - tf(tf/tfMessage) : 자세(위치+방향)정보 
 - map(nav_msgs/OccupancyGrid)
+
+---
 
 ## 3. Map 처리 과정 
 
