@@ -3,8 +3,8 @@
 
 # 입문 Visual SLAM
 - 1장 선행지식 : [번역](https://docs.google.com/document/d/1XKI3DUW_Klo7GCd43LEFZgOkHZF8A5baV03Nzmiif94/edit?fbclid=IwAR1R2kxI2QPJWrga3-fxlpcXksLvT9q0HroasScRVuRRsS_ixX9pli5skVk)
-- 제2장 SLAM과의 첫 만남 : [번역](https://docs.google.com/document/d/1V8PzY-tFezPH-fFD_ED4qIjzLheeWUpCc9kjeHGOXhw/edit?fbclid=IwAR3FfDSptYTrL3SuYFz_96f2f-49SoMZrhNHD7DNCoxSm64pMn5LwTUhThM#heading=h.uey5prbihivv), [Youtube]()
-- 제3장 3차원 공간 강체 변환 : [번역](https://docs.google.com/document/d/10gJsFWGAiNaFc5za8IJTZHU3JFYHzStvLNeLVKyrpUA/edit?fbclid=IwAR0ah4Cm6YK-lDJxiJx6-zB3K-1HE51koRkzZv4TLkrkfjbF_sAwzBex6KY#heading=h.vpn62ti1ne0a), [Youtube]()
+- 제2장 SLAM과의 첫 만남 : [번역](https://docs.google.com/document/d/1V8PzY-tFezPH-fFD_ED4qIjzLheeWUpCc9kjeHGOXhw/edit?fbclid=IwAR3FfDSptYTrL3SuYFz_96f2f-49SoMZrhNHD7DNCoxSm64pMn5LwTUhThM#heading=h.uey5prbihivv), [Youtube](https://www.youtube.com/watch?v=_i8PaekcguA&feature=youtu.be&fbclid=IwAR1SNnjHuIKYKfiA2B-l40HGll2W78OayBA_LqKy2QkmRytI-gYTOkqW2H4), [발표자료](https://drive.google.com/file/d/1oDrIZWUQqmJ_3vtcsxvLET0kG5zg7ZTT/view)
+- 제3장 3차원 공간 강체 변환 : [번역](https://docs.google.com/document/d/10gJsFWGAiNaFc5za8IJTZHU3JFYHzStvLNeLVKyrpUA/edit?fbclid=IwAR0ah4Cm6YK-lDJxiJx6-zB3K-1HE51koRkzZv4TLkrkfjbF_sAwzBex6KY#heading=h.vpn62ti1ne0a), [Youtube](https://www.youtube.com/watch?v=TujSQ09jpWA&feature=youtu.be&fbclid=IwAR03zKvCPsu1uHCW0OINNuPsChfk_yBAK-UZPzNF_YdMEvpH-DP6INPiRQo), [Rotation and Euler Angle](https://goo.gl/jnNKTx), [Quaternion](https://goo.gl/WAfYCg)
 - 제4장 Lie 군과 Lie 대수 : [번역](https://docs.google.com/document/d/1icPjUyT3nPvjZ1OVMtWp9afUtuJ4gXLJL-ex7A9FpNs/edit?fbclid=IwAR1lDSc9SiONxzSjA_8GQ0ttFHXMX_J4V3ix2mQYc6vgAs_D6xN9xiPdBls#heading=h.uey5prbihivv), [Youtube]()
 - 제5장 카메라 및 이미지 : [번역](https://docs.google.com/document/d/1WXqqtUF2L7t6v9-qC6zXF48Muog2Y7-lEc6ojXHaTHY/edit?fbclid=IwAR3PMqpagqV8RF7fCBQ1bjyMeWuT54eqELPwLKe-Km61NXuo74WWjrcANyw#heading=h.uey5prbihivv), [Youtube]()
 - 제6장 비선형 최적화 : [번역](https://docs.google.com/document/d/1pIYlL3cVf9gXT9O7p_5H5az0HYkALuhrnrBQeZI0HUw/edit?fbclid=IwAR21XEPa2l9eieqOH-Y8GZOPZx1ADSdy_G08N-S83M1DqbkbmRSIrcfw7dc#heading=h.uey5prbihivv), [Youtube]()
