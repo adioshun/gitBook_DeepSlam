@@ -18,3 +18,7 @@
 - 제14장 SLAM: 현재와 미래 : [번역](https://docs.google.com/document/d/1QaTos4AgjwmaIz5U8GRtsxdxok10nD22VGu1ebfvSXI/edit?fbclid=IwAR1nAXggemYSnqtkZ2k_futIpWhU90BRRWmBoui98-p-oW61OhUnqZVOXYE#heading=h.uey5prbihivv), [Youtube]()
 - 부록#1 : [번역](https://docs.google.com/document/d/1muCYvheES8aFENIIcs8GDVxRCR5tSqboen8QueQ0mn4/edit?fbclid=IwAR0ci8oxHKJX1Ti7k1w9pFXrvIW5JkNR1TfJKsljqAKSLxRXzUCgbenxxVc#heading=h.uey5prbihivv), [Youtube]()
 - 참고문헌 : [번역](https://docs.google.com/document/d/1resGRA0KlP6s0DwAJKNa81IE2hmeywYDTf2Or0WdorA/edit?fbclid=IwAR2kzRjxpSOfDpdPLehaTZmZrHSJE1Up1boQCDttcVSSc910_JEcQcOL-VI#heading=h.uey5prbihivv), [Youtube]()
+
+
+---
+선형대수학 : https://ko.khanacademy.org/math/linear-algebra
