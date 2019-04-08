@@ -1,3 +1,6 @@
+![](https://i.imgur.com/qfwXTbg.png)
+```https://arxiv.org/pdf/1607.00470.pdf```
+
 # 로봇의 자율주행을 위해 필요한 기술 
 
 - 지도 : SLAM기술 활용 자동 생성 
