@@ -64,6 +64,18 @@
     - 가장 간단한 경우는 두 이미지 간의 모션 관계입니다.
 
 
+![](https://i.imgur.com/AUlYRIV.png)
+
+- 카메라가 어느방향으로 얼만큼 이동 했는지를 계산 할수 있어야 함 : VO로 계산 가능 
+- VO는 에러가 누적됨(=Drift Problem)
+    - 해결법 #1 : Loop closure Detection (이전에 방문한 곳인가 탐지)
+    - 해결법 #2 : Backend optimization (Loop closure를 통해 전체 트랙 모양 수정)
+    
+### B. Backend optimization
+
+
+    
+    
 
 
 
