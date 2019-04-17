@@ -5,7 +5,7 @@
 * [Introduction](README.md)
   * [map](map.md)
 * [List\_of\_Deep\_SLAM](listof-deep-slam.md)
-* [Vision-based SLAM\_SfM](vision-based-slamsfm.md)
+* [Vision-based SfM](vision-based-slamsfm.md)
 * [Paper\_2017\_A Survey of Visual SLAM Based on Deep Learning](paper2017-a-survey-of-visual-slam-based-on-deep-learning.md)
 * [Post\_2016\_The Future of Real-Time SLAM and Deep Learning vs SLAM \(30%\)](post2016-the-future-of-real-time-slam-and-deep-learning-vs-slam.md)
 * [Post\_2016\_Brief Review on Visual SLAM \(100%\)](post2017-brief-review-on-visual-slam.md)
@@ -42,7 +42,6 @@
 * [제14장 SLAM: 현재와 미래](SLAM-kr-Tutorial/chapter-14.md)
 
 ## SLAM S/W
-
 
 * [README](slam-sw/README.md)
 * [gmapping](slam-sw/gmapping.md)
