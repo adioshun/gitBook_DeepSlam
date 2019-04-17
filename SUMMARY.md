@@ -16,6 +16,7 @@
 ## Visual SLAM
 
 * [README](visualSLAM/README.md)
+* [Visual Odometry](visualSLAM/visual-odometry.md)
 
 * [List\_of\_VO](listof-vo.md)
 * [Visual\_Odometry](visualodometry.md)
