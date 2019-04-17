@@ -16,7 +16,7 @@
 ## Visual SLAM
 
 * [README](visualSLAM/README.md)
-* [INTRO][visualSLAM/intro.md]
+* [INTRO](visualSLAM/intro.md)
 * [Visual Odometry](visualSLAM/visual-odometry.md)
 
 ## Lidar SLAM
