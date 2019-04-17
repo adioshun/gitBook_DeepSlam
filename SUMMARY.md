@@ -13,15 +13,18 @@
 * [eBook\_SLAM for Dummies](ebookslam-for-dummies.md)
 * [Paper\_2016\_Visual Place Recognition\_A Survey](paper2016-visual-place-recognition-a-survey.md)
 
-## Visual Odometry
+## Visual SLAM
+
+* [README](visualSLAM/README.md)
 
 * [List\_of\_VO](listof-vo.md)
 * [Visual\_Odometry](visualodometry.md)
 
-## SLAM S/W
 
-* [gmapping](slam-sw/gmapping.md)
-* [Loam\_Laser\_Odometry\_and\_Mapping](slam-sw/loamlaser-odometry-and-mapping.md)
+
+## Lidar SLAM
+
+* [README](lidarSLAM/README.md)
 
 ## SLAM Kr Tutorial
 
@@ -40,4 +43,10 @@
 * [제12장 루프 탐지](SLAM-kr-Tutorial/chapter-12.md)
 * [제13장 매핑](SLAM-kr-Tutorial/chapter-13.md)
 * [제14장 SLAM: 현재와 미래](SLAM-kr-Tutorial/chapter-14.md)
+
+## SLAM S/W
+
+* [gmapping](slam-sw/gmapping.md)
+* [Loam\_Laser\_Odometry\_and\_Mapping](slam-sw/loamlaser-odometry-and-mapping.md)
+
 
