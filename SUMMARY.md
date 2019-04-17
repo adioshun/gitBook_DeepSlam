@@ -23,8 +23,6 @@
 
 * [gmapping](slam-sw/gmapping.md)
 * [Loam\_Laser\_Odometry\_and\_Mapping](slam-sw/loamlaser-odometry-and-mapping.md)
-* [SLAM\_KR\_Tutorial](slam-sw/slamkr-tutorial.md)
-  * [Chapter-2](slam-sw/slamkr-tutorial/chapter-2.md)
 
 ## SLAM Kr Tutorial
 
