@@ -29,7 +29,7 @@
 ## SLAM Kr Tutorial
 
 * [README](SLAM-kr-Tutorial/README.md)
-* [1장 선행 지식](SLAM-kr-Tutorial/chapter-1.md)
+* [제1장 선행 지식](SLAM-kr-Tutorial/chapter-1.md)
 * [제2장 SLAM과의 첫 만남](SLAM-kr-Tutorial/chapter-2.md)
 * [제3장 3차원 공간 강체 변환](SLAM-kr-Tutorial/chapter-3.md)
 * [제4장 Lie 군과 Lie 대수](SLAM-kr-Tutorial/chapter-4.md)
