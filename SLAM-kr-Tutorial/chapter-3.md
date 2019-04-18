@@ -16,3 +16,5 @@
 [Lecture 2: Visual Navigation for Flying Robots (Dr. Jürgen Sturm)](https://www.youtube.com/watch?v=0wOp4k_lJvI&feature=youtu.be&list=PLTBdjV_4f-EKeki5ps2WHqJqyQvxls4ha): youtube, 1:42min
 
 [What are quaternions, and how do you visualize them? A story of four dimensions.](https://www.youtube.com/watch?v=d4EgbgTm0Bg&feature=youtu.be): youtube, 3Blue1Brown, 31min
+
+## 3.1 회전 행렬
