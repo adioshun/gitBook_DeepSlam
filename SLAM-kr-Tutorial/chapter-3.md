@@ -18,3 +18,28 @@
 [What are quaternions, and how do you visualize them? A story of four dimensions.](https://www.youtube.com/watch?v=d4EgbgTm0Bg&feature=youtu.be): youtube, 3Blue1Brown, 31min
 
 ## 3.1 회전 행렬
+
+- 포인트 : 3차원 공간상의 점, 3개의 숫자로 표현 
+- 벡터 : 
+
+> 좌표계 : 외손 시스템 or 오른손 시스템
+
+
+
+### A. 벡터 연산 (벡터&벡터 or 벡터 & 숫자)
+
+#### 가. 숫자 곱하기, 더하기, 빼기
+
+> 다른 문건 참고 
+
+#### 나. 내적 곱
+
+![](https://i.imgur.com/kwXywjS.png)
+
+- 내적은 벡터 간의 투영 관계를 설명 할 수 있습니다.
+
+
+#### 다. 외적 곱
+
+![](https://i.imgur.com/8uFxzeJ.png)
+
