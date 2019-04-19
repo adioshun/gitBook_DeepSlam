@@ -12,6 +12,8 @@
 * [Youtube\_Introduction to VSLAM Presentation](youtubeintroduction-to-vslam-presentation.md)
 * [eBook\_SLAM for Dummies](ebookslam-for-dummies.md)
 * [Paper\_2016\_Visual Place Recognition\_A Survey](paper2016-visual-place-recognition-a-survey.md)
+* [Jinyong's Tutorial](http://jinyongjeong.github.io/tag/SLAM/)
+
 
 ## Visual SLAM
 
