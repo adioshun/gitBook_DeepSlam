@@ -17,6 +17,8 @@
 
 [What are quaternions, and how do you visualize them? A story of four dimensions.](https://www.youtube.com/watch?v=d4EgbgTm0Bg&feature=youtu.be): youtube, 3Blue1Brown, 31min
 
+[SLAM KR](https://www.youtube.com/watch?v=TujSQ09jpWA)
+
 ## 3.1 회전 행렬
 
 - 포인트 : 3차원 공간상의 점, 3개의 숫자로 표현 
