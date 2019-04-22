@@ -17,12 +17,12 @@
 
 [What are quaternions, and how do you visualize them? A story of four dimensions.](https://www.youtube.com/watch?v=d4EgbgTm0Bg&feature=youtu.be): youtube, 3Blue1Brown, 31min
 
-[SLAM KR](https://www.youtube.com/watch?v=TujSQ09jpWA)
+[SLAM KR](https://www.youtube.com/watch?v=TujSQ09jpWA): youtube, 1:22min
 
 ## 3.1 회전 행렬
 
 - 포인트 : 3차원 공간상의 점, 3개의 숫자로 표현 
-- 벡터 : 
+- 벡터 : 방향과 크기 (위치는 없음)
 
 > 좌표계 : 외손 시스템 or 오른손 시스템
 
