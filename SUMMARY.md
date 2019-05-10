@@ -29,7 +29,7 @@
 ## Registration 
 
 * [README](Registration/README.md)
-* [Intor](Registration/Intro.md)
+* [Intro](Registration/Intro.md)
 * [References](Registration/References.md)
 
 
