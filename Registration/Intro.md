@@ -4,6 +4,10 @@
 
 
 
+
+
+
+--- 
 ## 2. [분류](https://simpleelastix.readthedocs.io/GroupwiseRegistration.html)
 
 
@@ -31,3 +35,11 @@ Groupwise registration methods try to mitigate uncertainties associated with any
 Point-based registration allows us to help the registration via pre-defined sets of corresponding points. 
 
 
+---
+
+## 3. 알고리즘 
+
+### 3.1 Iterative closest point
+
+
+### 3.2 Robust point matching
