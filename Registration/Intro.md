@@ -46,7 +46,9 @@
 - Non-rigid registration methods are capable of aligning images where correspondence cannot be achieved without localized deformations and can therefore better accomodate anatomical, physiological and pathological variability between patients.
 
 
-### 2.3 기타, 2D용(??)
+### 2.3 기타
+
+> 2D용(??)
 
 - Affine Registration : The affine transform allows for shearing and scaling in addition to the rotation and translation. 
 
