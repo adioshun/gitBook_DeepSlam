@@ -30,6 +30,7 @@
 
 * [README](Registration/README.md)
 * [Registration이란](Registration/Intro.md)
+* [3Points](Registration/Three-point-registration.md)
 * [ICP](Registration/icp.md)
 * [NDT](Registration/ndt.md)
 * [References](Registration/References.md)
