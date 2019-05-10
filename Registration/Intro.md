@@ -20,8 +20,14 @@
 --- 
 ## 2. [분류](https://simpleelastix.readthedocs.io/GroupwiseRegistration.html)
 
+### 2.1 정합은 점군 데이터의 개수에 따라,
 
-### 2.1 Rigid Registration
+- 데이터가 둘이면 이중 정합(pairwise registration),
+- 셋 이상이면 다중 정합(multiview registration)으로 구분할 수 있다.
+
+### 2.2 물체의 Rigid 여부에 따라 
+
+#### A. Rigid Registration
 
 
 - Given two point sets, rigid registration yields a **rigid transformation** which maps one point set to the other. 
@@ -35,7 +41,7 @@
 
 예)if you are registering images of a patient’s bones
 
-### 2.2 Non-rigid Registration
+#### B. Non-rigid Registration
 
 - Given two point sets, non-rigid registration yields a **non-rigid transformation** which maps one point set to the other.
 
@@ -46,7 +52,7 @@
 - Non-rigid registration methods are capable of aligning images where correspondence cannot be achieved without localized deformations and can therefore better accomodate anatomical, physiological and pathological variability between patients.
 
 
-### 2.3 기타
+#### C. 기타
 
 > 2D용(??)
 
