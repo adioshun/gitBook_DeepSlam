@@ -1,0 +1,1 @@
+http://www.cs.hunter.cuny.edu/~ioannis/registerpts_allen_notes.pdf
