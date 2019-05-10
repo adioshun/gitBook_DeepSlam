@@ -63,6 +63,8 @@ Point-based registration allows us to help the registration via pre-defined sets
 
 ## 3. 알고리즘 
 
+> [WIKIPedia](https://en.wikipedia.org/wiki/Point_set_registration)
+
 ### 3.1 Iterative closest point
 
 ```
