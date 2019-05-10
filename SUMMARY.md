@@ -29,7 +29,7 @@
 ## Registration 
 
 * [README](Registration/README.md)
-* [Intro](Registration/Intro.md)
+* [Registration이란](Registration/Intro.md)
 * [References](Registration/References.md)
 
 
