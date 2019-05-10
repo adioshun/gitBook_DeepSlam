@@ -46,17 +46,13 @@
 - Non-rigid registration methods are capable of aligning images where correspondence cannot be achieved without localized deformations and can therefore better accomodate anatomical, physiological and pathological variability between patients.
 
 
-### 2.3 Affine Registration
-The affine transform allows for shearing and scaling in addition to the rotation and translation. 
+### 2.3 기타, 2D용(??)
 
+- Affine Registration : The affine transform allows for shearing and scaling in addition to the rotation and translation. 
 
-### 2.4 Groupwise Registration
-Groupwise registration methods try to mitigate uncertainties associated with any one image by simultaneously registering all images in a population.
+- Groupwise Registration : Groupwise registration methods try to mitigate uncertainties associated with any one image by simultaneously registering all images in a population.
 
-
-### 2.5 Point-based Registation
-
-Point-based registration allows us to help the registration via pre-defined sets of corresponding points. 
+- Point-based Registation : Point-based registration allows us to help the registration via pre-defined sets of corresponding points. 
 
 
 ---
