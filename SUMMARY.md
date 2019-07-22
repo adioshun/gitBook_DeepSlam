@@ -36,7 +36,13 @@
 * [References](Registration/References.md)
 
 
+## SLAM S/W
 
+* [README](Packages/README.md)
+* [gmapping](Packages/gmapping.md)
+* [Loam\_Laser\_Odometry\_and\_Mapping](Packages/loamlaser-odometry-and-mapping.md)
+* [HDL Localization](Packages/HDL-Localization.md)
+* [LeGO-LOAM](Packages/LeGO-LOAM.md)
 ---
 
 ## SLAM Kr Tutorial
@@ -56,11 +62,4 @@
 * [제12장 루프 탐지](SLAM-kr-Tutorial/chapter-12.md)
 * [제13장 매핑](SLAM-kr-Tutorial/chapter-13.md)
 * [제14장 SLAM: 현재와 미래](SLAM-kr-Tutorial/chapter-14.md)
-
-## SLAM S/W
-
-* [README](Packages/README.md)
-* [gmapping](Packages/gmapping.md)
-* [Loam\_Laser\_Odometry\_and\_Mapping](Packages/loamlaser-odometry-and-mapping.md)
-* [HDL Localization](Packages/HDL-Localization.md)
 
