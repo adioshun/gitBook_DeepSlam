@@ -37,13 +37,12 @@
 
 * [README](Reconstruction/README.md)
 
-
 ## SLAM S/W
 
 * [README](Packages/README.md)
 * [gmapping](Packages/gmapping.md)
-* [LOAM-tmp](Packages/loamlaser-odometry-and-mapping.md)
 * [LOAM](Packages/LOAM.md)
+  * [LOAM for point cloud map creation](Packages/LOAM/loam-for-point-cloud-map-creation.md)
 * [HDL Localization](Packages/HDL-Localization.md)
 * [LeGO-LOAM](Packages/LeGO-LOAM.md)
 * [Cartographer](Packages/Cartographer.md)
