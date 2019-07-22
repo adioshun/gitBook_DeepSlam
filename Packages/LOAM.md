@@ -66,7 +66,35 @@ $ rosbap play hdl_400.bag
 OS : 16.04 and 14.04
 PCL : 1.8 추천 (1.7은 `multiScanRegistration error`발생 : 
 
+```
+# PCL 1.8 설치 Kinetic
+apt-get install git build-essential linux-libc-dev cmake cmake-gui libusb-1.0-0-dev libusb-dev libudev-dev mpi-default-dev openmpi-bin openmpi-common libflann1.8 libflann-dev libeigen3-dev libboost-all-dev libvtk5.10-qt4 libvtk5.10 libvtk5-dev libqhull* libgtest-dev freeglut3-dev pkg-config libxmu-dev libxi-dev mono-complete qt-sdk openjdk-8-jdk openjdk-8-jre
 
+git clone https://github.com/PointCloudLibrary/pcl.git
+
+cd pcl && mkdir release && cd release
+cmake -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_GPU=ON -DBUILD_apps=ON -DBUILD_examples=ON -DCMAKE_INSTALL_PREFIX=/usr ..
+
+make -j8
+sudo make install
+
+sudo apt-get install ros-kinetic-pcl-conversions ros-kinect-pcl-ros
+
+
+# Loam compilation and installation
+cd ~/catkin_ws/src
+git clone https://github.com/laboshinl/loam_velodyne.git
+
+## 설치전 사전 작업 
+vi src/lib/LaserMapping.cpp
+## 주석 처리 139-153 #https://github.com/laboshinl/loam_velodyne/pull/84/files
+
+
+# LOAM실행 
+roslaunch loam_velodyne loam_velodyne.launch
+
+
+```
 
 ---
 
