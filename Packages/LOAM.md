@@ -21,6 +21,19 @@ Mainly through the following steps
 
 
 
+
+## Analysis of Algorithms
+How to select the feature point and the planar point 
+The author first defines a formula for measuring the smoothness of the point. The degree of smoothness of the point is measured by measuring the difference in distance between the two points. The point with the largest c value will be the edge point and the point with the smallest cz value will be the plane point. Divide 360 ​​degrees into four regions, each of which produces a maximum of two edge points and four plane points. These edge points and plane points are shown below. 
+These extracted points are used as feature points to complete the matching of the front and rear frames to estimate their pose.
+
+After constructing the loss function feature points, convert to the map coordinate system according to the tf relationship, find the nearest edge point and plane point in the map, and construct a transformation matrix by using the two nearest edge points and plane points as corresponding points, (t_x , t_y, t_z, theta), find the Jacobian for the conversion, and use the Gauss-Newton method to narrow the loss function until convergence.
+
+## Algorithm pseudo code
+
+![](https://img-blog.csdnimg.cn/2019040218251192.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0ZvdXJpZXJfTGVnZW5k,size_16,color_FFFFFF,t_70)
+
+
 ## LOAM mapping practice
 
 ```python
@@ -46,3 +59,18 @@ $ roslaunch loam_velodyne loam_velodyne.launch
 $ rosbap play hdl_400.bag
 
 ```
+
+---
+## 설치 
+
+OS : 16.04 and 14.04
+PCL : 1.8 추천 (1.7은 `multiScanRegistration error`발생 : 
+
+
+
+---
+
+
+
+
+[LOAM for point cloud map creation](https://blog.csdn.net/fourier_legend/article/details/88933443)
