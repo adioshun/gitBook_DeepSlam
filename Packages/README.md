@@ -15,4 +15,3 @@
 
 
 
-[Routine 1: Convert pcd to octomap](https://blog.csdn.net/LOVE1055259415/article/details/79911653)

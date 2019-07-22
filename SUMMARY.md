@@ -36,6 +36,7 @@
 ## Reconstruction
 
 * [README](Reconstruction/README.md)
+* [OctMap](Reconstruction/OctMap.md)
 
 ## SLAM S/W
 
