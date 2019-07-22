@@ -40,6 +40,8 @@
 * [LOAM](Packages/loamlaser-odometry-and-mapping.md)
 * [HDL Localization](Packages/HDL-Localization.md)
 * [LeGO-LOAM](Packages/LeGO-LOAM.md)
+* [Cartographer](Packages/Cartographer.md)
+* [BLAM](Packages/BLAM.md)
 
 ## SLAM Kr Tutorial
 
