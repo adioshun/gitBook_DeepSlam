@@ -64,7 +64,7 @@ $ rosbap play hdl_400.bag
 ## 설치 
 
 OS : 16.04 and 14.04
-PCL : 1.8 추천 (1.7은 `multiScanRegistration error`발생 : 
+PCL : 1.8 추천 (1.7은 `multiScanRegistration error`발생) 
 
 ```
 # PCL 1.8 설치 Kinetic
@@ -96,9 +96,36 @@ roslaunch loam_velodyne loam_velodyne.launch
 
 ```
 
+Error handling
+
+1.multiScanRegistration error
+
+If the bag is prompted to multiScanRegistration error after running Loam, the reason is to use apt-get to install the compiled pcl. You need to uninstall PCL according to the second part and download the source code to compile and install PCL. Then you need to restart catkin_make.
+
+2.error: 'downSizeFilterMap' was not declared in this scope error
+
+Errors may appear in catkin_make: 'downSizeFilterMap' was not declared in this scope error, because the source code of Loam has not been modified, refer to https://github.com/laboshinl/loam_velodyne/pull/84/files for   src/lib Comment out the 139-153 lines of /LaserMapping.cpp
+
+
 ---
 
+## [센서 데이터 바로 적용 하기](https://blog.csdn.net/qq_36396941/article/details/83048660)
+
+Vlp16.yaml 준비 
+- 다운로드 : https://pan.baidu.com/s/1c327b7IT3M5UTrF02Xua2g Extraction code: m6yr
+- xml을 변환 : `$ rosrun velodyne_pointcloud gen_calibration.py ~/Desktop/VLP-16.xml`
+
+
+```
+$ roslaunch velodyne_pointcloud VLP16_points.launch calibration:=/home/xxxx/VLP-16.yaml
+$ roslaunch loam_velodyne loam_velodyne.launch
+```
+
+
+---
+NSH indoor outdoor : [[Download]](https://pan.baidu.com/s/18ISyr4ky2MfTl7TXJD2W-A), 비번 2yea
 
 
 
 [LOAM for point cloud map creation](https://blog.csdn.net/fourier_legend/article/details/88933443)
+
