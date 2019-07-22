@@ -42,7 +42,8 @@
 
 * [README](Packages/README.md)
 * [gmapping](Packages/gmapping.md)
-* [LOAM](Packages/loamlaser-odometry-and-mapping.md)
+* [LOAM-tmp](Packages/loamlaser-odometry-and-mapping.md)
+* [LOAM](Packages/LOAM.md)
 * [HDL Localization](Packages/HDL-Localization.md)
 * [LeGO-LOAM](Packages/LeGO-LOAM.md)
 * [Cartographer](Packages/Cartographer.md)
