@@ -42,37 +42,44 @@ PCL : 1.8 추천 (1.7은 `multiScanRegistration error`발생)
 
 ```
 # PCL 1.8 설치 Kinetic
-apt-get install git build-essential linux-libc-dev cmake cmake-gui libusb-1.0-0-dev libusb-dev libudev-dev mpi-default-dev openmpi-bin openmpi-common libflann1.8 libflann-dev libeigen3-dev libboost-all-dev libvtk5.10-qt4 libvtk5.10 libvtk5-dev libqhull* libgtest-dev freeglut3-dev pkg-config libxmu-dev libxi-dev mono-complete qt-sdk openjdk-8-jdk openjdk-8-jre
+$ apt-get install git build-essential linux-libc-dev cmake cmake-gui libusb-1.0-0-dev libusb-dev libudev-dev mpi-default-dev openmpi-bin openmpi-common libflann1.8 libflann-dev libeigen3-dev libboost-all-dev libvtk5.10-qt4 libvtk5.10 libvtk5-dev libqhull* libgtest-dev freeglut3-dev pkg-config libxmu-dev libxi-dev mono-complete qt-sdk openjdk-8-jdk openjdk-8-jre
 
-git clone https://github.com/PointCloudLibrary/pcl.git
+$ git clone https://github.com/PointCloudLibrary/pcl.git
 
-cd pcl && mkdir release && cd release
-cmake -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_GPU=ON -DBUILD_apps=ON -DBUILD_examples=ON -DCMAKE_INSTALL_PREFIX=/usr ..
+$ cd pcl && mkdir release && cd release
+$ cmake -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_GPU=ON -DBUILD_apps=ON -DBUILD_examples=ON -DCMAKE_INSTALL_PREFIX=/usr ..
 
-make -j8
-sudo make install
+$ make -j8
+$ sudo make install
 
-sudo apt-get install ros-kinetic-pcl-conversions ros-kinect-pcl-ros
+$ sudo apt-get install ros-kinetic-pcl-conversions ros-kinect-pcl-ros
 
 
 # Loam compilation and installation
-cd ~
-mkdir -p catkin_ws/src
-cd catkin_ws/src
-catkin_init_workspace
+$ cd ~
+$ mkdir -p catkin_ws/src
+$ cd catkin_ws/src
+$ catkin_init_workspace
 
-cd ~/catkin_ws/src
-git clone https://github.com/laboshinl/loam_velodyne.git
+$ cd ~/catkin_ws/src
+$ git clone https://github.com/laboshinl/loam_velodyne.git
 ## 설치전 사전 작업 
-vi src/lib/LaserMapping.cpp ## 주석 처리 139-153 #https://github.com/laboshinl/loam_velodyne/pull/84/files
+$ vi src/lib/LaserMapping.cpp ## 주석 처리 139-153 #https://github.com/laboshinl/loam_velodyne/pull/84/files
 
-cd ~/catkin_ws
-rosdep install --from-paths ./loam_velodyne/ #(옵션)
-catkin_make
-source ~/devel/setup.bash
+$ cd ~/catkin_ws
+$ rosdep install --from-paths ./loam_velodyne/ #(옵션)
+$ catkin_make  #$ catkin_make -DCMAKE_BUILD_TYPE=Release
+$ source ~/catkin_ws/devel/setup.bash 
 
-# LOAM실행 
-roslaunch loam_velodyne loam_velodyne.launch
+#Download package
+$ wget http://www.aisl.cs.tut.ac.jp/databases/hdl_graph_slam/hdl_400.bag.tar.gz
+$ tar -axvf hdl_400.bag.tar.gz
+
+# Run LOAM
+$ roslaunch loam_velodyne loam_velodyne.launch
+$ rosbap play hdl_400.bag
+
+
 
 
 ```
