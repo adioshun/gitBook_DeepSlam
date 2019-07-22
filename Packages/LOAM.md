@@ -56,16 +56,19 @@ sudo apt-get install ros-kinetic-pcl-conversions ros-kinect-pcl-ros
 
 
 # Loam compilation and installation
+cd ~
+mkdir -p catkin_ws/src
+cd catkin_ws/src
+catkin_init_workspace
+
 cd ~/catkin_ws/src
 git clone https://github.com/laboshinl/loam_velodyne.git
+## 설치전 사전 작업 
+vi src/lib/LaserMapping.cpp ## 주석 처리 139-153 #https://github.com/laboshinl/loam_velodyne/pull/84/files
+
 cd ~/catkin_ws
 catkin_make
 source ~/devel/setup.bash
-
-## 설치전 사전 작업 
-vi src/lib/LaserMapping.cpp
-## 주석 처리 139-153 #https://github.com/laboshinl/loam_velodyne/pull/84/files
-
 
 # LOAM실행 
 roslaunch loam_velodyne loam_velodyne.launch
