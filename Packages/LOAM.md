@@ -67,6 +67,7 @@ git clone https://github.com/laboshinl/loam_velodyne.git
 vi src/lib/LaserMapping.cpp ## 주석 처리 139-153 #https://github.com/laboshinl/loam_velodyne/pull/84/files
 
 cd ~/catkin_ws
+rosdep install --from-paths ./loam_velodyne/ #(옵션)
 catkin_make
 source ~/devel/setup.bash
 
