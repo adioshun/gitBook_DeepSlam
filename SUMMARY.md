@@ -14,7 +14,6 @@
 * [Paper\_2016\_Visual Place Recognition\_A Survey](paper2016-visual-place-recognition-a-survey.md)
 * [Jinyong's Tutorial](http://jinyongjeong.github.io/tag/SLAM/)
 
-
 ## Visual SLAM
 
 * [README](visualSLAM/README.md)
@@ -25,8 +24,7 @@
 
 * [README](lidarSLAM/README.md)
 
-
-## Registration 
+## Registration
 
 * [README](Registration/README.md)
 * [Registration이란](Registration/Intro.md)
@@ -35,15 +33,13 @@
 * [NDT](Registration/ndt.md)
 * [References](Registration/References.md)
 
-
 ## SLAM S/W
 
 * [README](Packages/README.md)
 * [gmapping](Packages/gmapping.md)
-* [Loam\_Laser\_Odometry\_and\_Mapping](Packages/loamlaser-odometry-and-mapping.md)
+* [LOAM](Packages/loamlaser-odometry-and-mapping.md)
 * [HDL Localization](Packages/HDL-Localization.md)
 * [LeGO-LOAM](Packages/LeGO-LOAM.md)
----
 
 ## SLAM Kr Tutorial
 
