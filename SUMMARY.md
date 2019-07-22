@@ -62,4 +62,5 @@
 * [README](Packages/README.md)
 * [gmapping](Packages/gmapping.md)
 * [Loam\_Laser\_Odometry\_and\_Mapping](Packages/loamlaser-odometry-and-mapping.md)
+* [HDL Localization](Packages/HDL-Localization.md)
 
