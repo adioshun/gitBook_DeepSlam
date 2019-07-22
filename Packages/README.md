@@ -9,3 +9,4 @@
 
 
 
+[Evaluation of Velodyne sensors for localization purposes in outdoor scenarios_Alexander_Wagner](https://github.com/AJwgnr/Velodyne-SLAMS) : 독일어, 설치 방법 포함 
