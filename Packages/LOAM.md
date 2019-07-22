@@ -84,6 +84,9 @@ sudo apt-get install ros-kinetic-pcl-conversions ros-kinect-pcl-ros
 # Loam compilation and installation
 cd ~/catkin_ws/src
 git clone https://github.com/laboshinl/loam_velodyne.git
+cd ~/catkin_ws
+catkin_make
+source ~/devel/setup.bash
 
 ## 설치전 사전 작업 
 vi src/lib/LaserMapping.cpp
@@ -105,6 +108,21 @@ If the bag is prompted to multiScanRegistration error after running Loam, the re
 2.error: 'downSizeFilterMap' was not declared in this scope error
 
 Errors may appear in catkin_make: 'downSizeFilterMap' was not declared in this scope error, because the source code of Loam has not been modified, refer to https://github.com/laboshinl/loam_velodyne/pull/84/files for   src/lib Comment out the 139-153 lines of /LaserMapping.cpp
+
+
+---
+
+# [Save and view Loam's 3D point cloud map](https://blog.csdn.net/qq_36396941/article/details/83048415)
+
+지도 정보는 `/laser_cloud_surround`토픽으로 출력.. 이를 수신하여 pcd로 저장 
+
+```
+rosbag record -o out /laser_cloud_surround
+rosrun pcl_ros bag_to_pcd input.bag /laser_cloud_surround pcd
+# 필요시 ply로 변환
+pcl_pcd2ply xxxx.pcd
+```
+
 
 
 ---
