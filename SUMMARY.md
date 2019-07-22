@@ -59,7 +59,7 @@
 
 ## SLAM S/W
 
-* [README](slam-sw/README.md)
-* [gmapping](slam-sw/gmapping.md)
-* [Loam\_Laser\_Odometry\_and\_Mapping](slam-sw/loamlaser-odometry-and-mapping.md)
+* [README](Packages/README.md)
+* [gmapping](Packages/gmapping.md)
+* [Loam\_Laser\_Odometry\_and\_Mapping](Packages/loamlaser-odometry-and-mapping.md)
 

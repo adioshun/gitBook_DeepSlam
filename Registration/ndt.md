@@ -1,3 +1,5 @@
+# NDP 
+
 ICP가 고전적인 알고리즘 이다. `The most classic point cloud accurate registration technology is the iterative closest point (ICP) algorithm. `
 
 ICP는 단점이 있음, NDP추천 `However, because ICP is used to find the corresponding point using the nearest neighbor search, the operation is too long, and the initial position of the point cloud is too high, so the normal distributions transform (NDT) algorithm is the main precision Quasi-technical research.`
