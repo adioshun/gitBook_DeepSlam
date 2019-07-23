@@ -7,6 +7,17 @@
 [sing the velodyne 16-line lidar to run the loan-velodyne------ including laser radar and imu calibration](https://www.wandouip.com/t5i166274/)
 
 
+
+## 1. 동작 과정 
+
+구조와 소스코드를 분석해 보면 다음과 같은 순서로 SLAM데이터를 계산하고 있는 것을 알 수 있다.
+1. velodyne node: 스캔 후 point cloud 데이터 획득
+2. multi scan registration node: 스캔된 데이터에서 곡률 기반 특징점(모서리, 평면) 생성
+3. laser odometry: 이전 스캔 데이터에서 생성된 특징점을 기반으로 현재 스캔 데이터의 매특징점과 비교해 주행괘적(odometry)을 계산
+4. laser mapping: 주행괘적을 이용해 스캔 데이터를 보정해 정합함. 만약, IMU 센서가 있는 경우, /imu/data에서 얻은 데이터를 이용해 데이터 보정함
+
+
+
 ---
 ## 설치 
 

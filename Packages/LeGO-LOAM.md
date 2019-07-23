@@ -25,3 +25,6 @@ https://blog.csdn.net/qq_36396941/article/details/83513121
 
 
 [Unable to locate package ros-kinect-pcl-ros](https://blog.csdn.net/weixin_43211438/article/details/88898544)
+
+
+http://daddynkidsmakers.blogspot.com/2019/06/lidar-slam.html : 하단 부분에 LeGO-LOAM설명 
