@@ -44,6 +44,8 @@ $ source ~/catkin_ws/devel/setup.bash
 #Download package
 $ wget http://www.aisl.cs.tut.ac.jp/databases/hdl_graph_slam/hdl_400.bag.tar.gz
 $ tar -axvf hdl_400.bag.tar.gz
+## NSH indoor outdoor : [[Download]](https://pan.baidu.com/s/18ISyr4ky2MfTl7TXJD2W-A), 비번 2yea
+
 
 # Run LOAM
 $ roslaunch loam_velodyne loam_velodyne.launch
@@ -103,9 +105,8 @@ $ roslaunch loam_velodyne loam_velodyne.launch
 
 ---
 
-NSH indoor outdoor : [[Download]](https://pan.baidu.com/s/18ISyr4ky2MfTl7TXJD2W-A), 비번 2yea
 
 
 
-[LOAM for point cloud map creation](https://blog.csdn.net/fourier_legend/article/details/88933443)
 
+- [벨로다인 LiDAR로 SLAM 만들기](http://daddynkidsmakers.blogspot.com/2019/06/lidar-slam.html)
