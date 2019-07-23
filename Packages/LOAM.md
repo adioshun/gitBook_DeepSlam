@@ -7,32 +7,7 @@
 sing the velodyne 16-line lidar to run the loan-velodyne------ including laser radar and imu calibration](https://www.wandouip.com/t5i166274/)
 
 
-
-## LOAM mapping practice
-
-```python
-# Create your ROS Workspace
-$ mkdir -p ~/catkin_ws/src
-$ cd ~/catkin_ws/
-$ catkin_make
-$ source devel/setup.bash
-
-#Download LOAM Package
-$ cd ~/catkin_ws/src
-$ git clone https://github.com/laboshinl/loam_velodyne.git 
-$ cd ..
-$ catkin_make -DCMAKE_BUILD_TYPE=Release
-$ source ~/catkin_ws/devel/setup.bash     
-
-#Download package
-$ wget http://www.aisl.cs.tut.ac.jp/databases/hdl_graph_slam/hdl_400.bag.tar.gz
-$ tar -axvf hdl_400.bag.tar.gz
-
-# Run LOAM
-$ roslaunch loam_velodyne loam_velodyne.launch
-$ rosbap play hdl_400.bag
-
-```
+배경 저장 : rosrun pcl_ros pointcloud_to_pcd input:=/velodyne_cloud_registered
 
 ---
 ## 설치 
@@ -40,18 +15,15 @@ $ rosbap play hdl_400.bag
 OS : 16.04 and 14.04
 PCL : 1.8 추천 (1.7은 `multiScanRegistration error`발생) 
 
-```
+```python
 # PCL 1.8 설치 Kinetic
+
 $ apt-get install git build-essential linux-libc-dev cmake cmake-gui libusb-1.0-0-dev libusb-dev libudev-dev mpi-default-dev openmpi-bin openmpi-common libflann1.8 libflann-dev libeigen3-dev libboost-all-dev libvtk5.10-qt4 libvtk5.10 libvtk5-dev libqhull* libgtest-dev freeglut3-dev pkg-config libxmu-dev libxi-dev mono-complete qt-sdk openjdk-8-jdk openjdk-8-jre
-
 $ git clone https://github.com/PointCloudLibrary/pcl.git
-
 $ cd pcl && mkdir release && cd release
 $ cmake -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_GPU=ON -DBUILD_apps=ON -DBUILD_examples=ON -DCMAKE_INSTALL_PREFIX=/usr ..
-
 $ make -j8
-$ sudo make install
-
+$ sudo make install
 $ sudo apt-get install ros-kinetic-pcl-conversions ros-kinect-pcl-ros
 
 
@@ -77,7 +49,7 @@ $ tar -axvf hdl_400.bag.tar.gz
 
 # Run LOAM
 $ roslaunch loam_velodyne loam_velodyne.launch
-$ rosbap play hdl_400.bag
+$ rosbap play hdl_400.bag #rosbag play data_file_name.bag -r 0.5 (속도 줄이기)
 
 
 
@@ -126,6 +98,13 @@ $ roslaunch loam_velodyne loam_velodyne.launch
 
 
 ---
+
+
+[배경 저장](https://ishiguro440.wordpress.com/2016/04/05/%E5%82%99%E5%BF%98%E9%8C%B2%E3%80%80ros-loam_velodyne/) : rosrun pcl_ros pointcloud_to_pcd input:=/velodyne_cloud_registered
+
+
+---
+
 NSH indoor outdoor : [[Download]](https://pan.baidu.com/s/18ISyr4ky2MfTl7TXJD2W-A), 비번 2yea
 
 
