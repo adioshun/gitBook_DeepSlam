@@ -98,7 +98,7 @@ pcl_pcd2ply xxxx.pcd
 ## [센서 데이터 바로 적용 하기](https://blog.csdn.net/qq_36396941/article/details/83048660)
 
 Vlp16.yaml 준비 
-- 다운로드 : https://pan.baidu.com/s/1c327b7IT3M5UTrF02Xua2g Extraction code: m6yr
+- 다운로드 : `wget https://raw.githubusercontent.com/Kitware/VeloView/master/share/VLP-16.xml`
 - xml을 변환 : `$ rosrun velodyne_pointcloud gen_calibration.py ~/Desktop/VLP-16.xml`
 
 
