@@ -4,10 +4,8 @@
 - [저자 홈페이지](https://frc.ri.cmu.edu/~zhangji/), [저자 논문들(Google Scholar)](https://scholar.google.de/citations?user=h-k8LTIAAAAJ&hl=zh-CN&oi=sra)
 
 
-sing the velodyne 16-line lidar to run the loan-velodyne------ including laser radar and imu calibration](https://www.wandouip.com/t5i166274/)
+[sing the velodyne 16-line lidar to run the loan-velodyne------ including laser radar and imu calibration](https://www.wandouip.com/t5i166274/)
 
-
-배경 저장 : rosrun pcl_ros pointcloud_to_pcd input:=/velodyne_cloud_registered
 
 ---
 ## 설치 
