@@ -3,7 +3,6 @@
 ## SLAM
 
 * [Introduction](README.md)
-  * [map](map.md)
 * [List\_of\_Deep\_SLAM](listof-deep-slam.md)
 * [Vision-based SfM](vision-based-slamsfm.md)
 * [Paper\_2017\_A Survey of Visual SLAM Based on Deep Learning](paper2017-a-survey-of-visual-slam-based-on-deep-learning.md)
