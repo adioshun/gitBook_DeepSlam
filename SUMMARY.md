@@ -23,6 +23,14 @@
 
 * [README](lidarSLAM/README.md)
 
+
+## Odometry
+
+* [README](Odometry/README.md)
+* [Hector Mapping](Odometry/Hector-mappling.md)
+
+
+
 ## Registration
 
 * [README](Registration/README.md)
