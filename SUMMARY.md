@@ -44,6 +44,7 @@
 * [gmapping](Packages/gmapping.md)
 * [LOAM](Packages/LOAM.md)
   * [LOAM for point cloud map creation](Packages/LOAM/loam-for-point-cloud-map-creation.md)
+  * [LOAM ROS Package](Packages/LOAM/loam-for-ROS.md)
 * [HDL Localization](Packages/HDL-Localization.md)
 * [LeGO-LOAM](Packages/LeGO-LOAM.md)
 * [Cartographer](Packages/Cartographer.md)
