@@ -4,6 +4,8 @@
 
 ![](https://openslam-org.github.io/openslam-logo.png)
 
+> [ROS-Gmapping](http://wiki.ros.org/gmapping)
+
 ---
 # Gmapping
 

@@ -55,8 +55,6 @@ $ rosbag play *.bag --clock --topic /velodyne_points /imu/data
 
 ---
 
-https://github.com/TixiaoShan/Stevens-VLP16-Dataset
-
 
 
 
@@ -82,3 +80,8 @@ https://github.com/TixiaoShan/Stevens-VLP16-Dataset
 
 
 http://daddynkidsmakers.blogspot.com/2019/06/lidar-slam.html : 하단 부분에 LeGO-LOAM설명 
+
+
+
+
+
