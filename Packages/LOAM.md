@@ -37,6 +37,7 @@ $ sudo apt-get install ros-kinetic-pcl-conversions ros-kinect-pcl-ros
 
 
 # Loam compilation and installation
+$ source /opt/ros/$ROS_DISTRO/setup.bash
 $ cd ~
 $ mkdir -p catkin_ws/src
 $ cd catkin_ws/src
@@ -48,9 +49,10 @@ $ git clone https://github.com/laboshinl/loam_velodyne.git
 $ vi src/lib/LaserMapping.cpp ## 주석 처리 139-153 #https://github.com/laboshinl/loam_velodyne/pull/84/files
 
 $ cd ~/catkin_ws
-$ rosdep install --from-paths ./loam_velodyne/ #(옵션)
+$ rosdep install --from-paths ./src/loam_velodyne/ 
 $ catkin_make  #$ catkin_make -DCMAKE_BUILD_TYPE=Release
 $ source ~/catkin_ws/devel/setup.bash 
+$ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 
 #Download package
 $ wget http://www.aisl.cs.tut.ac.jp/databases/hdl_graph_slam/hdl_400.bag.tar.gz
