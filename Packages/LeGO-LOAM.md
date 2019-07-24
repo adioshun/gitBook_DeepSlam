@@ -62,15 +62,20 @@ https://github.com/TixiaoShan/Stevens-VLP16-Dataset
 
 # [LeGO-LOAM](https://github.com.cnpmjs.org/topics/velodyne)
 
-
 [LeGO-LOAM paper translation (simplified content)](https://wykxwyc.github.io/2019/04/26/LeGO-LOAM-Paper-Traslation-and-Summary/) : 중국어 
-    1. [Map optimization code understanding](https://wykxwyc.github.io/2019/01/21/LeGO-LOAM-code-review-mapOptmization/)
-    2. [Image re-projection code understanding](https://wykxwyc.github.io/2019/01/23/LeGO-LOAM-code-review-imageProjection/)
-    3. [Feature association code understanding](https://wykxwyc.github.io/2019/01/24/LeGO-LOAM-code-review-featureAssociation/)
+- [Map optimization code understanding](https://wykxwyc.github.io/2019/01/21/LeGO-LOAM-code-review-mapOptmization/)
+- [Image re-projection code understanding](https://wykxwyc.github.io/2019/01/23/LeGO-LOAM-code-review-imageProjection/)
+- [Feature association code understanding](https://wykxwyc.github.io/2019/01/24/LeGO-LOAM-code-review-featureAssociation/)
+
+
+
 
 [Lego_loam tutorial](https://blog.csdn.net/Travis_X/article/details/89374013)
 
-https://blog.csdn.net/qq_36396941/article/details/83513121
+
+[Lego-LOAM map construction part code reading](https://blog.csdn.net/weixin_43211438/article/details/88898544)
+
+
 
 
 [Unable to locate package ros-kinect-pcl-ros](https://blog.csdn.net/weixin_43211438/article/details/88898544)
