@@ -43,7 +43,7 @@ $ git clone https://github.com/RobustFieldAutonomyLab/LeGO-LOAM.git
 $ cd ~/catkin_ws
 $ vi ./integration/utility.h # L91 : globalMapVisualizationSearchRadius 
 $ catkin_make -j1
-$ source ~/devel/setup.bash
+$ source ./devel/setup.bash
 ```
 
 
