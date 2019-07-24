@@ -31,7 +31,7 @@ Ubuntu16.04+ROS kinetic+pcl1.8+gtsam
 
 ```python 
 # Download the source code of gtsam     
-$ git clone https://bitbucket.org/gtborg/gtsam.git #wget https://github.com/borglab/gtsam/archive/4.0.0-alpha2.zip
+$ wget https://github.com/borglab/gtsam/archive/4.0.0-alpha2.zip #git clone https://bitbucket.org/gtborg/gtsam.git
 $ cd gtsam && mkdir build && cd build
 $ cmake ..
 $ sudo make install
