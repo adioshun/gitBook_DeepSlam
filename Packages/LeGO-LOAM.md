@@ -10,6 +10,10 @@ https://github.com/RobustFieldAutonomyLab/LeGO-LOAM
 
 ## 1.
 
+LeGO LOAM은 LOAM에 비해 계산 시간은 줄이고, 루프백(LOOP BACK)을 지원하여 SLAM 안전성을 높인 방법이다. Levenberg–Marquardt algorithm 을 이용해 해 계산 방법을 개선한다. 참고로 LM 알고리즘은 특정 함수에 적합한 커브를 피팅(curve fitting)할 때도 많이 사용된다.
+LeGO LOAM 링크를 방문해, 다음과 같이 소스를 다운로드후 빌드를 준비한다. 참고로, LeGO LOAM을 빌드하기 전에 GTSAM(Georgia Tech Smoothing and Mapping library) 패키지를 미리 설치해 놓아야 한다.
+
+> http://daddynkidsmakers.blogspot.com/2019/06/lidar-slam.html
 
 This code is based on LOAM.
 
