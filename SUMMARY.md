@@ -29,6 +29,13 @@
 * [README](Odometry/README.md)
 * [Hector Mapping](Odometry/Hector-mappling.md)
 
+## Pose Estimation
+
+* [README](Pose-Estimation/README.md)
+* [3D Pose Estimation](Pose-Estimation/3D-pose-estimation.md)
+* [POSIT-Algorithm](Pose-Estimation/POSIT-algorithm.md)
+* [Convoys-pose-estimation-2017](Pose-Estimation/convoys-pose-estimation-2017.md)
+
 
 
 ## Registration
