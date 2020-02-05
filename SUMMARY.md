@@ -35,7 +35,7 @@
 * [3D Pose Estimation](Pose-Estimation/3D-pose-estimation.md)
 * [POSIT-Algorithm](Pose-Estimation/POSIT-algorithm.md)
 * [Convoys-pose-estimation-2017](Pose-Estimation/convoys-pose-estimation-2017.md)
-
+* [2016-Pose estimation for augmented reality_a hands-on survey](http://www.irisa.fr/lagadic/pdf/2016_ieeetvcg_marchand.pdf)
 
 
 ## Registration
